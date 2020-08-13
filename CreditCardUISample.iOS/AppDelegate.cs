@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 
 using Foundation;
+using PayPal.Forms;
+using PayPal.Forms.Abstractions;
 using UIKit;
 using Xamarin.Forms;
 
@@ -25,6 +27,13 @@ namespace CreditCardUISample.iOS
         {
             global::Xamarin.Forms.Forms.Init();
             FormsMaterial.Init();
+            CrossPayPalManager.Init(new PayPalConfiguration(PayPalEnvironment.NoNetwork, "YOUR ID STRING")
+            {
+                AcceptCreditCards = true,
+                MerchantName = "Test Store",
+                MerchantPrivacyPolicyUri = "https://www.example.com/privacy",
+                MerchantUserAgreementUri = "https://www.example.com/legal"
+            });
             LoadApplication(new App());
 
             return base.FinishedLaunching(app, options);

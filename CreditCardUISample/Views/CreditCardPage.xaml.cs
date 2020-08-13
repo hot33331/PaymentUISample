@@ -1,9 +1,8 @@
 ﻿using System;
 using System.ComponentModel;
-using System.Threading.Tasks;
-using System.Windows.Input;
-using CreditCardUISample.Services;
 using CreditCardUISample.ViewModels;
+using PayPal.Forms;
+using PayPal.Forms.Abstractions;
 using Xamarin.Forms;
 
 namespace CreditCardUISample.Views
@@ -11,32 +10,26 @@ namespace CreditCardUISample.Views
     [DesignTimeVisible(false)]
     public partial class CreditCardPage : ContentPage
     {
-        public ICardScanService CardScanService { get; }
-        
         private CreditCardPageViewModel vm;
         public CreditCardPage()
         {
             InitializeComponent();
             vm=new CreditCardPageViewModel();
             this.BindingContext = vm;
-            CardScanService = DependencyService.Get<ICardScanService>();
         }
         
         async void ScanCard(object sender, EventArgs args)
         {
-            if (CardScanService != null)
-            {
-                CardScanService.StartCapture();
-                CreditCardInfo info = CardScanService.GetCardInfo();
-                if (info != null)
+
+            var result = await CrossPayPalManager.Current.ScanCard();
+                if (result.Status==PayPalStatus.Successful)
                 {
-                    vm.CardCvv = info.CVV;
-                    vm.CardNumber = info.Number;
-                    vm.CardExpirationDate = info.ExpDate;
-                    vm.CardHolderName = info.Name;
+                    vm.CardCvv = result.Card.Cvv;
+                    vm.CardNumber = result.Card.CardNumber;
+                    vm.CardExpirationDate = result.Card.ExpiryMonth + "/" + result.Card.ExpiryYear;
                 }
 
-            }
+           
         }
     }
 }

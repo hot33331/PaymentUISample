@@ -1,15 +1,14 @@
 ﻿using System;
 
 using Android.App;
-using Android.Content;
 using Android.Content.PM;
 using Android.Runtime;
 using Android.Views;
 using Android.Widget;
 using Android.OS;
-using Card.IO;
-using CreditCardUISample.Droid.Services;
 using Xamarin.Forms;
+using PayPal.Forms.Abstractions;
+
 
 namespace CreditCardUISample.Droid
 {
@@ -24,26 +23,21 @@ namespace CreditCardUISample.Droid
             base.OnCreate(savedInstanceState);
 
             Xamarin.Essentials.Platform.Init(this, savedInstanceState);
-            global::Xamarin.Forms.Forms.Init(this, savedInstanceState);
+            Forms.Init(this, savedInstanceState);
             FormsMaterial.Init(this, savedInstanceState);
+            PayPal.Forms.CrossPayPalManager.Init(new PayPalConfiguration (PayPalEnvironment.NoNetwork, "YOUR ID STRING")
+                {
+                    AcceptCreditCards = true,
+                    MerchantName = "Test Store",
+                    MerchantPrivacyPolicyUri = "https://www.example.com/privacy",
+                    MerchantUserAgreementUri = "https://www.example.com/legal"
+                },
+                this
+            );
             LoadApplication(new App());
         }
         
-        protected override void OnActivityResult(int requestCode, Result resultCode, Intent data)
-        {
-            base.OnActivityResult(requestCode, resultCode, data);
-
-            if (data != null)
-            {
-                // Be sure to JavaCast to a CreditCard (normal cast won‘t work)      
-                InfoShareHelper.Instance.CardInfo = data.GetParcelableExtra(CardIOActivity.ExtraScanResult).JavaCast<CreditCard>();
-            }
-            else
-            {
-                Console.WriteLine("Scanning Cancelled!");
-            }
-        }
-        public override void OnRequestPermissionsResult(int requestCode, string[] permissions, [GeneratedEnum] Android.Content.PM.Permission[] grantResults)
+        public override void OnRequestPermissionsResult(int requestCode, string[] permissions, [GeneratedEnum] Permission[] grantResults)
         {
             Xamarin.Essentials.Platform.OnRequestPermissionsResult(requestCode, permissions, grantResults);
 

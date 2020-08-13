@@ -25,6 +25,2078 @@ namespace CreditCardUISample.Droid
 		
 		public static void UpdateIdValues()
 		{
+			global::PayPal.Forms.Android.Resource.Animation.abc_fade_in = global::CreditCardUISample.Droid.Resource.Animation.abc_fade_in;
+			global::PayPal.Forms.Android.Resource.Animation.abc_fade_out = global::CreditCardUISample.Droid.Resource.Animation.abc_fade_out;
+			global::PayPal.Forms.Android.Resource.Animation.abc_grow_fade_in_from_bottom = global::CreditCardUISample.Droid.Resource.Animation.abc_grow_fade_in_from_bottom;
+			global::PayPal.Forms.Android.Resource.Animation.abc_popup_enter = global::CreditCardUISample.Droid.Resource.Animation.abc_popup_enter;
+			global::PayPal.Forms.Android.Resource.Animation.abc_popup_exit = global::CreditCardUISample.Droid.Resource.Animation.abc_popup_exit;
+			global::PayPal.Forms.Android.Resource.Animation.abc_shrink_fade_out_from_bottom = global::CreditCardUISample.Droid.Resource.Animation.abc_shrink_fade_out_from_bottom;
+			global::PayPal.Forms.Android.Resource.Animation.abc_slide_in_bottom = global::CreditCardUISample.Droid.Resource.Animation.abc_slide_in_bottom;
+			global::PayPal.Forms.Android.Resource.Animation.abc_slide_in_top = global::CreditCardUISample.Droid.Resource.Animation.abc_slide_in_top;
+			global::PayPal.Forms.Android.Resource.Animation.abc_slide_out_bottom = global::CreditCardUISample.Droid.Resource.Animation.abc_slide_out_bottom;
+			global::PayPal.Forms.Android.Resource.Animation.abc_slide_out_top = global::CreditCardUISample.Droid.Resource.Animation.abc_slide_out_top;
+			global::PayPal.Forms.Android.Resource.Animation.design_bottom_sheet_slide_in = global::CreditCardUISample.Droid.Resource.Animation.design_bottom_sheet_slide_in;
+			global::PayPal.Forms.Android.Resource.Animation.design_bottom_sheet_slide_out = global::CreditCardUISample.Droid.Resource.Animation.design_bottom_sheet_slide_out;
+			global::PayPal.Forms.Android.Resource.Animation.design_snackbar_in = global::CreditCardUISample.Droid.Resource.Animation.design_snackbar_in;
+			global::PayPal.Forms.Android.Resource.Animation.design_snackbar_out = global::CreditCardUISample.Droid.Resource.Animation.design_snackbar_out;
+			global::PayPal.Forms.Android.Resource.Animator.design_appbar_state_list_animator = global::CreditCardUISample.Droid.Resource.Animator.design_appbar_state_list_animator;
+			global::PayPal.Forms.Android.Resource.Attribute.actionBarDivider = global::CreditCardUISample.Droid.Resource.Attribute.actionBarDivider;
+			global::PayPal.Forms.Android.Resource.Attribute.actionBarItemBackground = global::CreditCardUISample.Droid.Resource.Attribute.actionBarItemBackground;
+			global::PayPal.Forms.Android.Resource.Attribute.actionBarPopupTheme = global::CreditCardUISample.Droid.Resource.Attribute.actionBarPopupTheme;
+			global::PayPal.Forms.Android.Resource.Attribute.actionBarSize = global::CreditCardUISample.Droid.Resource.Attribute.actionBarSize;
+			global::PayPal.Forms.Android.Resource.Attribute.actionBarSplitStyle = global::CreditCardUISample.Droid.Resource.Attribute.actionBarSplitStyle;
+			global::PayPal.Forms.Android.Resource.Attribute.actionBarStyle = global::CreditCardUISample.Droid.Resource.Attribute.actionBarStyle;
+			global::PayPal.Forms.Android.Resource.Attribute.actionBarTabBarStyle = global::CreditCardUISample.Droid.Resource.Attribute.actionBarTabBarStyle;
+			global::PayPal.Forms.Android.Resource.Attribute.actionBarTabStyle = global::CreditCardUISample.Droid.Resource.Attribute.actionBarTabStyle;
+			global::PayPal.Forms.Android.Resource.Attribute.actionBarTabTextStyle = global::CreditCardUISample.Droid.Resource.Attribute.actionBarTabTextStyle;
+			global::PayPal.Forms.Android.Resource.Attribute.actionBarTheme = global::CreditCardUISample.Droid.Resource.Attribute.actionBarTheme;
+			global::PayPal.Forms.Android.Resource.Attribute.actionBarWidgetTheme = global::CreditCardUISample.Droid.Resource.Attribute.actionBarWidgetTheme;
+			global::PayPal.Forms.Android.Resource.Attribute.actionButtonStyle = global::CreditCardUISample.Droid.Resource.Attribute.actionButtonStyle;
+			global::PayPal.Forms.Android.Resource.Attribute.actionDropDownStyle = global::CreditCardUISample.Droid.Resource.Attribute.actionDropDownStyle;
+			global::PayPal.Forms.Android.Resource.Attribute.actionLayout = global::CreditCardUISample.Droid.Resource.Attribute.actionLayout;
+			global::PayPal.Forms.Android.Resource.Attribute.actionMenuTextAppearance = global::CreditCardUISample.Droid.Resource.Attribute.actionMenuTextAppearance;
+			global::PayPal.Forms.Android.Resource.Attribute.actionMenuTextColor = global::CreditCardUISample.Droid.Resource.Attribute.actionMenuTextColor;
+			global::PayPal.Forms.Android.Resource.Attribute.actionModeBackground = global::CreditCardUISample.Droid.Resource.Attribute.actionModeBackground;
+			global::PayPal.Forms.Android.Resource.Attribute.actionModeCloseButtonStyle = global::CreditCardUISample.Droid.Resource.Attribute.actionModeCloseButtonStyle;
+			global::PayPal.Forms.Android.Resource.Attribute.actionModeCloseDrawable = global::CreditCardUISample.Droid.Resource.Attribute.actionModeCloseDrawable;
+			global::PayPal.Forms.Android.Resource.Attribute.actionModeCopyDrawable = global::CreditCardUISample.Droid.Resource.Attribute.actionModeCopyDrawable;
+			global::PayPal.Forms.Android.Resource.Attribute.actionModeCutDrawable = global::CreditCardUISample.Droid.Resource.Attribute.actionModeCutDrawable;
+			global::PayPal.Forms.Android.Resource.Attribute.actionModeFindDrawable = global::CreditCardUISample.Droid.Resource.Attribute.actionModeFindDrawable;
+			global::PayPal.Forms.Android.Resource.Attribute.actionModePasteDrawable = global::CreditCardUISample.Droid.Resource.Attribute.actionModePasteDrawable;
+			global::PayPal.Forms.Android.Resource.Attribute.actionModePopupWindowStyle = global::CreditCardUISample.Droid.Resource.Attribute.actionModePopupWindowStyle;
+			global::PayPal.Forms.Android.Resource.Attribute.actionModeSelectAllDrawable = global::CreditCardUISample.Droid.Resource.Attribute.actionModeSelectAllDrawable;
+			global::PayPal.Forms.Android.Resource.Attribute.actionModeShareDrawable = global::CreditCardUISample.Droid.Resource.Attribute.actionModeShareDrawable;
+			global::PayPal.Forms.Android.Resource.Attribute.actionModeSplitBackground = global::CreditCardUISample.Droid.Resource.Attribute.actionModeSplitBackground;
+			global::PayPal.Forms.Android.Resource.Attribute.actionModeStyle = global::CreditCardUISample.Droid.Resource.Attribute.actionModeStyle;
+			global::PayPal.Forms.Android.Resource.Attribute.actionModeWebSearchDrawable = global::CreditCardUISample.Droid.Resource.Attribute.actionModeWebSearchDrawable;
+			global::PayPal.Forms.Android.Resource.Attribute.actionOverflowButtonStyle = global::CreditCardUISample.Droid.Resource.Attribute.actionOverflowButtonStyle;
+			global::PayPal.Forms.Android.Resource.Attribute.actionOverflowMenuStyle = global::CreditCardUISample.Droid.Resource.Attribute.actionOverflowMenuStyle;
+			global::PayPal.Forms.Android.Resource.Attribute.actionProviderClass = global::CreditCardUISample.Droid.Resource.Attribute.actionProviderClass;
+			global::PayPal.Forms.Android.Resource.Attribute.actionViewClass = global::CreditCardUISample.Droid.Resource.Attribute.actionViewClass;
+			global::PayPal.Forms.Android.Resource.Attribute.activityChooserViewStyle = global::CreditCardUISample.Droid.Resource.Attribute.activityChooserViewStyle;
+			global::PayPal.Forms.Android.Resource.Attribute.alertDialogButtonGroupStyle = global::CreditCardUISample.Droid.Resource.Attribute.alertDialogButtonGroupStyle;
+			global::PayPal.Forms.Android.Resource.Attribute.alertDialogCenterButtons = global::CreditCardUISample.Droid.Resource.Attribute.alertDialogCenterButtons;
+			global::PayPal.Forms.Android.Resource.Attribute.alertDialogStyle = global::CreditCardUISample.Droid.Resource.Attribute.alertDialogStyle;
+			global::PayPal.Forms.Android.Resource.Attribute.alertDialogTheme = global::CreditCardUISample.Droid.Resource.Attribute.alertDialogTheme;
+			global::PayPal.Forms.Android.Resource.Attribute.allowStacking = global::CreditCardUISample.Droid.Resource.Attribute.allowStacking;
+			global::PayPal.Forms.Android.Resource.Attribute.alpha = global::CreditCardUISample.Droid.Resource.Attribute.alpha;
+			global::PayPal.Forms.Android.Resource.Attribute.arrowHeadLength = global::CreditCardUISample.Droid.Resource.Attribute.arrowHeadLength;
+			global::PayPal.Forms.Android.Resource.Attribute.arrowShaftLength = global::CreditCardUISample.Droid.Resource.Attribute.arrowShaftLength;
+			global::PayPal.Forms.Android.Resource.Attribute.autoCompleteTextViewStyle = global::CreditCardUISample.Droid.Resource.Attribute.autoCompleteTextViewStyle;
+			global::PayPal.Forms.Android.Resource.Attribute.background = global::CreditCardUISample.Droid.Resource.Attribute.background;
+			global::PayPal.Forms.Android.Resource.Attribute.backgroundSplit = global::CreditCardUISample.Droid.Resource.Attribute.backgroundSplit;
+			global::PayPal.Forms.Android.Resource.Attribute.backgroundStacked = global::CreditCardUISample.Droid.Resource.Attribute.backgroundStacked;
+			global::PayPal.Forms.Android.Resource.Attribute.backgroundTint = global::CreditCardUISample.Droid.Resource.Attribute.backgroundTint;
+			global::PayPal.Forms.Android.Resource.Attribute.backgroundTintMode = global::CreditCardUISample.Droid.Resource.Attribute.backgroundTintMode;
+			global::PayPal.Forms.Android.Resource.Attribute.barLength = global::CreditCardUISample.Droid.Resource.Attribute.barLength;
+			global::PayPal.Forms.Android.Resource.Attribute.behavior_autoHide = global::CreditCardUISample.Droid.Resource.Attribute.behavior_autoHide;
+			global::PayPal.Forms.Android.Resource.Attribute.behavior_hideable = global::CreditCardUISample.Droid.Resource.Attribute.behavior_hideable;
+			global::PayPal.Forms.Android.Resource.Attribute.behavior_overlapTop = global::CreditCardUISample.Droid.Resource.Attribute.behavior_overlapTop;
+			global::PayPal.Forms.Android.Resource.Attribute.behavior_peekHeight = global::CreditCardUISample.Droid.Resource.Attribute.behavior_peekHeight;
+			global::PayPal.Forms.Android.Resource.Attribute.behavior_skipCollapsed = global::CreditCardUISample.Droid.Resource.Attribute.behavior_skipCollapsed;
+			global::PayPal.Forms.Android.Resource.Attribute.borderlessButtonStyle = global::CreditCardUISample.Droid.Resource.Attribute.borderlessButtonStyle;
+			global::PayPal.Forms.Android.Resource.Attribute.borderWidth = global::CreditCardUISample.Droid.Resource.Attribute.borderWidth;
+			global::PayPal.Forms.Android.Resource.Attribute.bottomSheetDialogTheme = global::CreditCardUISample.Droid.Resource.Attribute.bottomSheetDialogTheme;
+			global::PayPal.Forms.Android.Resource.Attribute.bottomSheetStyle = global::CreditCardUISample.Droid.Resource.Attribute.bottomSheetStyle;
+			global::PayPal.Forms.Android.Resource.Attribute.buttonBarButtonStyle = global::CreditCardUISample.Droid.Resource.Attribute.buttonBarButtonStyle;
+			global::PayPal.Forms.Android.Resource.Attribute.buttonBarNegativeButtonStyle = global::CreditCardUISample.Droid.Resource.Attribute.buttonBarNegativeButtonStyle;
+			global::PayPal.Forms.Android.Resource.Attribute.buttonBarNeutralButtonStyle = global::CreditCardUISample.Droid.Resource.Attribute.buttonBarNeutralButtonStyle;
+			global::PayPal.Forms.Android.Resource.Attribute.buttonBarPositiveButtonStyle = global::CreditCardUISample.Droid.Resource.Attribute.buttonBarPositiveButtonStyle;
+			global::PayPal.Forms.Android.Resource.Attribute.buttonBarStyle = global::CreditCardUISample.Droid.Resource.Attribute.buttonBarStyle;
+			global::PayPal.Forms.Android.Resource.Attribute.buttonGravity = global::CreditCardUISample.Droid.Resource.Attribute.buttonGravity;
+			global::PayPal.Forms.Android.Resource.Attribute.buttonPanelSideLayout = global::CreditCardUISample.Droid.Resource.Attribute.buttonPanelSideLayout;
+			global::PayPal.Forms.Android.Resource.Attribute.buttonStyle = global::CreditCardUISample.Droid.Resource.Attribute.buttonStyle;
+			global::PayPal.Forms.Android.Resource.Attribute.buttonStyleSmall = global::CreditCardUISample.Droid.Resource.Attribute.buttonStyleSmall;
+			global::PayPal.Forms.Android.Resource.Attribute.buttonTint = global::CreditCardUISample.Droid.Resource.Attribute.buttonTint;
+			global::PayPal.Forms.Android.Resource.Attribute.buttonTintMode = global::CreditCardUISample.Droid.Resource.Attribute.buttonTintMode;
+			global::PayPal.Forms.Android.Resource.Attribute.cardBackgroundColor = global::CreditCardUISample.Droid.Resource.Attribute.cardBackgroundColor;
+			global::PayPal.Forms.Android.Resource.Attribute.cardCornerRadius = global::CreditCardUISample.Droid.Resource.Attribute.cardCornerRadius;
+			global::PayPal.Forms.Android.Resource.Attribute.cardElevation = global::CreditCardUISample.Droid.Resource.Attribute.cardElevation;
+			global::PayPal.Forms.Android.Resource.Attribute.cardMaxElevation = global::CreditCardUISample.Droid.Resource.Attribute.cardMaxElevation;
+			global::PayPal.Forms.Android.Resource.Attribute.cardPreventCornerOverlap = global::CreditCardUISample.Droid.Resource.Attribute.cardPreventCornerOverlap;
+			global::PayPal.Forms.Android.Resource.Attribute.cardUseCompatPadding = global::CreditCardUISample.Droid.Resource.Attribute.cardUseCompatPadding;
+			global::PayPal.Forms.Android.Resource.Attribute.checkboxStyle = global::CreditCardUISample.Droid.Resource.Attribute.checkboxStyle;
+			global::PayPal.Forms.Android.Resource.Attribute.checkedTextViewStyle = global::CreditCardUISample.Droid.Resource.Attribute.checkedTextViewStyle;
+			global::PayPal.Forms.Android.Resource.Attribute.closeIcon = global::CreditCardUISample.Droid.Resource.Attribute.closeIcon;
+			global::PayPal.Forms.Android.Resource.Attribute.closeItemLayout = global::CreditCardUISample.Droid.Resource.Attribute.closeItemLayout;
+			global::PayPal.Forms.Android.Resource.Attribute.collapseContentDescription = global::CreditCardUISample.Droid.Resource.Attribute.collapseContentDescription;
+			global::PayPal.Forms.Android.Resource.Attribute.collapsedTitleGravity = global::CreditCardUISample.Droid.Resource.Attribute.collapsedTitleGravity;
+			global::PayPal.Forms.Android.Resource.Attribute.collapsedTitleTextAppearance = global::CreditCardUISample.Droid.Resource.Attribute.collapsedTitleTextAppearance;
+			global::PayPal.Forms.Android.Resource.Attribute.collapseIcon = global::CreditCardUISample.Droid.Resource.Attribute.collapseIcon;
+			global::PayPal.Forms.Android.Resource.Attribute.color = global::CreditCardUISample.Droid.Resource.Attribute.color;
+			global::PayPal.Forms.Android.Resource.Attribute.colorAccent = global::CreditCardUISample.Droid.Resource.Attribute.colorAccent;
+			global::PayPal.Forms.Android.Resource.Attribute.colorBackgroundFloating = global::CreditCardUISample.Droid.Resource.Attribute.colorBackgroundFloating;
+			global::PayPal.Forms.Android.Resource.Attribute.colorButtonNormal = global::CreditCardUISample.Droid.Resource.Attribute.colorButtonNormal;
+			global::PayPal.Forms.Android.Resource.Attribute.colorControlActivated = global::CreditCardUISample.Droid.Resource.Attribute.colorControlActivated;
+			global::PayPal.Forms.Android.Resource.Attribute.colorControlHighlight = global::CreditCardUISample.Droid.Resource.Attribute.colorControlHighlight;
+			global::PayPal.Forms.Android.Resource.Attribute.colorControlNormal = global::CreditCardUISample.Droid.Resource.Attribute.colorControlNormal;
+			global::PayPal.Forms.Android.Resource.Attribute.colorPrimary = global::CreditCardUISample.Droid.Resource.Attribute.colorPrimary;
+			global::PayPal.Forms.Android.Resource.Attribute.colorPrimaryDark = global::CreditCardUISample.Droid.Resource.Attribute.colorPrimaryDark;
+			global::PayPal.Forms.Android.Resource.Attribute.colorSwitchThumbNormal = global::CreditCardUISample.Droid.Resource.Attribute.colorSwitchThumbNormal;
+			global::PayPal.Forms.Android.Resource.Attribute.commitIcon = global::CreditCardUISample.Droid.Resource.Attribute.commitIcon;
+			global::PayPal.Forms.Android.Resource.Attribute.contentInsetEnd = global::CreditCardUISample.Droid.Resource.Attribute.contentInsetEnd;
+			global::PayPal.Forms.Android.Resource.Attribute.contentInsetEndWithActions = global::CreditCardUISample.Droid.Resource.Attribute.contentInsetEndWithActions;
+			global::PayPal.Forms.Android.Resource.Attribute.contentInsetLeft = global::CreditCardUISample.Droid.Resource.Attribute.contentInsetLeft;
+			global::PayPal.Forms.Android.Resource.Attribute.contentInsetRight = global::CreditCardUISample.Droid.Resource.Attribute.contentInsetRight;
+			global::PayPal.Forms.Android.Resource.Attribute.contentInsetStart = global::CreditCardUISample.Droid.Resource.Attribute.contentInsetStart;
+			global::PayPal.Forms.Android.Resource.Attribute.contentInsetStartWithNavigation = global::CreditCardUISample.Droid.Resource.Attribute.contentInsetStartWithNavigation;
+			global::PayPal.Forms.Android.Resource.Attribute.contentPadding = global::CreditCardUISample.Droid.Resource.Attribute.contentPadding;
+			global::PayPal.Forms.Android.Resource.Attribute.contentPaddingBottom = global::CreditCardUISample.Droid.Resource.Attribute.contentPaddingBottom;
+			global::PayPal.Forms.Android.Resource.Attribute.contentPaddingLeft = global::CreditCardUISample.Droid.Resource.Attribute.contentPaddingLeft;
+			global::PayPal.Forms.Android.Resource.Attribute.contentPaddingRight = global::CreditCardUISample.Droid.Resource.Attribute.contentPaddingRight;
+			global::PayPal.Forms.Android.Resource.Attribute.contentPaddingTop = global::CreditCardUISample.Droid.Resource.Attribute.contentPaddingTop;
+			global::PayPal.Forms.Android.Resource.Attribute.contentScrim = global::CreditCardUISample.Droid.Resource.Attribute.contentScrim;
+			global::PayPal.Forms.Android.Resource.Attribute.controlBackground = global::CreditCardUISample.Droid.Resource.Attribute.controlBackground;
+			global::PayPal.Forms.Android.Resource.Attribute.counterEnabled = global::CreditCardUISample.Droid.Resource.Attribute.counterEnabled;
+			global::PayPal.Forms.Android.Resource.Attribute.counterMaxLength = global::CreditCardUISample.Droid.Resource.Attribute.counterMaxLength;
+			global::PayPal.Forms.Android.Resource.Attribute.counterOverflowTextAppearance = global::CreditCardUISample.Droid.Resource.Attribute.counterOverflowTextAppearance;
+			global::PayPal.Forms.Android.Resource.Attribute.counterTextAppearance = global::CreditCardUISample.Droid.Resource.Attribute.counterTextAppearance;
+			global::PayPal.Forms.Android.Resource.Attribute.customNavigationLayout = global::CreditCardUISample.Droid.Resource.Attribute.customNavigationLayout;
+			global::PayPal.Forms.Android.Resource.Attribute.defaultQueryHint = global::CreditCardUISample.Droid.Resource.Attribute.defaultQueryHint;
+			global::PayPal.Forms.Android.Resource.Attribute.dialogPreferredPadding = global::CreditCardUISample.Droid.Resource.Attribute.dialogPreferredPadding;
+			global::PayPal.Forms.Android.Resource.Attribute.dialogTheme = global::CreditCardUISample.Droid.Resource.Attribute.dialogTheme;
+			global::PayPal.Forms.Android.Resource.Attribute.displayOptions = global::CreditCardUISample.Droid.Resource.Attribute.displayOptions;
+			global::PayPal.Forms.Android.Resource.Attribute.divider = global::CreditCardUISample.Droid.Resource.Attribute.divider;
+			global::PayPal.Forms.Android.Resource.Attribute.dividerHorizontal = global::CreditCardUISample.Droid.Resource.Attribute.dividerHorizontal;
+			global::PayPal.Forms.Android.Resource.Attribute.dividerPadding = global::CreditCardUISample.Droid.Resource.Attribute.dividerPadding;
+			global::PayPal.Forms.Android.Resource.Attribute.dividerVertical = global::CreditCardUISample.Droid.Resource.Attribute.dividerVertical;
+			global::PayPal.Forms.Android.Resource.Attribute.drawableSize = global::CreditCardUISample.Droid.Resource.Attribute.drawableSize;
+			global::PayPal.Forms.Android.Resource.Attribute.drawerArrowStyle = global::CreditCardUISample.Droid.Resource.Attribute.drawerArrowStyle;
+			global::PayPal.Forms.Android.Resource.Attribute.dropdownListPreferredItemHeight = global::CreditCardUISample.Droid.Resource.Attribute.dropdownListPreferredItemHeight;
+			global::PayPal.Forms.Android.Resource.Attribute.dropDownListViewStyle = global::CreditCardUISample.Droid.Resource.Attribute.dropDownListViewStyle;
+			global::PayPal.Forms.Android.Resource.Attribute.editTextBackground = global::CreditCardUISample.Droid.Resource.Attribute.editTextBackground;
+			global::PayPal.Forms.Android.Resource.Attribute.editTextColor = global::CreditCardUISample.Droid.Resource.Attribute.editTextColor;
+			global::PayPal.Forms.Android.Resource.Attribute.editTextStyle = global::CreditCardUISample.Droid.Resource.Attribute.editTextStyle;
+			global::PayPal.Forms.Android.Resource.Attribute.elevation = global::CreditCardUISample.Droid.Resource.Attribute.elevation;
+			global::PayPal.Forms.Android.Resource.Attribute.errorEnabled = global::CreditCardUISample.Droid.Resource.Attribute.errorEnabled;
+			global::PayPal.Forms.Android.Resource.Attribute.errorTextAppearance = global::CreditCardUISample.Droid.Resource.Attribute.errorTextAppearance;
+			global::PayPal.Forms.Android.Resource.Attribute.expandActivityOverflowButtonDrawable = global::CreditCardUISample.Droid.Resource.Attribute.expandActivityOverflowButtonDrawable;
+			global::PayPal.Forms.Android.Resource.Attribute.expanded = global::CreditCardUISample.Droid.Resource.Attribute.expanded;
+			global::PayPal.Forms.Android.Resource.Attribute.expandedTitleGravity = global::CreditCardUISample.Droid.Resource.Attribute.expandedTitleGravity;
+			global::PayPal.Forms.Android.Resource.Attribute.expandedTitleMargin = global::CreditCardUISample.Droid.Resource.Attribute.expandedTitleMargin;
+			global::PayPal.Forms.Android.Resource.Attribute.expandedTitleMarginBottom = global::CreditCardUISample.Droid.Resource.Attribute.expandedTitleMarginBottom;
+			global::PayPal.Forms.Android.Resource.Attribute.expandedTitleMarginEnd = global::CreditCardUISample.Droid.Resource.Attribute.expandedTitleMarginEnd;
+			global::PayPal.Forms.Android.Resource.Attribute.expandedTitleMarginStart = global::CreditCardUISample.Droid.Resource.Attribute.expandedTitleMarginStart;
+			global::PayPal.Forms.Android.Resource.Attribute.expandedTitleMarginTop = global::CreditCardUISample.Droid.Resource.Attribute.expandedTitleMarginTop;
+			global::PayPal.Forms.Android.Resource.Attribute.expandedTitleTextAppearance = global::CreditCardUISample.Droid.Resource.Attribute.expandedTitleTextAppearance;
+			global::PayPal.Forms.Android.Resource.Attribute.externalRouteEnabledDrawable = global::CreditCardUISample.Droid.Resource.Attribute.externalRouteEnabledDrawable;
+			global::PayPal.Forms.Android.Resource.Attribute.fabSize = global::CreditCardUISample.Droid.Resource.Attribute.fabSize;
+			global::PayPal.Forms.Android.Resource.Attribute.foregroundInsidePadding = global::CreditCardUISample.Droid.Resource.Attribute.foregroundInsidePadding;
+			global::PayPal.Forms.Android.Resource.Attribute.gapBetweenBars = global::CreditCardUISample.Droid.Resource.Attribute.gapBetweenBars;
+			global::PayPal.Forms.Android.Resource.Attribute.goIcon = global::CreditCardUISample.Droid.Resource.Attribute.goIcon;
+			global::PayPal.Forms.Android.Resource.Attribute.headerLayout = global::CreditCardUISample.Droid.Resource.Attribute.headerLayout;
+			global::PayPal.Forms.Android.Resource.Attribute.height = global::CreditCardUISample.Droid.Resource.Attribute.height;
+			global::PayPal.Forms.Android.Resource.Attribute.hideOnContentScroll = global::CreditCardUISample.Droid.Resource.Attribute.hideOnContentScroll;
+			global::PayPal.Forms.Android.Resource.Attribute.hintAnimationEnabled = global::CreditCardUISample.Droid.Resource.Attribute.hintAnimationEnabled;
+			global::PayPal.Forms.Android.Resource.Attribute.hintEnabled = global::CreditCardUISample.Droid.Resource.Attribute.hintEnabled;
+			global::PayPal.Forms.Android.Resource.Attribute.hintTextAppearance = global::CreditCardUISample.Droid.Resource.Attribute.hintTextAppearance;
+			global::PayPal.Forms.Android.Resource.Attribute.homeAsUpIndicator = global::CreditCardUISample.Droid.Resource.Attribute.homeAsUpIndicator;
+			global::PayPal.Forms.Android.Resource.Attribute.homeLayout = global::CreditCardUISample.Droid.Resource.Attribute.homeLayout;
+			global::PayPal.Forms.Android.Resource.Attribute.icon = global::CreditCardUISample.Droid.Resource.Attribute.icon;
+			global::PayPal.Forms.Android.Resource.Attribute.iconifiedByDefault = global::CreditCardUISample.Droid.Resource.Attribute.iconifiedByDefault;
+			global::PayPal.Forms.Android.Resource.Attribute.imageButtonStyle = global::CreditCardUISample.Droid.Resource.Attribute.imageButtonStyle;
+			global::PayPal.Forms.Android.Resource.Attribute.indeterminateProgressStyle = global::CreditCardUISample.Droid.Resource.Attribute.indeterminateProgressStyle;
+			global::PayPal.Forms.Android.Resource.Attribute.initialActivityCount = global::CreditCardUISample.Droid.Resource.Attribute.initialActivityCount;
+			global::PayPal.Forms.Android.Resource.Attribute.insetForeground = global::CreditCardUISample.Droid.Resource.Attribute.insetForeground;
+			global::PayPal.Forms.Android.Resource.Attribute.isLightTheme = global::CreditCardUISample.Droid.Resource.Attribute.isLightTheme;
+			global::PayPal.Forms.Android.Resource.Attribute.itemBackground = global::CreditCardUISample.Droid.Resource.Attribute.itemBackground;
+			global::PayPal.Forms.Android.Resource.Attribute.itemIconTint = global::CreditCardUISample.Droid.Resource.Attribute.itemIconTint;
+			global::PayPal.Forms.Android.Resource.Attribute.itemPadding = global::CreditCardUISample.Droid.Resource.Attribute.itemPadding;
+			global::PayPal.Forms.Android.Resource.Attribute.itemTextAppearance = global::CreditCardUISample.Droid.Resource.Attribute.itemTextAppearance;
+			global::PayPal.Forms.Android.Resource.Attribute.itemTextColor = global::CreditCardUISample.Droid.Resource.Attribute.itemTextColor;
+			global::PayPal.Forms.Android.Resource.Attribute.keylines = global::CreditCardUISample.Droid.Resource.Attribute.keylines;
+			global::PayPal.Forms.Android.Resource.Attribute.layout = global::CreditCardUISample.Droid.Resource.Attribute.layout;
+			global::PayPal.Forms.Android.Resource.Attribute.layoutManager = global::CreditCardUISample.Droid.Resource.Attribute.layoutManager;
+			global::PayPal.Forms.Android.Resource.Attribute.layout_anchor = global::CreditCardUISample.Droid.Resource.Attribute.layout_anchor;
+			global::PayPal.Forms.Android.Resource.Attribute.layout_anchorGravity = global::CreditCardUISample.Droid.Resource.Attribute.layout_anchorGravity;
+			global::PayPal.Forms.Android.Resource.Attribute.layout_behavior = global::CreditCardUISample.Droid.Resource.Attribute.layout_behavior;
+			global::PayPal.Forms.Android.Resource.Attribute.layout_collapseMode = global::CreditCardUISample.Droid.Resource.Attribute.layout_collapseMode;
+			global::PayPal.Forms.Android.Resource.Attribute.layout_collapseParallaxMultiplier = global::CreditCardUISample.Droid.Resource.Attribute.layout_collapseParallaxMultiplier;
+			global::PayPal.Forms.Android.Resource.Attribute.layout_dodgeInsetEdges = global::CreditCardUISample.Droid.Resource.Attribute.layout_dodgeInsetEdges;
+			global::PayPal.Forms.Android.Resource.Attribute.layout_insetEdge = global::CreditCardUISample.Droid.Resource.Attribute.layout_insetEdge;
+			global::PayPal.Forms.Android.Resource.Attribute.layout_keyline = global::CreditCardUISample.Droid.Resource.Attribute.layout_keyline;
+			global::PayPal.Forms.Android.Resource.Attribute.layout_scrollFlags = global::CreditCardUISample.Droid.Resource.Attribute.layout_scrollFlags;
+			global::PayPal.Forms.Android.Resource.Attribute.layout_scrollInterpolator = global::CreditCardUISample.Droid.Resource.Attribute.layout_scrollInterpolator;
+			global::PayPal.Forms.Android.Resource.Attribute.listChoiceBackgroundIndicator = global::CreditCardUISample.Droid.Resource.Attribute.listChoiceBackgroundIndicator;
+			global::PayPal.Forms.Android.Resource.Attribute.listDividerAlertDialog = global::CreditCardUISample.Droid.Resource.Attribute.listDividerAlertDialog;
+			global::PayPal.Forms.Android.Resource.Attribute.listItemLayout = global::CreditCardUISample.Droid.Resource.Attribute.listItemLayout;
+			global::PayPal.Forms.Android.Resource.Attribute.listLayout = global::CreditCardUISample.Droid.Resource.Attribute.listLayout;
+			global::PayPal.Forms.Android.Resource.Attribute.listMenuViewStyle = global::CreditCardUISample.Droid.Resource.Attribute.listMenuViewStyle;
+			global::PayPal.Forms.Android.Resource.Attribute.listPopupWindowStyle = global::CreditCardUISample.Droid.Resource.Attribute.listPopupWindowStyle;
+			global::PayPal.Forms.Android.Resource.Attribute.listPreferredItemHeight = global::CreditCardUISample.Droid.Resource.Attribute.listPreferredItemHeight;
+			global::PayPal.Forms.Android.Resource.Attribute.listPreferredItemHeightLarge = global::CreditCardUISample.Droid.Resource.Attribute.listPreferredItemHeightLarge;
+			global::PayPal.Forms.Android.Resource.Attribute.listPreferredItemHeightSmall = global::CreditCardUISample.Droid.Resource.Attribute.listPreferredItemHeightSmall;
+			global::PayPal.Forms.Android.Resource.Attribute.listPreferredItemPaddingLeft = global::CreditCardUISample.Droid.Resource.Attribute.listPreferredItemPaddingLeft;
+			global::PayPal.Forms.Android.Resource.Attribute.listPreferredItemPaddingRight = global::CreditCardUISample.Droid.Resource.Attribute.listPreferredItemPaddingRight;
+			global::PayPal.Forms.Android.Resource.Attribute.logo = global::CreditCardUISample.Droid.Resource.Attribute.logo;
+			global::PayPal.Forms.Android.Resource.Attribute.logoDescription = global::CreditCardUISample.Droid.Resource.Attribute.logoDescription;
+			global::PayPal.Forms.Android.Resource.Attribute.maxActionInlineWidth = global::CreditCardUISample.Droid.Resource.Attribute.maxActionInlineWidth;
+			global::PayPal.Forms.Android.Resource.Attribute.maxButtonHeight = global::CreditCardUISample.Droid.Resource.Attribute.maxButtonHeight;
+			global::PayPal.Forms.Android.Resource.Attribute.measureWithLargestChild = global::CreditCardUISample.Droid.Resource.Attribute.measureWithLargestChild;
+			global::PayPal.Forms.Android.Resource.Attribute.mediaRouteAudioTrackDrawable = global::CreditCardUISample.Droid.Resource.Attribute.mediaRouteAudioTrackDrawable;
+			global::PayPal.Forms.Android.Resource.Attribute.mediaRouteButtonStyle = global::CreditCardUISample.Droid.Resource.Attribute.mediaRouteButtonStyle;
+			global::PayPal.Forms.Android.Resource.Attribute.mediaRouteCloseDrawable = global::CreditCardUISample.Droid.Resource.Attribute.mediaRouteCloseDrawable;
+			global::PayPal.Forms.Android.Resource.Attribute.mediaRouteControlPanelThemeOverlay = global::CreditCardUISample.Droid.Resource.Attribute.mediaRouteControlPanelThemeOverlay;
+			global::PayPal.Forms.Android.Resource.Attribute.mediaRouteDefaultIconDrawable = global::CreditCardUISample.Droid.Resource.Attribute.mediaRouteDefaultIconDrawable;
+			global::PayPal.Forms.Android.Resource.Attribute.mediaRoutePauseDrawable = global::CreditCardUISample.Droid.Resource.Attribute.mediaRoutePauseDrawable;
+			global::PayPal.Forms.Android.Resource.Attribute.mediaRoutePlayDrawable = global::CreditCardUISample.Droid.Resource.Attribute.mediaRoutePlayDrawable;
+			global::PayPal.Forms.Android.Resource.Attribute.mediaRouteSpeakerGroupIconDrawable = global::CreditCardUISample.Droid.Resource.Attribute.mediaRouteSpeakerGroupIconDrawable;
+			global::PayPal.Forms.Android.Resource.Attribute.mediaRouteSpeakerIconDrawable = global::CreditCardUISample.Droid.Resource.Attribute.mediaRouteSpeakerIconDrawable;
+			global::PayPal.Forms.Android.Resource.Attribute.mediaRouteStopDrawable = global::CreditCardUISample.Droid.Resource.Attribute.mediaRouteStopDrawable;
+			global::PayPal.Forms.Android.Resource.Attribute.mediaRouteTheme = global::CreditCardUISample.Droid.Resource.Attribute.mediaRouteTheme;
+			global::PayPal.Forms.Android.Resource.Attribute.mediaRouteTvIconDrawable = global::CreditCardUISample.Droid.Resource.Attribute.mediaRouteTvIconDrawable;
+			global::PayPal.Forms.Android.Resource.Attribute.menu = global::CreditCardUISample.Droid.Resource.Attribute.menu;
+			global::PayPal.Forms.Android.Resource.Attribute.multiChoiceItemLayout = global::CreditCardUISample.Droid.Resource.Attribute.multiChoiceItemLayout;
+			global::PayPal.Forms.Android.Resource.Attribute.navigationContentDescription = global::CreditCardUISample.Droid.Resource.Attribute.navigationContentDescription;
+			global::PayPal.Forms.Android.Resource.Attribute.navigationIcon = global::CreditCardUISample.Droid.Resource.Attribute.navigationIcon;
+			global::PayPal.Forms.Android.Resource.Attribute.navigationMode = global::CreditCardUISample.Droid.Resource.Attribute.navigationMode;
+			global::PayPal.Forms.Android.Resource.Attribute.overlapAnchor = global::CreditCardUISample.Droid.Resource.Attribute.overlapAnchor;
+			global::PayPal.Forms.Android.Resource.Attribute.paddingBottomNoButtons = global::CreditCardUISample.Droid.Resource.Attribute.paddingBottomNoButtons;
+			global::PayPal.Forms.Android.Resource.Attribute.paddingEnd = global::CreditCardUISample.Droid.Resource.Attribute.paddingEnd;
+			global::PayPal.Forms.Android.Resource.Attribute.paddingStart = global::CreditCardUISample.Droid.Resource.Attribute.paddingStart;
+			global::PayPal.Forms.Android.Resource.Attribute.paddingTopNoTitle = global::CreditCardUISample.Droid.Resource.Attribute.paddingTopNoTitle;
+			global::PayPal.Forms.Android.Resource.Attribute.panelBackground = global::CreditCardUISample.Droid.Resource.Attribute.panelBackground;
+			global::PayPal.Forms.Android.Resource.Attribute.panelMenuListTheme = global::CreditCardUISample.Droid.Resource.Attribute.panelMenuListTheme;
+			global::PayPal.Forms.Android.Resource.Attribute.panelMenuListWidth = global::CreditCardUISample.Droid.Resource.Attribute.panelMenuListWidth;
+			global::PayPal.Forms.Android.Resource.Attribute.passwordToggleContentDescription = global::CreditCardUISample.Droid.Resource.Attribute.passwordToggleContentDescription;
+			global::PayPal.Forms.Android.Resource.Attribute.passwordToggleDrawable = global::CreditCardUISample.Droid.Resource.Attribute.passwordToggleDrawable;
+			global::PayPal.Forms.Android.Resource.Attribute.passwordToggleEnabled = global::CreditCardUISample.Droid.Resource.Attribute.passwordToggleEnabled;
+			global::PayPal.Forms.Android.Resource.Attribute.passwordToggleTint = global::CreditCardUISample.Droid.Resource.Attribute.passwordToggleTint;
+			global::PayPal.Forms.Android.Resource.Attribute.passwordToggleTintMode = global::CreditCardUISample.Droid.Resource.Attribute.passwordToggleTintMode;
+			global::PayPal.Forms.Android.Resource.Attribute.popupMenuStyle = global::CreditCardUISample.Droid.Resource.Attribute.popupMenuStyle;
+			global::PayPal.Forms.Android.Resource.Attribute.popupTheme = global::CreditCardUISample.Droid.Resource.Attribute.popupTheme;
+			global::PayPal.Forms.Android.Resource.Attribute.popupWindowStyle = global::CreditCardUISample.Droid.Resource.Attribute.popupWindowStyle;
+			global::PayPal.Forms.Android.Resource.Attribute.preserveIconSpacing = global::CreditCardUISample.Droid.Resource.Attribute.preserveIconSpacing;
+			global::PayPal.Forms.Android.Resource.Attribute.pressedTranslationZ = global::CreditCardUISample.Droid.Resource.Attribute.pressedTranslationZ;
+			global::PayPal.Forms.Android.Resource.Attribute.progressBarPadding = global::CreditCardUISample.Droid.Resource.Attribute.progressBarPadding;
+			global::PayPal.Forms.Android.Resource.Attribute.progressBarStyle = global::CreditCardUISample.Droid.Resource.Attribute.progressBarStyle;
+			global::PayPal.Forms.Android.Resource.Attribute.queryBackground = global::CreditCardUISample.Droid.Resource.Attribute.queryBackground;
+			global::PayPal.Forms.Android.Resource.Attribute.queryHint = global::CreditCardUISample.Droid.Resource.Attribute.queryHint;
+			global::PayPal.Forms.Android.Resource.Attribute.radioButtonStyle = global::CreditCardUISample.Droid.Resource.Attribute.radioButtonStyle;
+			global::PayPal.Forms.Android.Resource.Attribute.ratingBarStyle = global::CreditCardUISample.Droid.Resource.Attribute.ratingBarStyle;
+			global::PayPal.Forms.Android.Resource.Attribute.ratingBarStyleIndicator = global::CreditCardUISample.Droid.Resource.Attribute.ratingBarStyleIndicator;
+			global::PayPal.Forms.Android.Resource.Attribute.ratingBarStyleSmall = global::CreditCardUISample.Droid.Resource.Attribute.ratingBarStyleSmall;
+			global::PayPal.Forms.Android.Resource.Attribute.reverseLayout = global::CreditCardUISample.Droid.Resource.Attribute.reverseLayout;
+			global::PayPal.Forms.Android.Resource.Attribute.rippleColor = global::CreditCardUISample.Droid.Resource.Attribute.rippleColor;
+			global::PayPal.Forms.Android.Resource.Attribute.scrimAnimationDuration = global::CreditCardUISample.Droid.Resource.Attribute.scrimAnimationDuration;
+			global::PayPal.Forms.Android.Resource.Attribute.scrimVisibleHeightTrigger = global::CreditCardUISample.Droid.Resource.Attribute.scrimVisibleHeightTrigger;
+			global::PayPal.Forms.Android.Resource.Attribute.searchHintIcon = global::CreditCardUISample.Droid.Resource.Attribute.searchHintIcon;
+			global::PayPal.Forms.Android.Resource.Attribute.searchIcon = global::CreditCardUISample.Droid.Resource.Attribute.searchIcon;
+			global::PayPal.Forms.Android.Resource.Attribute.searchViewStyle = global::CreditCardUISample.Droid.Resource.Attribute.searchViewStyle;
+			global::PayPal.Forms.Android.Resource.Attribute.seekBarStyle = global::CreditCardUISample.Droid.Resource.Attribute.seekBarStyle;
+			global::PayPal.Forms.Android.Resource.Attribute.selectableItemBackground = global::CreditCardUISample.Droid.Resource.Attribute.selectableItemBackground;
+			global::PayPal.Forms.Android.Resource.Attribute.selectableItemBackgroundBorderless = global::CreditCardUISample.Droid.Resource.Attribute.selectableItemBackgroundBorderless;
+			global::PayPal.Forms.Android.Resource.Attribute.showAsAction = global::CreditCardUISample.Droid.Resource.Attribute.showAsAction;
+			global::PayPal.Forms.Android.Resource.Attribute.showDividers = global::CreditCardUISample.Droid.Resource.Attribute.showDividers;
+			global::PayPal.Forms.Android.Resource.Attribute.showText = global::CreditCardUISample.Droid.Resource.Attribute.showText;
+			global::PayPal.Forms.Android.Resource.Attribute.showTitle = global::CreditCardUISample.Droid.Resource.Attribute.showTitle;
+			global::PayPal.Forms.Android.Resource.Attribute.singleChoiceItemLayout = global::CreditCardUISample.Droid.Resource.Attribute.singleChoiceItemLayout;
+			global::PayPal.Forms.Android.Resource.Attribute.spanCount = global::CreditCardUISample.Droid.Resource.Attribute.spanCount;
+			global::PayPal.Forms.Android.Resource.Attribute.spinBars = global::CreditCardUISample.Droid.Resource.Attribute.spinBars;
+			global::PayPal.Forms.Android.Resource.Attribute.spinnerDropDownItemStyle = global::CreditCardUISample.Droid.Resource.Attribute.spinnerDropDownItemStyle;
+			global::PayPal.Forms.Android.Resource.Attribute.spinnerStyle = global::CreditCardUISample.Droid.Resource.Attribute.spinnerStyle;
+			global::PayPal.Forms.Android.Resource.Attribute.splitTrack = global::CreditCardUISample.Droid.Resource.Attribute.splitTrack;
+			global::PayPal.Forms.Android.Resource.Attribute.srcCompat = global::CreditCardUISample.Droid.Resource.Attribute.srcCompat;
+			global::PayPal.Forms.Android.Resource.Attribute.stackFromEnd = global::CreditCardUISample.Droid.Resource.Attribute.stackFromEnd;
+			global::PayPal.Forms.Android.Resource.Attribute.state_above_anchor = global::CreditCardUISample.Droid.Resource.Attribute.state_above_anchor;
+			global::PayPal.Forms.Android.Resource.Attribute.state_collapsed = global::CreditCardUISample.Droid.Resource.Attribute.state_collapsed;
+			global::PayPal.Forms.Android.Resource.Attribute.state_collapsible = global::CreditCardUISample.Droid.Resource.Attribute.state_collapsible;
+			global::PayPal.Forms.Android.Resource.Attribute.statusBarBackground = global::CreditCardUISample.Droid.Resource.Attribute.statusBarBackground;
+			global::PayPal.Forms.Android.Resource.Attribute.statusBarScrim = global::CreditCardUISample.Droid.Resource.Attribute.statusBarScrim;
+			global::PayPal.Forms.Android.Resource.Attribute.subMenuArrow = global::CreditCardUISample.Droid.Resource.Attribute.subMenuArrow;
+			global::PayPal.Forms.Android.Resource.Attribute.submitBackground = global::CreditCardUISample.Droid.Resource.Attribute.submitBackground;
+			global::PayPal.Forms.Android.Resource.Attribute.subtitle = global::CreditCardUISample.Droid.Resource.Attribute.subtitle;
+			global::PayPal.Forms.Android.Resource.Attribute.subtitleTextAppearance = global::CreditCardUISample.Droid.Resource.Attribute.subtitleTextAppearance;
+			global::PayPal.Forms.Android.Resource.Attribute.subtitleTextColor = global::CreditCardUISample.Droid.Resource.Attribute.subtitleTextColor;
+			global::PayPal.Forms.Android.Resource.Attribute.subtitleTextStyle = global::CreditCardUISample.Droid.Resource.Attribute.subtitleTextStyle;
+			global::PayPal.Forms.Android.Resource.Attribute.suggestionRowLayout = global::CreditCardUISample.Droid.Resource.Attribute.suggestionRowLayout;
+			global::PayPal.Forms.Android.Resource.Attribute.switchMinWidth = global::CreditCardUISample.Droid.Resource.Attribute.switchMinWidth;
+			global::PayPal.Forms.Android.Resource.Attribute.switchPadding = global::CreditCardUISample.Droid.Resource.Attribute.switchPadding;
+			global::PayPal.Forms.Android.Resource.Attribute.switchStyle = global::CreditCardUISample.Droid.Resource.Attribute.switchStyle;
+			global::PayPal.Forms.Android.Resource.Attribute.switchTextAppearance = global::CreditCardUISample.Droid.Resource.Attribute.switchTextAppearance;
+			global::PayPal.Forms.Android.Resource.Attribute.tabBackground = global::CreditCardUISample.Droid.Resource.Attribute.tabBackground;
+			global::PayPal.Forms.Android.Resource.Attribute.tabContentStart = global::CreditCardUISample.Droid.Resource.Attribute.tabContentStart;
+			global::PayPal.Forms.Android.Resource.Attribute.tabGravity = global::CreditCardUISample.Droid.Resource.Attribute.tabGravity;
+			global::PayPal.Forms.Android.Resource.Attribute.tabIndicatorColor = global::CreditCardUISample.Droid.Resource.Attribute.tabIndicatorColor;
+			global::PayPal.Forms.Android.Resource.Attribute.tabIndicatorHeight = global::CreditCardUISample.Droid.Resource.Attribute.tabIndicatorHeight;
+			global::PayPal.Forms.Android.Resource.Attribute.tabMaxWidth = global::CreditCardUISample.Droid.Resource.Attribute.tabMaxWidth;
+			global::PayPal.Forms.Android.Resource.Attribute.tabMinWidth = global::CreditCardUISample.Droid.Resource.Attribute.tabMinWidth;
+			global::PayPal.Forms.Android.Resource.Attribute.tabMode = global::CreditCardUISample.Droid.Resource.Attribute.tabMode;
+			global::PayPal.Forms.Android.Resource.Attribute.tabPadding = global::CreditCardUISample.Droid.Resource.Attribute.tabPadding;
+			global::PayPal.Forms.Android.Resource.Attribute.tabPaddingBottom = global::CreditCardUISample.Droid.Resource.Attribute.tabPaddingBottom;
+			global::PayPal.Forms.Android.Resource.Attribute.tabPaddingEnd = global::CreditCardUISample.Droid.Resource.Attribute.tabPaddingEnd;
+			global::PayPal.Forms.Android.Resource.Attribute.tabPaddingStart = global::CreditCardUISample.Droid.Resource.Attribute.tabPaddingStart;
+			global::PayPal.Forms.Android.Resource.Attribute.tabPaddingTop = global::CreditCardUISample.Droid.Resource.Attribute.tabPaddingTop;
+			global::PayPal.Forms.Android.Resource.Attribute.tabSelectedTextColor = global::CreditCardUISample.Droid.Resource.Attribute.tabSelectedTextColor;
+			global::PayPal.Forms.Android.Resource.Attribute.tabTextAppearance = global::CreditCardUISample.Droid.Resource.Attribute.tabTextAppearance;
+			global::PayPal.Forms.Android.Resource.Attribute.tabTextColor = global::CreditCardUISample.Droid.Resource.Attribute.tabTextColor;
+			global::PayPal.Forms.Android.Resource.Attribute.textAllCaps = global::CreditCardUISample.Droid.Resource.Attribute.textAllCaps;
+			global::PayPal.Forms.Android.Resource.Attribute.textAppearanceLargePopupMenu = global::CreditCardUISample.Droid.Resource.Attribute.textAppearanceLargePopupMenu;
+			global::PayPal.Forms.Android.Resource.Attribute.textAppearanceListItem = global::CreditCardUISample.Droid.Resource.Attribute.textAppearanceListItem;
+			global::PayPal.Forms.Android.Resource.Attribute.textAppearanceListItemSecondary = global::CreditCardUISample.Droid.Resource.Attribute.textAppearanceListItemSecondary;
+			global::PayPal.Forms.Android.Resource.Attribute.textAppearanceListItemSmall = global::CreditCardUISample.Droid.Resource.Attribute.textAppearanceListItemSmall;
+			global::PayPal.Forms.Android.Resource.Attribute.textAppearancePopupMenuHeader = global::CreditCardUISample.Droid.Resource.Attribute.textAppearancePopupMenuHeader;
+			global::PayPal.Forms.Android.Resource.Attribute.textAppearanceSearchResultSubtitle = global::CreditCardUISample.Droid.Resource.Attribute.textAppearanceSearchResultSubtitle;
+			global::PayPal.Forms.Android.Resource.Attribute.textAppearanceSearchResultTitle = global::CreditCardUISample.Droid.Resource.Attribute.textAppearanceSearchResultTitle;
+			global::PayPal.Forms.Android.Resource.Attribute.textAppearanceSmallPopupMenu = global::CreditCardUISample.Droid.Resource.Attribute.textAppearanceSmallPopupMenu;
+			global::PayPal.Forms.Android.Resource.Attribute.textColorAlertDialogListItem = global::CreditCardUISample.Droid.Resource.Attribute.textColorAlertDialogListItem;
+			global::PayPal.Forms.Android.Resource.Attribute.textColorSearchUrl = global::CreditCardUISample.Droid.Resource.Attribute.textColorSearchUrl;
+			global::PayPal.Forms.Android.Resource.Attribute.theme = global::CreditCardUISample.Droid.Resource.Attribute.theme;
+			global::PayPal.Forms.Android.Resource.Attribute.thickness = global::CreditCardUISample.Droid.Resource.Attribute.thickness;
+			global::PayPal.Forms.Android.Resource.Attribute.thumbTextPadding = global::CreditCardUISample.Droid.Resource.Attribute.thumbTextPadding;
+			global::PayPal.Forms.Android.Resource.Attribute.thumbTint = global::CreditCardUISample.Droid.Resource.Attribute.thumbTint;
+			global::PayPal.Forms.Android.Resource.Attribute.thumbTintMode = global::CreditCardUISample.Droid.Resource.Attribute.thumbTintMode;
+			global::PayPal.Forms.Android.Resource.Attribute.tickMark = global::CreditCardUISample.Droid.Resource.Attribute.tickMark;
+			global::PayPal.Forms.Android.Resource.Attribute.tickMarkTint = global::CreditCardUISample.Droid.Resource.Attribute.tickMarkTint;
+			global::PayPal.Forms.Android.Resource.Attribute.tickMarkTintMode = global::CreditCardUISample.Droid.Resource.Attribute.tickMarkTintMode;
+			global::PayPal.Forms.Android.Resource.Attribute.tint = global::CreditCardUISample.Droid.Resource.Attribute.tint;
+			global::PayPal.Forms.Android.Resource.Attribute.tintMode = global::CreditCardUISample.Droid.Resource.Attribute.tintMode;
+			global::PayPal.Forms.Android.Resource.Attribute.title = global::CreditCardUISample.Droid.Resource.Attribute.title;
+			global::PayPal.Forms.Android.Resource.Attribute.titleEnabled = global::CreditCardUISample.Droid.Resource.Attribute.titleEnabled;
+			global::PayPal.Forms.Android.Resource.Attribute.titleMargin = global::CreditCardUISample.Droid.Resource.Attribute.titleMargin;
+			global::PayPal.Forms.Android.Resource.Attribute.titleMarginBottom = global::CreditCardUISample.Droid.Resource.Attribute.titleMarginBottom;
+			global::PayPal.Forms.Android.Resource.Attribute.titleMarginEnd = global::CreditCardUISample.Droid.Resource.Attribute.titleMarginEnd;
+			global::PayPal.Forms.Android.Resource.Attribute.titleMargins = global::CreditCardUISample.Droid.Resource.Attribute.titleMargins;
+			global::PayPal.Forms.Android.Resource.Attribute.titleMarginStart = global::CreditCardUISample.Droid.Resource.Attribute.titleMarginStart;
+			global::PayPal.Forms.Android.Resource.Attribute.titleMarginTop = global::CreditCardUISample.Droid.Resource.Attribute.titleMarginTop;
+			global::PayPal.Forms.Android.Resource.Attribute.titleTextAppearance = global::CreditCardUISample.Droid.Resource.Attribute.titleTextAppearance;
+			global::PayPal.Forms.Android.Resource.Attribute.titleTextColor = global::CreditCardUISample.Droid.Resource.Attribute.titleTextColor;
+			global::PayPal.Forms.Android.Resource.Attribute.titleTextStyle = global::CreditCardUISample.Droid.Resource.Attribute.titleTextStyle;
+			global::PayPal.Forms.Android.Resource.Attribute.toolbarId = global::CreditCardUISample.Droid.Resource.Attribute.toolbarId;
+			global::PayPal.Forms.Android.Resource.Attribute.toolbarNavigationButtonStyle = global::CreditCardUISample.Droid.Resource.Attribute.toolbarNavigationButtonStyle;
+			global::PayPal.Forms.Android.Resource.Attribute.toolbarStyle = global::CreditCardUISample.Droid.Resource.Attribute.toolbarStyle;
+			global::PayPal.Forms.Android.Resource.Attribute.track = global::CreditCardUISample.Droid.Resource.Attribute.track;
+			global::PayPal.Forms.Android.Resource.Attribute.trackTint = global::CreditCardUISample.Droid.Resource.Attribute.trackTint;
+			global::PayPal.Forms.Android.Resource.Attribute.trackTintMode = global::CreditCardUISample.Droid.Resource.Attribute.trackTintMode;
+			global::PayPal.Forms.Android.Resource.Attribute.useCompatPadding = global::CreditCardUISample.Droid.Resource.Attribute.useCompatPadding;
+			global::PayPal.Forms.Android.Resource.Attribute.voiceIcon = global::CreditCardUISample.Droid.Resource.Attribute.voiceIcon;
+			global::PayPal.Forms.Android.Resource.Attribute.windowActionBar = global::CreditCardUISample.Droid.Resource.Attribute.windowActionBar;
+			global::PayPal.Forms.Android.Resource.Attribute.windowActionBarOverlay = global::CreditCardUISample.Droid.Resource.Attribute.windowActionBarOverlay;
+			global::PayPal.Forms.Android.Resource.Attribute.windowActionModeOverlay = global::CreditCardUISample.Droid.Resource.Attribute.windowActionModeOverlay;
+			global::PayPal.Forms.Android.Resource.Attribute.windowFixedHeightMajor = global::CreditCardUISample.Droid.Resource.Attribute.windowFixedHeightMajor;
+			global::PayPal.Forms.Android.Resource.Attribute.windowFixedHeightMinor = global::CreditCardUISample.Droid.Resource.Attribute.windowFixedHeightMinor;
+			global::PayPal.Forms.Android.Resource.Attribute.windowFixedWidthMajor = global::CreditCardUISample.Droid.Resource.Attribute.windowFixedWidthMajor;
+			global::PayPal.Forms.Android.Resource.Attribute.windowFixedWidthMinor = global::CreditCardUISample.Droid.Resource.Attribute.windowFixedWidthMinor;
+			global::PayPal.Forms.Android.Resource.Attribute.windowMinWidthMajor = global::CreditCardUISample.Droid.Resource.Attribute.windowMinWidthMajor;
+			global::PayPal.Forms.Android.Resource.Attribute.windowMinWidthMinor = global::CreditCardUISample.Droid.Resource.Attribute.windowMinWidthMinor;
+			global::PayPal.Forms.Android.Resource.Attribute.windowNoTitle = global::CreditCardUISample.Droid.Resource.Attribute.windowNoTitle;
+			global::PayPal.Forms.Android.Resource.Boolean.abc_action_bar_embed_tabs = global::CreditCardUISample.Droid.Resource.Boolean.abc_action_bar_embed_tabs;
+			global::PayPal.Forms.Android.Resource.Boolean.abc_allow_stacked_button_bar = global::CreditCardUISample.Droid.Resource.Boolean.abc_allow_stacked_button_bar;
+			global::PayPal.Forms.Android.Resource.Boolean.abc_config_actionMenuItemAllCaps = global::CreditCardUISample.Droid.Resource.Boolean.abc_config_actionMenuItemAllCaps;
+			global::PayPal.Forms.Android.Resource.Color.abc_background_cache_hint_selector_material_dark = global::CreditCardUISample.Droid.Resource.Color.abc_background_cache_hint_selector_material_dark;
+			global::PayPal.Forms.Android.Resource.Color.abc_background_cache_hint_selector_material_light = global::CreditCardUISample.Droid.Resource.Color.abc_background_cache_hint_selector_material_light;
+			global::PayPal.Forms.Android.Resource.Color.abc_btn_colored_borderless_text_material = global::CreditCardUISample.Droid.Resource.Color.abc_btn_colored_borderless_text_material;
+			global::PayPal.Forms.Android.Resource.Color.abc_btn_colored_text_material = global::CreditCardUISample.Droid.Resource.Color.abc_btn_colored_text_material;
+			global::PayPal.Forms.Android.Resource.Color.abc_color_highlight_material = global::CreditCardUISample.Droid.Resource.Color.abc_color_highlight_material;
+			global::PayPal.Forms.Android.Resource.Color.abc_hint_foreground_material_dark = global::CreditCardUISample.Droid.Resource.Color.abc_hint_foreground_material_dark;
+			global::PayPal.Forms.Android.Resource.Color.abc_hint_foreground_material_light = global::CreditCardUISample.Droid.Resource.Color.abc_hint_foreground_material_light;
+			global::PayPal.Forms.Android.Resource.Color.abc_input_method_navigation_guard = global::CreditCardUISample.Droid.Resource.Color.abc_input_method_navigation_guard;
+			global::PayPal.Forms.Android.Resource.Color.abc_primary_text_disable_only_material_dark = global::CreditCardUISample.Droid.Resource.Color.abc_primary_text_disable_only_material_dark;
+			global::PayPal.Forms.Android.Resource.Color.abc_primary_text_disable_only_material_light = global::CreditCardUISample.Droid.Resource.Color.abc_primary_text_disable_only_material_light;
+			global::PayPal.Forms.Android.Resource.Color.abc_primary_text_material_dark = global::CreditCardUISample.Droid.Resource.Color.abc_primary_text_material_dark;
+			global::PayPal.Forms.Android.Resource.Color.abc_primary_text_material_light = global::CreditCardUISample.Droid.Resource.Color.abc_primary_text_material_light;
+			global::PayPal.Forms.Android.Resource.Color.abc_search_url_text = global::CreditCardUISample.Droid.Resource.Color.abc_search_url_text;
+			global::PayPal.Forms.Android.Resource.Color.abc_search_url_text_normal = global::CreditCardUISample.Droid.Resource.Color.abc_search_url_text_normal;
+			global::PayPal.Forms.Android.Resource.Color.abc_search_url_text_pressed = global::CreditCardUISample.Droid.Resource.Color.abc_search_url_text_pressed;
+			global::PayPal.Forms.Android.Resource.Color.abc_search_url_text_selected = global::CreditCardUISample.Droid.Resource.Color.abc_search_url_text_selected;
+			global::PayPal.Forms.Android.Resource.Color.abc_secondary_text_material_dark = global::CreditCardUISample.Droid.Resource.Color.abc_secondary_text_material_dark;
+			global::PayPal.Forms.Android.Resource.Color.abc_secondary_text_material_light = global::CreditCardUISample.Droid.Resource.Color.abc_secondary_text_material_light;
+			global::PayPal.Forms.Android.Resource.Color.abc_tint_btn_checkable = global::CreditCardUISample.Droid.Resource.Color.abc_tint_btn_checkable;
+			global::PayPal.Forms.Android.Resource.Color.abc_tint_default = global::CreditCardUISample.Droid.Resource.Color.abc_tint_default;
+			global::PayPal.Forms.Android.Resource.Color.abc_tint_edittext = global::CreditCardUISample.Droid.Resource.Color.abc_tint_edittext;
+			global::PayPal.Forms.Android.Resource.Color.abc_tint_seek_thumb = global::CreditCardUISample.Droid.Resource.Color.abc_tint_seek_thumb;
+			global::PayPal.Forms.Android.Resource.Color.abc_tint_spinner = global::CreditCardUISample.Droid.Resource.Color.abc_tint_spinner;
+			global::PayPal.Forms.Android.Resource.Color.abc_tint_switch_track = global::CreditCardUISample.Droid.Resource.Color.abc_tint_switch_track;
+			global::PayPal.Forms.Android.Resource.Color.accent_material_dark = global::CreditCardUISample.Droid.Resource.Color.accent_material_dark;
+			global::PayPal.Forms.Android.Resource.Color.accent_material_light = global::CreditCardUISample.Droid.Resource.Color.accent_material_light;
+			global::PayPal.Forms.Android.Resource.Color.background_floating_material_dark = global::CreditCardUISample.Droid.Resource.Color.background_floating_material_dark;
+			global::PayPal.Forms.Android.Resource.Color.background_floating_material_light = global::CreditCardUISample.Droid.Resource.Color.background_floating_material_light;
+			global::PayPal.Forms.Android.Resource.Color.background_material_dark = global::CreditCardUISample.Droid.Resource.Color.background_material_dark;
+			global::PayPal.Forms.Android.Resource.Color.background_material_light = global::CreditCardUISample.Droid.Resource.Color.background_material_light;
+			global::PayPal.Forms.Android.Resource.Color.bright_foreground_disabled_material_dark = global::CreditCardUISample.Droid.Resource.Color.bright_foreground_disabled_material_dark;
+			global::PayPal.Forms.Android.Resource.Color.bright_foreground_disabled_material_light = global::CreditCardUISample.Droid.Resource.Color.bright_foreground_disabled_material_light;
+			global::PayPal.Forms.Android.Resource.Color.bright_foreground_inverse_material_dark = global::CreditCardUISample.Droid.Resource.Color.bright_foreground_inverse_material_dark;
+			global::PayPal.Forms.Android.Resource.Color.bright_foreground_inverse_material_light = global::CreditCardUISample.Droid.Resource.Color.bright_foreground_inverse_material_light;
+			global::PayPal.Forms.Android.Resource.Color.bright_foreground_material_dark = global::CreditCardUISample.Droid.Resource.Color.bright_foreground_material_dark;
+			global::PayPal.Forms.Android.Resource.Color.bright_foreground_material_light = global::CreditCardUISample.Droid.Resource.Color.bright_foreground_material_light;
+			global::PayPal.Forms.Android.Resource.Color.button_material_dark = global::CreditCardUISample.Droid.Resource.Color.button_material_dark;
+			global::PayPal.Forms.Android.Resource.Color.button_material_light = global::CreditCardUISample.Droid.Resource.Color.button_material_light;
+			global::PayPal.Forms.Android.Resource.Color.cardview_dark_background = global::CreditCardUISample.Droid.Resource.Color.cardview_dark_background;
+			global::PayPal.Forms.Android.Resource.Color.cardview_light_background = global::CreditCardUISample.Droid.Resource.Color.cardview_light_background;
+			global::PayPal.Forms.Android.Resource.Color.cardview_shadow_end_color = global::CreditCardUISample.Droid.Resource.Color.cardview_shadow_end_color;
+			global::PayPal.Forms.Android.Resource.Color.cardview_shadow_start_color = global::CreditCardUISample.Droid.Resource.Color.cardview_shadow_start_color;
+			global::PayPal.Forms.Android.Resource.Color.design_bottom_navigation_shadow_color = global::CreditCardUISample.Droid.Resource.Color.design_bottom_navigation_shadow_color;
+			global::PayPal.Forms.Android.Resource.Color.design_error = global::CreditCardUISample.Droid.Resource.Color.design_error;
+			global::PayPal.Forms.Android.Resource.Color.design_fab_shadow_end_color = global::CreditCardUISample.Droid.Resource.Color.design_fab_shadow_end_color;
+			global::PayPal.Forms.Android.Resource.Color.design_fab_shadow_mid_color = global::CreditCardUISample.Droid.Resource.Color.design_fab_shadow_mid_color;
+			global::PayPal.Forms.Android.Resource.Color.design_fab_shadow_start_color = global::CreditCardUISample.Droid.Resource.Color.design_fab_shadow_start_color;
+			global::PayPal.Forms.Android.Resource.Color.design_fab_stroke_end_inner_color = global::CreditCardUISample.Droid.Resource.Color.design_fab_stroke_end_inner_color;
+			global::PayPal.Forms.Android.Resource.Color.design_fab_stroke_end_outer_color = global::CreditCardUISample.Droid.Resource.Color.design_fab_stroke_end_outer_color;
+			global::PayPal.Forms.Android.Resource.Color.design_fab_stroke_top_inner_color = global::CreditCardUISample.Droid.Resource.Color.design_fab_stroke_top_inner_color;
+			global::PayPal.Forms.Android.Resource.Color.design_fab_stroke_top_outer_color = global::CreditCardUISample.Droid.Resource.Color.design_fab_stroke_top_outer_color;
+			global::PayPal.Forms.Android.Resource.Color.design_snackbar_background_color = global::CreditCardUISample.Droid.Resource.Color.design_snackbar_background_color;
+			global::PayPal.Forms.Android.Resource.Color.design_tint_password_toggle = global::CreditCardUISample.Droid.Resource.Color.design_tint_password_toggle;
+			global::PayPal.Forms.Android.Resource.Color.dim_foreground_disabled_material_dark = global::CreditCardUISample.Droid.Resource.Color.dim_foreground_disabled_material_dark;
+			global::PayPal.Forms.Android.Resource.Color.dim_foreground_disabled_material_light = global::CreditCardUISample.Droid.Resource.Color.dim_foreground_disabled_material_light;
+			global::PayPal.Forms.Android.Resource.Color.dim_foreground_material_dark = global::CreditCardUISample.Droid.Resource.Color.dim_foreground_material_dark;
+			global::PayPal.Forms.Android.Resource.Color.dim_foreground_material_light = global::CreditCardUISample.Droid.Resource.Color.dim_foreground_material_light;
+			global::PayPal.Forms.Android.Resource.Color.foreground_material_dark = global::CreditCardUISample.Droid.Resource.Color.foreground_material_dark;
+			global::PayPal.Forms.Android.Resource.Color.foreground_material_light = global::CreditCardUISample.Droid.Resource.Color.foreground_material_light;
+			global::PayPal.Forms.Android.Resource.Color.highlighted_text_material_dark = global::CreditCardUISample.Droid.Resource.Color.highlighted_text_material_dark;
+			global::PayPal.Forms.Android.Resource.Color.highlighted_text_material_light = global::CreditCardUISample.Droid.Resource.Color.highlighted_text_material_light;
+			global::PayPal.Forms.Android.Resource.Color.material_blue_grey_800 = global::CreditCardUISample.Droid.Resource.Color.material_blue_grey_800;
+			global::PayPal.Forms.Android.Resource.Color.material_blue_grey_900 = global::CreditCardUISample.Droid.Resource.Color.material_blue_grey_900;
+			global::PayPal.Forms.Android.Resource.Color.material_blue_grey_950 = global::CreditCardUISample.Droid.Resource.Color.material_blue_grey_950;
+			global::PayPal.Forms.Android.Resource.Color.material_deep_teal_200 = global::CreditCardUISample.Droid.Resource.Color.material_deep_teal_200;
+			global::PayPal.Forms.Android.Resource.Color.material_deep_teal_500 = global::CreditCardUISample.Droid.Resource.Color.material_deep_teal_500;
+			global::PayPal.Forms.Android.Resource.Color.material_grey_100 = global::CreditCardUISample.Droid.Resource.Color.material_grey_100;
+			global::PayPal.Forms.Android.Resource.Color.material_grey_300 = global::CreditCardUISample.Droid.Resource.Color.material_grey_300;
+			global::PayPal.Forms.Android.Resource.Color.material_grey_50 = global::CreditCardUISample.Droid.Resource.Color.material_grey_50;
+			global::PayPal.Forms.Android.Resource.Color.material_grey_600 = global::CreditCardUISample.Droid.Resource.Color.material_grey_600;
+			global::PayPal.Forms.Android.Resource.Color.material_grey_800 = global::CreditCardUISample.Droid.Resource.Color.material_grey_800;
+			global::PayPal.Forms.Android.Resource.Color.material_grey_850 = global::CreditCardUISample.Droid.Resource.Color.material_grey_850;
+			global::PayPal.Forms.Android.Resource.Color.material_grey_900 = global::CreditCardUISample.Droid.Resource.Color.material_grey_900;
+			global::PayPal.Forms.Android.Resource.Color.notification_action_color_filter = global::CreditCardUISample.Droid.Resource.Color.notification_action_color_filter;
+			global::PayPal.Forms.Android.Resource.Color.notification_icon_bg_color = global::CreditCardUISample.Droid.Resource.Color.notification_icon_bg_color;
+			global::PayPal.Forms.Android.Resource.Color.notification_material_background_media_default_color = global::CreditCardUISample.Droid.Resource.Color.notification_material_background_media_default_color;
+			global::PayPal.Forms.Android.Resource.Color.primary_dark_material_dark = global::CreditCardUISample.Droid.Resource.Color.primary_dark_material_dark;
+			global::PayPal.Forms.Android.Resource.Color.primary_dark_material_light = global::CreditCardUISample.Droid.Resource.Color.primary_dark_material_light;
+			global::PayPal.Forms.Android.Resource.Color.primary_material_dark = global::CreditCardUISample.Droid.Resource.Color.primary_material_dark;
+			global::PayPal.Forms.Android.Resource.Color.primary_material_light = global::CreditCardUISample.Droid.Resource.Color.primary_material_light;
+			global::PayPal.Forms.Android.Resource.Color.primary_text_default_material_dark = global::CreditCardUISample.Droid.Resource.Color.primary_text_default_material_dark;
+			global::PayPal.Forms.Android.Resource.Color.primary_text_default_material_light = global::CreditCardUISample.Droid.Resource.Color.primary_text_default_material_light;
+			global::PayPal.Forms.Android.Resource.Color.primary_text_disabled_material_dark = global::CreditCardUISample.Droid.Resource.Color.primary_text_disabled_material_dark;
+			global::PayPal.Forms.Android.Resource.Color.primary_text_disabled_material_light = global::CreditCardUISample.Droid.Resource.Color.primary_text_disabled_material_light;
+			global::PayPal.Forms.Android.Resource.Color.ripple_material_dark = global::CreditCardUISample.Droid.Resource.Color.ripple_material_dark;
+			global::PayPal.Forms.Android.Resource.Color.ripple_material_light = global::CreditCardUISample.Droid.Resource.Color.ripple_material_light;
+			global::PayPal.Forms.Android.Resource.Color.secondary_text_default_material_dark = global::CreditCardUISample.Droid.Resource.Color.secondary_text_default_material_dark;
+			global::PayPal.Forms.Android.Resource.Color.secondary_text_default_material_light = global::CreditCardUISample.Droid.Resource.Color.secondary_text_default_material_light;
+			global::PayPal.Forms.Android.Resource.Color.secondary_text_disabled_material_dark = global::CreditCardUISample.Droid.Resource.Color.secondary_text_disabled_material_dark;
+			global::PayPal.Forms.Android.Resource.Color.secondary_text_disabled_material_light = global::CreditCardUISample.Droid.Resource.Color.secondary_text_disabled_material_light;
+			global::PayPal.Forms.Android.Resource.Color.switch_thumb_disabled_material_dark = global::CreditCardUISample.Droid.Resource.Color.switch_thumb_disabled_material_dark;
+			global::PayPal.Forms.Android.Resource.Color.switch_thumb_disabled_material_light = global::CreditCardUISample.Droid.Resource.Color.switch_thumb_disabled_material_light;
+			global::PayPal.Forms.Android.Resource.Color.switch_thumb_material_dark = global::CreditCardUISample.Droid.Resource.Color.switch_thumb_material_dark;
+			global::PayPal.Forms.Android.Resource.Color.switch_thumb_material_light = global::CreditCardUISample.Droid.Resource.Color.switch_thumb_material_light;
+			global::PayPal.Forms.Android.Resource.Color.switch_thumb_normal_material_dark = global::CreditCardUISample.Droid.Resource.Color.switch_thumb_normal_material_dark;
+			global::PayPal.Forms.Android.Resource.Color.switch_thumb_normal_material_light = global::CreditCardUISample.Droid.Resource.Color.switch_thumb_normal_material_light;
+			global::PayPal.Forms.Android.Resource.Dimension.abc_action_bar_content_inset_material = global::CreditCardUISample.Droid.Resource.Dimension.abc_action_bar_content_inset_material;
+			global::PayPal.Forms.Android.Resource.Dimension.abc_action_bar_content_inset_with_nav = global::CreditCardUISample.Droid.Resource.Dimension.abc_action_bar_content_inset_with_nav;
+			global::PayPal.Forms.Android.Resource.Dimension.abc_action_bar_default_height_material = global::CreditCardUISample.Droid.Resource.Dimension.abc_action_bar_default_height_material;
+			global::PayPal.Forms.Android.Resource.Dimension.abc_action_bar_default_padding_end_material = global::CreditCardUISample.Droid.Resource.Dimension.abc_action_bar_default_padding_end_material;
+			global::PayPal.Forms.Android.Resource.Dimension.abc_action_bar_default_padding_start_material = global::CreditCardUISample.Droid.Resource.Dimension.abc_action_bar_default_padding_start_material;
+			global::PayPal.Forms.Android.Resource.Dimension.abc_action_bar_elevation_material = global::CreditCardUISample.Droid.Resource.Dimension.abc_action_bar_elevation_material;
+			global::PayPal.Forms.Android.Resource.Dimension.abc_action_bar_icon_vertical_padding_material = global::CreditCardUISample.Droid.Resource.Dimension.abc_action_bar_icon_vertical_padding_material;
+			global::PayPal.Forms.Android.Resource.Dimension.abc_action_bar_overflow_padding_end_material = global::CreditCardUISample.Droid.Resource.Dimension.abc_action_bar_overflow_padding_end_material;
+			global::PayPal.Forms.Android.Resource.Dimension.abc_action_bar_overflow_padding_start_material = global::CreditCardUISample.Droid.Resource.Dimension.abc_action_bar_overflow_padding_start_material;
+			global::PayPal.Forms.Android.Resource.Dimension.abc_action_bar_stacked_max_height = global::CreditCardUISample.Droid.Resource.Dimension.abc_action_bar_stacked_max_height;
+			global::PayPal.Forms.Android.Resource.Dimension.abc_action_bar_stacked_tab_max_width = global::CreditCardUISample.Droid.Resource.Dimension.abc_action_bar_stacked_tab_max_width;
+			global::PayPal.Forms.Android.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material = global::CreditCardUISample.Droid.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material;
+			global::PayPal.Forms.Android.Resource.Dimension.abc_action_bar_subtitle_top_margin_material = global::CreditCardUISample.Droid.Resource.Dimension.abc_action_bar_subtitle_top_margin_material;
+			global::PayPal.Forms.Android.Resource.Dimension.abc_action_button_min_height_material = global::CreditCardUISample.Droid.Resource.Dimension.abc_action_button_min_height_material;
+			global::PayPal.Forms.Android.Resource.Dimension.abc_action_button_min_width_material = global::CreditCardUISample.Droid.Resource.Dimension.abc_action_button_min_width_material;
+			global::PayPal.Forms.Android.Resource.Dimension.abc_action_button_min_width_overflow_material = global::CreditCardUISample.Droid.Resource.Dimension.abc_action_button_min_width_overflow_material;
+			global::PayPal.Forms.Android.Resource.Dimension.abc_alert_dialog_button_bar_height = global::CreditCardUISample.Droid.Resource.Dimension.abc_alert_dialog_button_bar_height;
+			global::PayPal.Forms.Android.Resource.Dimension.abc_button_inset_horizontal_material = global::CreditCardUISample.Droid.Resource.Dimension.abc_button_inset_horizontal_material;
+			global::PayPal.Forms.Android.Resource.Dimension.abc_button_inset_vertical_material = global::CreditCardUISample.Droid.Resource.Dimension.abc_button_inset_vertical_material;
+			global::PayPal.Forms.Android.Resource.Dimension.abc_button_padding_horizontal_material = global::CreditCardUISample.Droid.Resource.Dimension.abc_button_padding_horizontal_material;
+			global::PayPal.Forms.Android.Resource.Dimension.abc_button_padding_vertical_material = global::CreditCardUISample.Droid.Resource.Dimension.abc_button_padding_vertical_material;
+			global::PayPal.Forms.Android.Resource.Dimension.abc_cascading_menus_min_smallest_width = global::CreditCardUISample.Droid.Resource.Dimension.abc_cascading_menus_min_smallest_width;
+			global::PayPal.Forms.Android.Resource.Dimension.abc_config_prefDialogWidth = global::CreditCardUISample.Droid.Resource.Dimension.abc_config_prefDialogWidth;
+			global::PayPal.Forms.Android.Resource.Dimension.abc_control_corner_material = global::CreditCardUISample.Droid.Resource.Dimension.abc_control_corner_material;
+			global::PayPal.Forms.Android.Resource.Dimension.abc_control_inset_material = global::CreditCardUISample.Droid.Resource.Dimension.abc_control_inset_material;
+			global::PayPal.Forms.Android.Resource.Dimension.abc_control_padding_material = global::CreditCardUISample.Droid.Resource.Dimension.abc_control_padding_material;
+			global::PayPal.Forms.Android.Resource.Dimension.abc_dialog_fixed_height_major = global::CreditCardUISample.Droid.Resource.Dimension.abc_dialog_fixed_height_major;
+			global::PayPal.Forms.Android.Resource.Dimension.abc_dialog_fixed_height_minor = global::CreditCardUISample.Droid.Resource.Dimension.abc_dialog_fixed_height_minor;
+			global::PayPal.Forms.Android.Resource.Dimension.abc_dialog_fixed_width_major = global::CreditCardUISample.Droid.Resource.Dimension.abc_dialog_fixed_width_major;
+			global::PayPal.Forms.Android.Resource.Dimension.abc_dialog_fixed_width_minor = global::CreditCardUISample.Droid.Resource.Dimension.abc_dialog_fixed_width_minor;
+			global::PayPal.Forms.Android.Resource.Dimension.abc_dialog_list_padding_bottom_no_buttons = global::CreditCardUISample.Droid.Resource.Dimension.abc_dialog_list_padding_bottom_no_buttons;
+			global::PayPal.Forms.Android.Resource.Dimension.abc_dialog_list_padding_top_no_title = global::CreditCardUISample.Droid.Resource.Dimension.abc_dialog_list_padding_top_no_title;
+			global::PayPal.Forms.Android.Resource.Dimension.abc_dialog_min_width_major = global::CreditCardUISample.Droid.Resource.Dimension.abc_dialog_min_width_major;
+			global::PayPal.Forms.Android.Resource.Dimension.abc_dialog_min_width_minor = global::CreditCardUISample.Droid.Resource.Dimension.abc_dialog_min_width_minor;
+			global::PayPal.Forms.Android.Resource.Dimension.abc_dialog_padding_material = global::CreditCardUISample.Droid.Resource.Dimension.abc_dialog_padding_material;
+			global::PayPal.Forms.Android.Resource.Dimension.abc_dialog_padding_top_material = global::CreditCardUISample.Droid.Resource.Dimension.abc_dialog_padding_top_material;
+			global::PayPal.Forms.Android.Resource.Dimension.abc_dialog_title_divider_material = global::CreditCardUISample.Droid.Resource.Dimension.abc_dialog_title_divider_material;
+			global::PayPal.Forms.Android.Resource.Dimension.abc_disabled_alpha_material_dark = global::CreditCardUISample.Droid.Resource.Dimension.abc_disabled_alpha_material_dark;
+			global::PayPal.Forms.Android.Resource.Dimension.abc_disabled_alpha_material_light = global::CreditCardUISample.Droid.Resource.Dimension.abc_disabled_alpha_material_light;
+			global::PayPal.Forms.Android.Resource.Dimension.abc_dropdownitem_icon_width = global::CreditCardUISample.Droid.Resource.Dimension.abc_dropdownitem_icon_width;
+			global::PayPal.Forms.Android.Resource.Dimension.abc_dropdownitem_text_padding_left = global::CreditCardUISample.Droid.Resource.Dimension.abc_dropdownitem_text_padding_left;
+			global::PayPal.Forms.Android.Resource.Dimension.abc_dropdownitem_text_padding_right = global::CreditCardUISample.Droid.Resource.Dimension.abc_dropdownitem_text_padding_right;
+			global::PayPal.Forms.Android.Resource.Dimension.abc_edit_text_inset_bottom_material = global::CreditCardUISample.Droid.Resource.Dimension.abc_edit_text_inset_bottom_material;
+			global::PayPal.Forms.Android.Resource.Dimension.abc_edit_text_inset_horizontal_material = global::CreditCardUISample.Droid.Resource.Dimension.abc_edit_text_inset_horizontal_material;
+			global::PayPal.Forms.Android.Resource.Dimension.abc_edit_text_inset_top_material = global::CreditCardUISample.Droid.Resource.Dimension.abc_edit_text_inset_top_material;
+			global::PayPal.Forms.Android.Resource.Dimension.abc_floating_window_z = global::CreditCardUISample.Droid.Resource.Dimension.abc_floating_window_z;
+			global::PayPal.Forms.Android.Resource.Dimension.abc_list_item_padding_horizontal_material = global::CreditCardUISample.Droid.Resource.Dimension.abc_list_item_padding_horizontal_material;
+			global::PayPal.Forms.Android.Resource.Dimension.abc_panel_menu_list_width = global::CreditCardUISample.Droid.Resource.Dimension.abc_panel_menu_list_width;
+			global::PayPal.Forms.Android.Resource.Dimension.abc_progress_bar_height_material = global::CreditCardUISample.Droid.Resource.Dimension.abc_progress_bar_height_material;
+			global::PayPal.Forms.Android.Resource.Dimension.abc_search_view_preferred_height = global::CreditCardUISample.Droid.Resource.Dimension.abc_search_view_preferred_height;
+			global::PayPal.Forms.Android.Resource.Dimension.abc_search_view_preferred_width = global::CreditCardUISample.Droid.Resource.Dimension.abc_search_view_preferred_width;
+			global::PayPal.Forms.Android.Resource.Dimension.abc_seekbar_track_background_height_material = global::CreditCardUISample.Droid.Resource.Dimension.abc_seekbar_track_background_height_material;
+			global::PayPal.Forms.Android.Resource.Dimension.abc_seekbar_track_progress_height_material = global::CreditCardUISample.Droid.Resource.Dimension.abc_seekbar_track_progress_height_material;
+			global::PayPal.Forms.Android.Resource.Dimension.abc_select_dialog_padding_start_material = global::CreditCardUISample.Droid.Resource.Dimension.abc_select_dialog_padding_start_material;
+			global::PayPal.Forms.Android.Resource.Dimension.abc_switch_padding = global::CreditCardUISample.Droid.Resource.Dimension.abc_switch_padding;
+			global::PayPal.Forms.Android.Resource.Dimension.abc_text_size_body_1_material = global::CreditCardUISample.Droid.Resource.Dimension.abc_text_size_body_1_material;
+			global::PayPal.Forms.Android.Resource.Dimension.abc_text_size_body_2_material = global::CreditCardUISample.Droid.Resource.Dimension.abc_text_size_body_2_material;
+			global::PayPal.Forms.Android.Resource.Dimension.abc_text_size_button_material = global::CreditCardUISample.Droid.Resource.Dimension.abc_text_size_button_material;
+			global::PayPal.Forms.Android.Resource.Dimension.abc_text_size_caption_material = global::CreditCardUISample.Droid.Resource.Dimension.abc_text_size_caption_material;
+			global::PayPal.Forms.Android.Resource.Dimension.abc_text_size_display_1_material = global::CreditCardUISample.Droid.Resource.Dimension.abc_text_size_display_1_material;
+			global::PayPal.Forms.Android.Resource.Dimension.abc_text_size_display_2_material = global::CreditCardUISample.Droid.Resource.Dimension.abc_text_size_display_2_material;
+			global::PayPal.Forms.Android.Resource.Dimension.abc_text_size_display_3_material = global::CreditCardUISample.Droid.Resource.Dimension.abc_text_size_display_3_material;
+			global::PayPal.Forms.Android.Resource.Dimension.abc_text_size_display_4_material = global::CreditCardUISample.Droid.Resource.Dimension.abc_text_size_display_4_material;
+			global::PayPal.Forms.Android.Resource.Dimension.abc_text_size_headline_material = global::CreditCardUISample.Droid.Resource.Dimension.abc_text_size_headline_material;
+			global::PayPal.Forms.Android.Resource.Dimension.abc_text_size_large_material = global::CreditCardUISample.Droid.Resource.Dimension.abc_text_size_large_material;
+			global::PayPal.Forms.Android.Resource.Dimension.abc_text_size_medium_material = global::CreditCardUISample.Droid.Resource.Dimension.abc_text_size_medium_material;
+			global::PayPal.Forms.Android.Resource.Dimension.abc_text_size_menu_header_material = global::CreditCardUISample.Droid.Resource.Dimension.abc_text_size_menu_header_material;
+			global::PayPal.Forms.Android.Resource.Dimension.abc_text_size_menu_material = global::CreditCardUISample.Droid.Resource.Dimension.abc_text_size_menu_material;
+			global::PayPal.Forms.Android.Resource.Dimension.abc_text_size_small_material = global::CreditCardUISample.Droid.Resource.Dimension.abc_text_size_small_material;
+			global::PayPal.Forms.Android.Resource.Dimension.abc_text_size_subhead_material = global::CreditCardUISample.Droid.Resource.Dimension.abc_text_size_subhead_material;
+			global::PayPal.Forms.Android.Resource.Dimension.abc_text_size_subtitle_material_toolbar = global::CreditCardUISample.Droid.Resource.Dimension.abc_text_size_subtitle_material_toolbar;
+			global::PayPal.Forms.Android.Resource.Dimension.abc_text_size_title_material = global::CreditCardUISample.Droid.Resource.Dimension.abc_text_size_title_material;
+			global::PayPal.Forms.Android.Resource.Dimension.abc_text_size_title_material_toolbar = global::CreditCardUISample.Droid.Resource.Dimension.abc_text_size_title_material_toolbar;
+			global::PayPal.Forms.Android.Resource.Dimension.cardview_compat_inset_shadow = global::CreditCardUISample.Droid.Resource.Dimension.cardview_compat_inset_shadow;
+			global::PayPal.Forms.Android.Resource.Dimension.cardview_default_elevation = global::CreditCardUISample.Droid.Resource.Dimension.cardview_default_elevation;
+			global::PayPal.Forms.Android.Resource.Dimension.cardview_default_radius = global::CreditCardUISample.Droid.Resource.Dimension.cardview_default_radius;
+			global::PayPal.Forms.Android.Resource.Dimension.design_appbar_elevation = global::CreditCardUISample.Droid.Resource.Dimension.design_appbar_elevation;
+			global::PayPal.Forms.Android.Resource.Dimension.design_bottom_navigation_active_item_max_width = global::CreditCardUISample.Droid.Resource.Dimension.design_bottom_navigation_active_item_max_width;
+			global::PayPal.Forms.Android.Resource.Dimension.design_bottom_navigation_active_text_size = global::CreditCardUISample.Droid.Resource.Dimension.design_bottom_navigation_active_text_size;
+			global::PayPal.Forms.Android.Resource.Dimension.design_bottom_navigation_elevation = global::CreditCardUISample.Droid.Resource.Dimension.design_bottom_navigation_elevation;
+			global::PayPal.Forms.Android.Resource.Dimension.design_bottom_navigation_height = global::CreditCardUISample.Droid.Resource.Dimension.design_bottom_navigation_height;
+			global::PayPal.Forms.Android.Resource.Dimension.design_bottom_navigation_item_max_width = global::CreditCardUISample.Droid.Resource.Dimension.design_bottom_navigation_item_max_width;
+			global::PayPal.Forms.Android.Resource.Dimension.design_bottom_navigation_item_min_width = global::CreditCardUISample.Droid.Resource.Dimension.design_bottom_navigation_item_min_width;
+			global::PayPal.Forms.Android.Resource.Dimension.design_bottom_navigation_margin = global::CreditCardUISample.Droid.Resource.Dimension.design_bottom_navigation_margin;
+			global::PayPal.Forms.Android.Resource.Dimension.design_bottom_navigation_shadow_height = global::CreditCardUISample.Droid.Resource.Dimension.design_bottom_navigation_shadow_height;
+			global::PayPal.Forms.Android.Resource.Dimension.design_bottom_navigation_text_size = global::CreditCardUISample.Droid.Resource.Dimension.design_bottom_navigation_text_size;
+			global::PayPal.Forms.Android.Resource.Dimension.design_bottom_sheet_modal_elevation = global::CreditCardUISample.Droid.Resource.Dimension.design_bottom_sheet_modal_elevation;
+			global::PayPal.Forms.Android.Resource.Dimension.design_bottom_sheet_peek_height_min = global::CreditCardUISample.Droid.Resource.Dimension.design_bottom_sheet_peek_height_min;
+			global::PayPal.Forms.Android.Resource.Dimension.design_fab_border_width = global::CreditCardUISample.Droid.Resource.Dimension.design_fab_border_width;
+			global::PayPal.Forms.Android.Resource.Dimension.design_fab_elevation = global::CreditCardUISample.Droid.Resource.Dimension.design_fab_elevation;
+			global::PayPal.Forms.Android.Resource.Dimension.design_fab_image_size = global::CreditCardUISample.Droid.Resource.Dimension.design_fab_image_size;
+			global::PayPal.Forms.Android.Resource.Dimension.design_fab_size_mini = global::CreditCardUISample.Droid.Resource.Dimension.design_fab_size_mini;
+			global::PayPal.Forms.Android.Resource.Dimension.design_fab_size_normal = global::CreditCardUISample.Droid.Resource.Dimension.design_fab_size_normal;
+			global::PayPal.Forms.Android.Resource.Dimension.design_fab_translation_z_pressed = global::CreditCardUISample.Droid.Resource.Dimension.design_fab_translation_z_pressed;
+			global::PayPal.Forms.Android.Resource.Dimension.design_navigation_elevation = global::CreditCardUISample.Droid.Resource.Dimension.design_navigation_elevation;
+			global::PayPal.Forms.Android.Resource.Dimension.design_navigation_icon_padding = global::CreditCardUISample.Droid.Resource.Dimension.design_navigation_icon_padding;
+			global::PayPal.Forms.Android.Resource.Dimension.design_navigation_icon_size = global::CreditCardUISample.Droid.Resource.Dimension.design_navigation_icon_size;
+			global::PayPal.Forms.Android.Resource.Dimension.design_navigation_max_width = global::CreditCardUISample.Droid.Resource.Dimension.design_navigation_max_width;
+			global::PayPal.Forms.Android.Resource.Dimension.design_navigation_padding_bottom = global::CreditCardUISample.Droid.Resource.Dimension.design_navigation_padding_bottom;
+			global::PayPal.Forms.Android.Resource.Dimension.design_navigation_separator_vertical_padding = global::CreditCardUISample.Droid.Resource.Dimension.design_navigation_separator_vertical_padding;
+			global::PayPal.Forms.Android.Resource.Dimension.design_snackbar_action_inline_max_width = global::CreditCardUISample.Droid.Resource.Dimension.design_snackbar_action_inline_max_width;
+			global::PayPal.Forms.Android.Resource.Dimension.design_snackbar_background_corner_radius = global::CreditCardUISample.Droid.Resource.Dimension.design_snackbar_background_corner_radius;
+			global::PayPal.Forms.Android.Resource.Dimension.design_snackbar_elevation = global::CreditCardUISample.Droid.Resource.Dimension.design_snackbar_elevation;
+			global::PayPal.Forms.Android.Resource.Dimension.design_snackbar_extra_spacing_horizontal = global::CreditCardUISample.Droid.Resource.Dimension.design_snackbar_extra_spacing_horizontal;
+			global::PayPal.Forms.Android.Resource.Dimension.design_snackbar_max_width = global::CreditCardUISample.Droid.Resource.Dimension.design_snackbar_max_width;
+			global::PayPal.Forms.Android.Resource.Dimension.design_snackbar_min_width = global::CreditCardUISample.Droid.Resource.Dimension.design_snackbar_min_width;
+			global::PayPal.Forms.Android.Resource.Dimension.design_snackbar_padding_horizontal = global::CreditCardUISample.Droid.Resource.Dimension.design_snackbar_padding_horizontal;
+			global::PayPal.Forms.Android.Resource.Dimension.design_snackbar_padding_vertical = global::CreditCardUISample.Droid.Resource.Dimension.design_snackbar_padding_vertical;
+			global::PayPal.Forms.Android.Resource.Dimension.design_snackbar_padding_vertical_2lines = global::CreditCardUISample.Droid.Resource.Dimension.design_snackbar_padding_vertical_2lines;
+			global::PayPal.Forms.Android.Resource.Dimension.design_snackbar_text_size = global::CreditCardUISample.Droid.Resource.Dimension.design_snackbar_text_size;
+			global::PayPal.Forms.Android.Resource.Dimension.design_tab_max_width = global::CreditCardUISample.Droid.Resource.Dimension.design_tab_max_width;
+			global::PayPal.Forms.Android.Resource.Dimension.design_tab_scrollable_min_width = global::CreditCardUISample.Droid.Resource.Dimension.design_tab_scrollable_min_width;
+			global::PayPal.Forms.Android.Resource.Dimension.design_tab_text_size = global::CreditCardUISample.Droid.Resource.Dimension.design_tab_text_size;
+			global::PayPal.Forms.Android.Resource.Dimension.design_tab_text_size_2line = global::CreditCardUISample.Droid.Resource.Dimension.design_tab_text_size_2line;
+			global::PayPal.Forms.Android.Resource.Dimension.disabled_alpha_material_dark = global::CreditCardUISample.Droid.Resource.Dimension.disabled_alpha_material_dark;
+			global::PayPal.Forms.Android.Resource.Dimension.disabled_alpha_material_light = global::CreditCardUISample.Droid.Resource.Dimension.disabled_alpha_material_light;
+			global::PayPal.Forms.Android.Resource.Dimension.highlight_alpha_material_colored = global::CreditCardUISample.Droid.Resource.Dimension.highlight_alpha_material_colored;
+			global::PayPal.Forms.Android.Resource.Dimension.highlight_alpha_material_dark = global::CreditCardUISample.Droid.Resource.Dimension.highlight_alpha_material_dark;
+			global::PayPal.Forms.Android.Resource.Dimension.highlight_alpha_material_light = global::CreditCardUISample.Droid.Resource.Dimension.highlight_alpha_material_light;
+			global::PayPal.Forms.Android.Resource.Dimension.hint_alpha_material_dark = global::CreditCardUISample.Droid.Resource.Dimension.hint_alpha_material_dark;
+			global::PayPal.Forms.Android.Resource.Dimension.hint_alpha_material_light = global::CreditCardUISample.Droid.Resource.Dimension.hint_alpha_material_light;
+			global::PayPal.Forms.Android.Resource.Dimension.hint_pressed_alpha_material_dark = global::CreditCardUISample.Droid.Resource.Dimension.hint_pressed_alpha_material_dark;
+			global::PayPal.Forms.Android.Resource.Dimension.hint_pressed_alpha_material_light = global::CreditCardUISample.Droid.Resource.Dimension.hint_pressed_alpha_material_light;
+			global::PayPal.Forms.Android.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame = global::CreditCardUISample.Droid.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame;
+			global::PayPal.Forms.Android.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity = global::CreditCardUISample.Droid.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity;
+			global::PayPal.Forms.Android.Resource.Dimension.item_touch_helper_swipe_escape_velocity = global::CreditCardUISample.Droid.Resource.Dimension.item_touch_helper_swipe_escape_velocity;
+			global::PayPal.Forms.Android.Resource.Dimension.mr_controller_volume_group_list_item_height = global::CreditCardUISample.Droid.Resource.Dimension.mr_controller_volume_group_list_item_height;
+			global::PayPal.Forms.Android.Resource.Dimension.mr_controller_volume_group_list_item_icon_size = global::CreditCardUISample.Droid.Resource.Dimension.mr_controller_volume_group_list_item_icon_size;
+			global::PayPal.Forms.Android.Resource.Dimension.mr_controller_volume_group_list_max_height = global::CreditCardUISample.Droid.Resource.Dimension.mr_controller_volume_group_list_max_height;
+			global::PayPal.Forms.Android.Resource.Dimension.mr_controller_volume_group_list_padding_top = global::CreditCardUISample.Droid.Resource.Dimension.mr_controller_volume_group_list_padding_top;
+			global::PayPal.Forms.Android.Resource.Dimension.mr_dialog_fixed_width_major = global::CreditCardUISample.Droid.Resource.Dimension.mr_dialog_fixed_width_major;
+			global::PayPal.Forms.Android.Resource.Dimension.mr_dialog_fixed_width_minor = global::CreditCardUISample.Droid.Resource.Dimension.mr_dialog_fixed_width_minor;
+			global::PayPal.Forms.Android.Resource.Dimension.notification_action_icon_size = global::CreditCardUISample.Droid.Resource.Dimension.notification_action_icon_size;
+			global::PayPal.Forms.Android.Resource.Dimension.notification_action_text_size = global::CreditCardUISample.Droid.Resource.Dimension.notification_action_text_size;
+			global::PayPal.Forms.Android.Resource.Dimension.notification_big_circle_margin = global::CreditCardUISample.Droid.Resource.Dimension.notification_big_circle_margin;
+			global::PayPal.Forms.Android.Resource.Dimension.notification_content_margin_start = global::CreditCardUISample.Droid.Resource.Dimension.notification_content_margin_start;
+			global::PayPal.Forms.Android.Resource.Dimension.notification_large_icon_height = global::CreditCardUISample.Droid.Resource.Dimension.notification_large_icon_height;
+			global::PayPal.Forms.Android.Resource.Dimension.notification_large_icon_width = global::CreditCardUISample.Droid.Resource.Dimension.notification_large_icon_width;
+			global::PayPal.Forms.Android.Resource.Dimension.notification_main_column_padding_top = global::CreditCardUISample.Droid.Resource.Dimension.notification_main_column_padding_top;
+			global::PayPal.Forms.Android.Resource.Dimension.notification_media_narrow_margin = global::CreditCardUISample.Droid.Resource.Dimension.notification_media_narrow_margin;
+			global::PayPal.Forms.Android.Resource.Dimension.notification_right_icon_size = global::CreditCardUISample.Droid.Resource.Dimension.notification_right_icon_size;
+			global::PayPal.Forms.Android.Resource.Dimension.notification_right_side_padding_top = global::CreditCardUISample.Droid.Resource.Dimension.notification_right_side_padding_top;
+			global::PayPal.Forms.Android.Resource.Dimension.notification_small_icon_background_padding = global::CreditCardUISample.Droid.Resource.Dimension.notification_small_icon_background_padding;
+			global::PayPal.Forms.Android.Resource.Dimension.notification_small_icon_size_as_large = global::CreditCardUISample.Droid.Resource.Dimension.notification_small_icon_size_as_large;
+			global::PayPal.Forms.Android.Resource.Dimension.notification_subtext_size = global::CreditCardUISample.Droid.Resource.Dimension.notification_subtext_size;
+			global::PayPal.Forms.Android.Resource.Dimension.notification_top_pad = global::CreditCardUISample.Droid.Resource.Dimension.notification_top_pad;
+			global::PayPal.Forms.Android.Resource.Dimension.notification_top_pad_large_text = global::CreditCardUISample.Droid.Resource.Dimension.notification_top_pad_large_text;
+			global::PayPal.Forms.Android.Resource.Drawable.abc_ab_share_pack_mtrl_alpha = global::CreditCardUISample.Droid.Resource.Drawable.abc_ab_share_pack_mtrl_alpha;
+			global::PayPal.Forms.Android.Resource.Drawable.abc_action_bar_item_background_material = global::CreditCardUISample.Droid.Resource.Drawable.abc_action_bar_item_background_material;
+			global::PayPal.Forms.Android.Resource.Drawable.abc_btn_borderless_material = global::CreditCardUISample.Droid.Resource.Drawable.abc_btn_borderless_material;
+			global::PayPal.Forms.Android.Resource.Drawable.abc_btn_check_material = global::CreditCardUISample.Droid.Resource.Drawable.abc_btn_check_material;
+			global::PayPal.Forms.Android.Resource.Drawable.abc_btn_check_to_on_mtrl_000 = global::CreditCardUISample.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_000;
+			global::PayPal.Forms.Android.Resource.Drawable.abc_btn_check_to_on_mtrl_015 = global::CreditCardUISample.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_015;
+			global::PayPal.Forms.Android.Resource.Drawable.abc_btn_colored_material = global::CreditCardUISample.Droid.Resource.Drawable.abc_btn_colored_material;
+			global::PayPal.Forms.Android.Resource.Drawable.abc_btn_default_mtrl_shape = global::CreditCardUISample.Droid.Resource.Drawable.abc_btn_default_mtrl_shape;
+			global::PayPal.Forms.Android.Resource.Drawable.abc_btn_radio_material = global::CreditCardUISample.Droid.Resource.Drawable.abc_btn_radio_material;
+			global::PayPal.Forms.Android.Resource.Drawable.abc_btn_radio_to_on_mtrl_000 = global::CreditCardUISample.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_000;
+			global::PayPal.Forms.Android.Resource.Drawable.abc_btn_radio_to_on_mtrl_015 = global::CreditCardUISample.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_015;
+			global::PayPal.Forms.Android.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001 = global::CreditCardUISample.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001;
+			global::PayPal.Forms.Android.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012 = global::CreditCardUISample.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012;
+			global::PayPal.Forms.Android.Resource.Drawable.abc_cab_background_internal_bg = global::CreditCardUISample.Droid.Resource.Drawable.abc_cab_background_internal_bg;
+			global::PayPal.Forms.Android.Resource.Drawable.abc_cab_background_top_material = global::CreditCardUISample.Droid.Resource.Drawable.abc_cab_background_top_material;
+			global::PayPal.Forms.Android.Resource.Drawable.abc_cab_background_top_mtrl_alpha = global::CreditCardUISample.Droid.Resource.Drawable.abc_cab_background_top_mtrl_alpha;
+			global::PayPal.Forms.Android.Resource.Drawable.abc_control_background_material = global::CreditCardUISample.Droid.Resource.Drawable.abc_control_background_material;
+			global::PayPal.Forms.Android.Resource.Drawable.abc_dialog_material_background = global::CreditCardUISample.Droid.Resource.Drawable.abc_dialog_material_background;
+			global::PayPal.Forms.Android.Resource.Drawable.abc_edit_text_material = global::CreditCardUISample.Droid.Resource.Drawable.abc_edit_text_material;
+			global::PayPal.Forms.Android.Resource.Drawable.abc_ic_ab_back_material = global::CreditCardUISample.Droid.Resource.Drawable.abc_ic_ab_back_material;
+			global::PayPal.Forms.Android.Resource.Drawable.abc_ic_arrow_drop_right_black_24dp = global::CreditCardUISample.Droid.Resource.Drawable.abc_ic_arrow_drop_right_black_24dp;
+			global::PayPal.Forms.Android.Resource.Drawable.abc_ic_clear_material = global::CreditCardUISample.Droid.Resource.Drawable.abc_ic_clear_material;
+			global::PayPal.Forms.Android.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha = global::CreditCardUISample.Droid.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha;
+			global::PayPal.Forms.Android.Resource.Drawable.abc_ic_go_search_api_material = global::CreditCardUISample.Droid.Resource.Drawable.abc_ic_go_search_api_material;
+			global::PayPal.Forms.Android.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha = global::CreditCardUISample.Droid.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha;
+			global::PayPal.Forms.Android.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha = global::CreditCardUISample.Droid.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha;
+			global::PayPal.Forms.Android.Resource.Drawable.abc_ic_menu_overflow_material = global::CreditCardUISample.Droid.Resource.Drawable.abc_ic_menu_overflow_material;
+			global::PayPal.Forms.Android.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha = global::CreditCardUISample.Droid.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha;
+			global::PayPal.Forms.Android.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha = global::CreditCardUISample.Droid.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha;
+			global::PayPal.Forms.Android.Resource.Drawable.abc_ic_menu_share_mtrl_alpha = global::CreditCardUISample.Droid.Resource.Drawable.abc_ic_menu_share_mtrl_alpha;
+			global::PayPal.Forms.Android.Resource.Drawable.abc_ic_search_api_material = global::CreditCardUISample.Droid.Resource.Drawable.abc_ic_search_api_material;
+			global::PayPal.Forms.Android.Resource.Drawable.abc_ic_star_black_16dp = global::CreditCardUISample.Droid.Resource.Drawable.abc_ic_star_black_16dp;
+			global::PayPal.Forms.Android.Resource.Drawable.abc_ic_star_black_36dp = global::CreditCardUISample.Droid.Resource.Drawable.abc_ic_star_black_36dp;
+			global::PayPal.Forms.Android.Resource.Drawable.abc_ic_star_black_48dp = global::CreditCardUISample.Droid.Resource.Drawable.abc_ic_star_black_48dp;
+			global::PayPal.Forms.Android.Resource.Drawable.abc_ic_star_half_black_16dp = global::CreditCardUISample.Droid.Resource.Drawable.abc_ic_star_half_black_16dp;
+			global::PayPal.Forms.Android.Resource.Drawable.abc_ic_star_half_black_36dp = global::CreditCardUISample.Droid.Resource.Drawable.abc_ic_star_half_black_36dp;
+			global::PayPal.Forms.Android.Resource.Drawable.abc_ic_star_half_black_48dp = global::CreditCardUISample.Droid.Resource.Drawable.abc_ic_star_half_black_48dp;
+			global::PayPal.Forms.Android.Resource.Drawable.abc_ic_voice_search_api_material = global::CreditCardUISample.Droid.Resource.Drawable.abc_ic_voice_search_api_material;
+			global::PayPal.Forms.Android.Resource.Drawable.abc_item_background_holo_dark = global::CreditCardUISample.Droid.Resource.Drawable.abc_item_background_holo_dark;
+			global::PayPal.Forms.Android.Resource.Drawable.abc_item_background_holo_light = global::CreditCardUISample.Droid.Resource.Drawable.abc_item_background_holo_light;
+			global::PayPal.Forms.Android.Resource.Drawable.abc_list_divider_mtrl_alpha = global::CreditCardUISample.Droid.Resource.Drawable.abc_list_divider_mtrl_alpha;
+			global::PayPal.Forms.Android.Resource.Drawable.abc_list_focused_holo = global::CreditCardUISample.Droid.Resource.Drawable.abc_list_focused_holo;
+			global::PayPal.Forms.Android.Resource.Drawable.abc_list_longpressed_holo = global::CreditCardUISample.Droid.Resource.Drawable.abc_list_longpressed_holo;
+			global::PayPal.Forms.Android.Resource.Drawable.abc_list_pressed_holo_dark = global::CreditCardUISample.Droid.Resource.Drawable.abc_list_pressed_holo_dark;
+			global::PayPal.Forms.Android.Resource.Drawable.abc_list_pressed_holo_light = global::CreditCardUISample.Droid.Resource.Drawable.abc_list_pressed_holo_light;
+			global::PayPal.Forms.Android.Resource.Drawable.abc_list_selector_background_transition_holo_dark = global::CreditCardUISample.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_dark;
+			global::PayPal.Forms.Android.Resource.Drawable.abc_list_selector_background_transition_holo_light = global::CreditCardUISample.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_light;
+			global::PayPal.Forms.Android.Resource.Drawable.abc_list_selector_disabled_holo_dark = global::CreditCardUISample.Droid.Resource.Drawable.abc_list_selector_disabled_holo_dark;
+			global::PayPal.Forms.Android.Resource.Drawable.abc_list_selector_disabled_holo_light = global::CreditCardUISample.Droid.Resource.Drawable.abc_list_selector_disabled_holo_light;
+			global::PayPal.Forms.Android.Resource.Drawable.abc_list_selector_holo_dark = global::CreditCardUISample.Droid.Resource.Drawable.abc_list_selector_holo_dark;
+			global::PayPal.Forms.Android.Resource.Drawable.abc_list_selector_holo_light = global::CreditCardUISample.Droid.Resource.Drawable.abc_list_selector_holo_light;
+			global::PayPal.Forms.Android.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult = global::CreditCardUISample.Droid.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult;
+			global::PayPal.Forms.Android.Resource.Drawable.abc_popup_background_mtrl_mult = global::CreditCardUISample.Droid.Resource.Drawable.abc_popup_background_mtrl_mult;
+			global::PayPal.Forms.Android.Resource.Drawable.abc_ratingbar_indicator_material = global::CreditCardUISample.Droid.Resource.Drawable.abc_ratingbar_indicator_material;
+			global::PayPal.Forms.Android.Resource.Drawable.abc_ratingbar_material = global::CreditCardUISample.Droid.Resource.Drawable.abc_ratingbar_material;
+			global::PayPal.Forms.Android.Resource.Drawable.abc_ratingbar_small_material = global::CreditCardUISample.Droid.Resource.Drawable.abc_ratingbar_small_material;
+			global::PayPal.Forms.Android.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha = global::CreditCardUISample.Droid.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha;
+			global::PayPal.Forms.Android.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000 = global::CreditCardUISample.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000;
+			global::PayPal.Forms.Android.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005 = global::CreditCardUISample.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005;
+			global::PayPal.Forms.Android.Resource.Drawable.abc_scrubber_primary_mtrl_alpha = global::CreditCardUISample.Droid.Resource.Drawable.abc_scrubber_primary_mtrl_alpha;
+			global::PayPal.Forms.Android.Resource.Drawable.abc_scrubber_track_mtrl_alpha = global::CreditCardUISample.Droid.Resource.Drawable.abc_scrubber_track_mtrl_alpha;
+			global::PayPal.Forms.Android.Resource.Drawable.abc_seekbar_thumb_material = global::CreditCardUISample.Droid.Resource.Drawable.abc_seekbar_thumb_material;
+			global::PayPal.Forms.Android.Resource.Drawable.abc_seekbar_tick_mark_material = global::CreditCardUISample.Droid.Resource.Drawable.abc_seekbar_tick_mark_material;
+			global::PayPal.Forms.Android.Resource.Drawable.abc_seekbar_track_material = global::CreditCardUISample.Droid.Resource.Drawable.abc_seekbar_track_material;
+			global::PayPal.Forms.Android.Resource.Drawable.abc_spinner_mtrl_am_alpha = global::CreditCardUISample.Droid.Resource.Drawable.abc_spinner_mtrl_am_alpha;
+			global::PayPal.Forms.Android.Resource.Drawable.abc_spinner_textfield_background_material = global::CreditCardUISample.Droid.Resource.Drawable.abc_spinner_textfield_background_material;
+			global::PayPal.Forms.Android.Resource.Drawable.abc_switch_thumb_material = global::CreditCardUISample.Droid.Resource.Drawable.abc_switch_thumb_material;
+			global::PayPal.Forms.Android.Resource.Drawable.abc_switch_track_mtrl_alpha = global::CreditCardUISample.Droid.Resource.Drawable.abc_switch_track_mtrl_alpha;
+			global::PayPal.Forms.Android.Resource.Drawable.abc_tab_indicator_material = global::CreditCardUISample.Droid.Resource.Drawable.abc_tab_indicator_material;
+			global::PayPal.Forms.Android.Resource.Drawable.abc_tab_indicator_mtrl_alpha = global::CreditCardUISample.Droid.Resource.Drawable.abc_tab_indicator_mtrl_alpha;
+			global::PayPal.Forms.Android.Resource.Drawable.abc_textfield_activated_mtrl_alpha = global::CreditCardUISample.Droid.Resource.Drawable.abc_textfield_activated_mtrl_alpha;
+			global::PayPal.Forms.Android.Resource.Drawable.abc_textfield_default_mtrl_alpha = global::CreditCardUISample.Droid.Resource.Drawable.abc_textfield_default_mtrl_alpha;
+			global::PayPal.Forms.Android.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha = global::CreditCardUISample.Droid.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha;
+			global::PayPal.Forms.Android.Resource.Drawable.abc_textfield_search_default_mtrl_alpha = global::CreditCardUISample.Droid.Resource.Drawable.abc_textfield_search_default_mtrl_alpha;
+			global::PayPal.Forms.Android.Resource.Drawable.abc_textfield_search_material = global::CreditCardUISample.Droid.Resource.Drawable.abc_textfield_search_material;
+			global::PayPal.Forms.Android.Resource.Drawable.abc_text_cursor_material = global::CreditCardUISample.Droid.Resource.Drawable.abc_text_cursor_material;
+			global::PayPal.Forms.Android.Resource.Drawable.abc_text_select_handle_left_mtrl_dark = global::CreditCardUISample.Droid.Resource.Drawable.abc_text_select_handle_left_mtrl_dark;
+			global::PayPal.Forms.Android.Resource.Drawable.abc_text_select_handle_left_mtrl_light = global::CreditCardUISample.Droid.Resource.Drawable.abc_text_select_handle_left_mtrl_light;
+			global::PayPal.Forms.Android.Resource.Drawable.abc_text_select_handle_middle_mtrl_dark = global::CreditCardUISample.Droid.Resource.Drawable.abc_text_select_handle_middle_mtrl_dark;
+			global::PayPal.Forms.Android.Resource.Drawable.abc_text_select_handle_middle_mtrl_light = global::CreditCardUISample.Droid.Resource.Drawable.abc_text_select_handle_middle_mtrl_light;
+			global::PayPal.Forms.Android.Resource.Drawable.abc_text_select_handle_right_mtrl_dark = global::CreditCardUISample.Droid.Resource.Drawable.abc_text_select_handle_right_mtrl_dark;
+			global::PayPal.Forms.Android.Resource.Drawable.abc_text_select_handle_right_mtrl_light = global::CreditCardUISample.Droid.Resource.Drawable.abc_text_select_handle_right_mtrl_light;
+			global::PayPal.Forms.Android.Resource.Drawable.abc_vector_test = global::CreditCardUISample.Droid.Resource.Drawable.abc_vector_test;
+			global::PayPal.Forms.Android.Resource.Drawable.avd_hide_password = global::CreditCardUISample.Droid.Resource.Drawable.avd_hide_password;
+			global::PayPal.Forms.Android.Resource.Drawable.avd_show_password = global::CreditCardUISample.Droid.Resource.Drawable.avd_show_password;
+			global::PayPal.Forms.Android.Resource.Drawable.design_bottom_navigation_item_background = global::CreditCardUISample.Droid.Resource.Drawable.design_bottom_navigation_item_background;
+			global::PayPal.Forms.Android.Resource.Drawable.design_fab_background = global::CreditCardUISample.Droid.Resource.Drawable.design_fab_background;
+			global::PayPal.Forms.Android.Resource.Drawable.design_ic_visibility = global::CreditCardUISample.Droid.Resource.Drawable.design_ic_visibility;
+			global::PayPal.Forms.Android.Resource.Drawable.design_ic_visibility_off = global::CreditCardUISample.Droid.Resource.Drawable.design_ic_visibility_off;
+			global::PayPal.Forms.Android.Resource.Drawable.design_password_eye = global::CreditCardUISample.Droid.Resource.Drawable.design_password_eye;
+			global::PayPal.Forms.Android.Resource.Drawable.design_snackbar_background = global::CreditCardUISample.Droid.Resource.Drawable.design_snackbar_background;
+			global::PayPal.Forms.Android.Resource.Drawable.ic_audiotrack_dark = global::CreditCardUISample.Droid.Resource.Drawable.ic_audiotrack_dark;
+			global::PayPal.Forms.Android.Resource.Drawable.ic_audiotrack_light = global::CreditCardUISample.Droid.Resource.Drawable.ic_audiotrack_light;
+			global::PayPal.Forms.Android.Resource.Drawable.ic_dialog_close_dark = global::CreditCardUISample.Droid.Resource.Drawable.ic_dialog_close_dark;
+			global::PayPal.Forms.Android.Resource.Drawable.ic_dialog_close_light = global::CreditCardUISample.Droid.Resource.Drawable.ic_dialog_close_light;
+			global::PayPal.Forms.Android.Resource.Drawable.ic_group_collapse_00 = global::CreditCardUISample.Droid.Resource.Drawable.ic_group_collapse_00;
+			global::PayPal.Forms.Android.Resource.Drawable.ic_group_collapse_01 = global::CreditCardUISample.Droid.Resource.Drawable.ic_group_collapse_01;
+			global::PayPal.Forms.Android.Resource.Drawable.ic_group_collapse_02 = global::CreditCardUISample.Droid.Resource.Drawable.ic_group_collapse_02;
+			global::PayPal.Forms.Android.Resource.Drawable.ic_group_collapse_03 = global::CreditCardUISample.Droid.Resource.Drawable.ic_group_collapse_03;
+			global::PayPal.Forms.Android.Resource.Drawable.ic_group_collapse_04 = global::CreditCardUISample.Droid.Resource.Drawable.ic_group_collapse_04;
+			global::PayPal.Forms.Android.Resource.Drawable.ic_group_collapse_05 = global::CreditCardUISample.Droid.Resource.Drawable.ic_group_collapse_05;
+			global::PayPal.Forms.Android.Resource.Drawable.ic_group_collapse_06 = global::CreditCardUISample.Droid.Resource.Drawable.ic_group_collapse_06;
+			global::PayPal.Forms.Android.Resource.Drawable.ic_group_collapse_07 = global::CreditCardUISample.Droid.Resource.Drawable.ic_group_collapse_07;
+			global::PayPal.Forms.Android.Resource.Drawable.ic_group_collapse_08 = global::CreditCardUISample.Droid.Resource.Drawable.ic_group_collapse_08;
+			global::PayPal.Forms.Android.Resource.Drawable.ic_group_collapse_09 = global::CreditCardUISample.Droid.Resource.Drawable.ic_group_collapse_09;
+			global::PayPal.Forms.Android.Resource.Drawable.ic_group_collapse_10 = global::CreditCardUISample.Droid.Resource.Drawable.ic_group_collapse_10;
+			global::PayPal.Forms.Android.Resource.Drawable.ic_group_collapse_11 = global::CreditCardUISample.Droid.Resource.Drawable.ic_group_collapse_11;
+			global::PayPal.Forms.Android.Resource.Drawable.ic_group_collapse_12 = global::CreditCardUISample.Droid.Resource.Drawable.ic_group_collapse_12;
+			global::PayPal.Forms.Android.Resource.Drawable.ic_group_collapse_13 = global::CreditCardUISample.Droid.Resource.Drawable.ic_group_collapse_13;
+			global::PayPal.Forms.Android.Resource.Drawable.ic_group_collapse_14 = global::CreditCardUISample.Droid.Resource.Drawable.ic_group_collapse_14;
+			global::PayPal.Forms.Android.Resource.Drawable.ic_group_collapse_15 = global::CreditCardUISample.Droid.Resource.Drawable.ic_group_collapse_15;
+			global::PayPal.Forms.Android.Resource.Drawable.ic_group_expand_00 = global::CreditCardUISample.Droid.Resource.Drawable.ic_group_expand_00;
+			global::PayPal.Forms.Android.Resource.Drawable.ic_group_expand_01 = global::CreditCardUISample.Droid.Resource.Drawable.ic_group_expand_01;
+			global::PayPal.Forms.Android.Resource.Drawable.ic_group_expand_02 = global::CreditCardUISample.Droid.Resource.Drawable.ic_group_expand_02;
+			global::PayPal.Forms.Android.Resource.Drawable.ic_group_expand_03 = global::CreditCardUISample.Droid.Resource.Drawable.ic_group_expand_03;
+			global::PayPal.Forms.Android.Resource.Drawable.ic_group_expand_04 = global::CreditCardUISample.Droid.Resource.Drawable.ic_group_expand_04;
+			global::PayPal.Forms.Android.Resource.Drawable.ic_group_expand_05 = global::CreditCardUISample.Droid.Resource.Drawable.ic_group_expand_05;
+			global::PayPal.Forms.Android.Resource.Drawable.ic_group_expand_06 = global::CreditCardUISample.Droid.Resource.Drawable.ic_group_expand_06;
+			global::PayPal.Forms.Android.Resource.Drawable.ic_group_expand_07 = global::CreditCardUISample.Droid.Resource.Drawable.ic_group_expand_07;
+			global::PayPal.Forms.Android.Resource.Drawable.ic_group_expand_08 = global::CreditCardUISample.Droid.Resource.Drawable.ic_group_expand_08;
+			global::PayPal.Forms.Android.Resource.Drawable.ic_group_expand_09 = global::CreditCardUISample.Droid.Resource.Drawable.ic_group_expand_09;
+			global::PayPal.Forms.Android.Resource.Drawable.ic_group_expand_10 = global::CreditCardUISample.Droid.Resource.Drawable.ic_group_expand_10;
+			global::PayPal.Forms.Android.Resource.Drawable.ic_group_expand_11 = global::CreditCardUISample.Droid.Resource.Drawable.ic_group_expand_11;
+			global::PayPal.Forms.Android.Resource.Drawable.ic_group_expand_12 = global::CreditCardUISample.Droid.Resource.Drawable.ic_group_expand_12;
+			global::PayPal.Forms.Android.Resource.Drawable.ic_group_expand_13 = global::CreditCardUISample.Droid.Resource.Drawable.ic_group_expand_13;
+			global::PayPal.Forms.Android.Resource.Drawable.ic_group_expand_14 = global::CreditCardUISample.Droid.Resource.Drawable.ic_group_expand_14;
+			global::PayPal.Forms.Android.Resource.Drawable.ic_group_expand_15 = global::CreditCardUISample.Droid.Resource.Drawable.ic_group_expand_15;
+			global::PayPal.Forms.Android.Resource.Drawable.ic_media_pause_dark = global::CreditCardUISample.Droid.Resource.Drawable.ic_media_pause_dark;
+			global::PayPal.Forms.Android.Resource.Drawable.ic_media_pause_light = global::CreditCardUISample.Droid.Resource.Drawable.ic_media_pause_light;
+			global::PayPal.Forms.Android.Resource.Drawable.ic_media_play_dark = global::CreditCardUISample.Droid.Resource.Drawable.ic_media_play_dark;
+			global::PayPal.Forms.Android.Resource.Drawable.ic_media_play_light = global::CreditCardUISample.Droid.Resource.Drawable.ic_media_play_light;
+			global::PayPal.Forms.Android.Resource.Drawable.ic_media_stop_dark = global::CreditCardUISample.Droid.Resource.Drawable.ic_media_stop_dark;
+			global::PayPal.Forms.Android.Resource.Drawable.ic_media_stop_light = global::CreditCardUISample.Droid.Resource.Drawable.ic_media_stop_light;
+			global::PayPal.Forms.Android.Resource.Drawable.ic_mr_button_connected_00_dark = global::CreditCardUISample.Droid.Resource.Drawable.ic_mr_button_connected_00_dark;
+			global::PayPal.Forms.Android.Resource.Drawable.ic_mr_button_connected_00_light = global::CreditCardUISample.Droid.Resource.Drawable.ic_mr_button_connected_00_light;
+			global::PayPal.Forms.Android.Resource.Drawable.ic_mr_button_connected_01_dark = global::CreditCardUISample.Droid.Resource.Drawable.ic_mr_button_connected_01_dark;
+			global::PayPal.Forms.Android.Resource.Drawable.ic_mr_button_connected_01_light = global::CreditCardUISample.Droid.Resource.Drawable.ic_mr_button_connected_01_light;
+			global::PayPal.Forms.Android.Resource.Drawable.ic_mr_button_connected_02_dark = global::CreditCardUISample.Droid.Resource.Drawable.ic_mr_button_connected_02_dark;
+			global::PayPal.Forms.Android.Resource.Drawable.ic_mr_button_connected_02_light = global::CreditCardUISample.Droid.Resource.Drawable.ic_mr_button_connected_02_light;
+			global::PayPal.Forms.Android.Resource.Drawable.ic_mr_button_connected_03_dark = global::CreditCardUISample.Droid.Resource.Drawable.ic_mr_button_connected_03_dark;
+			global::PayPal.Forms.Android.Resource.Drawable.ic_mr_button_connected_03_light = global::CreditCardUISample.Droid.Resource.Drawable.ic_mr_button_connected_03_light;
+			global::PayPal.Forms.Android.Resource.Drawable.ic_mr_button_connected_04_dark = global::CreditCardUISample.Droid.Resource.Drawable.ic_mr_button_connected_04_dark;
+			global::PayPal.Forms.Android.Resource.Drawable.ic_mr_button_connected_04_light = global::CreditCardUISample.Droid.Resource.Drawable.ic_mr_button_connected_04_light;
+			global::PayPal.Forms.Android.Resource.Drawable.ic_mr_button_connected_05_dark = global::CreditCardUISample.Droid.Resource.Drawable.ic_mr_button_connected_05_dark;
+			global::PayPal.Forms.Android.Resource.Drawable.ic_mr_button_connected_05_light = global::CreditCardUISample.Droid.Resource.Drawable.ic_mr_button_connected_05_light;
+			global::PayPal.Forms.Android.Resource.Drawable.ic_mr_button_connected_06_dark = global::CreditCardUISample.Droid.Resource.Drawable.ic_mr_button_connected_06_dark;
+			global::PayPal.Forms.Android.Resource.Drawable.ic_mr_button_connected_06_light = global::CreditCardUISample.Droid.Resource.Drawable.ic_mr_button_connected_06_light;
+			global::PayPal.Forms.Android.Resource.Drawable.ic_mr_button_connected_07_dark = global::CreditCardUISample.Droid.Resource.Drawable.ic_mr_button_connected_07_dark;
+			global::PayPal.Forms.Android.Resource.Drawable.ic_mr_button_connected_07_light = global::CreditCardUISample.Droid.Resource.Drawable.ic_mr_button_connected_07_light;
+			global::PayPal.Forms.Android.Resource.Drawable.ic_mr_button_connected_08_dark = global::CreditCardUISample.Droid.Resource.Drawable.ic_mr_button_connected_08_dark;
+			global::PayPal.Forms.Android.Resource.Drawable.ic_mr_button_connected_08_light = global::CreditCardUISample.Droid.Resource.Drawable.ic_mr_button_connected_08_light;
+			global::PayPal.Forms.Android.Resource.Drawable.ic_mr_button_connected_09_dark = global::CreditCardUISample.Droid.Resource.Drawable.ic_mr_button_connected_09_dark;
+			global::PayPal.Forms.Android.Resource.Drawable.ic_mr_button_connected_09_light = global::CreditCardUISample.Droid.Resource.Drawable.ic_mr_button_connected_09_light;
+			global::PayPal.Forms.Android.Resource.Drawable.ic_mr_button_connected_10_dark = global::CreditCardUISample.Droid.Resource.Drawable.ic_mr_button_connected_10_dark;
+			global::PayPal.Forms.Android.Resource.Drawable.ic_mr_button_connected_10_light = global::CreditCardUISample.Droid.Resource.Drawable.ic_mr_button_connected_10_light;
+			global::PayPal.Forms.Android.Resource.Drawable.ic_mr_button_connected_11_dark = global::CreditCardUISample.Droid.Resource.Drawable.ic_mr_button_connected_11_dark;
+			global::PayPal.Forms.Android.Resource.Drawable.ic_mr_button_connected_11_light = global::CreditCardUISample.Droid.Resource.Drawable.ic_mr_button_connected_11_light;
+			global::PayPal.Forms.Android.Resource.Drawable.ic_mr_button_connected_12_dark = global::CreditCardUISample.Droid.Resource.Drawable.ic_mr_button_connected_12_dark;
+			global::PayPal.Forms.Android.Resource.Drawable.ic_mr_button_connected_12_light = global::CreditCardUISample.Droid.Resource.Drawable.ic_mr_button_connected_12_light;
+			global::PayPal.Forms.Android.Resource.Drawable.ic_mr_button_connected_13_dark = global::CreditCardUISample.Droid.Resource.Drawable.ic_mr_button_connected_13_dark;
+			global::PayPal.Forms.Android.Resource.Drawable.ic_mr_button_connected_13_light = global::CreditCardUISample.Droid.Resource.Drawable.ic_mr_button_connected_13_light;
+			global::PayPal.Forms.Android.Resource.Drawable.ic_mr_button_connected_14_dark = global::CreditCardUISample.Droid.Resource.Drawable.ic_mr_button_connected_14_dark;
+			global::PayPal.Forms.Android.Resource.Drawable.ic_mr_button_connected_14_light = global::CreditCardUISample.Droid.Resource.Drawable.ic_mr_button_connected_14_light;
+			global::PayPal.Forms.Android.Resource.Drawable.ic_mr_button_connected_15_dark = global::CreditCardUISample.Droid.Resource.Drawable.ic_mr_button_connected_15_dark;
+			global::PayPal.Forms.Android.Resource.Drawable.ic_mr_button_connected_15_light = global::CreditCardUISample.Droid.Resource.Drawable.ic_mr_button_connected_15_light;
+			global::PayPal.Forms.Android.Resource.Drawable.ic_mr_button_connected_16_dark = global::CreditCardUISample.Droid.Resource.Drawable.ic_mr_button_connected_16_dark;
+			global::PayPal.Forms.Android.Resource.Drawable.ic_mr_button_connected_16_light = global::CreditCardUISample.Droid.Resource.Drawable.ic_mr_button_connected_16_light;
+			global::PayPal.Forms.Android.Resource.Drawable.ic_mr_button_connected_17_dark = global::CreditCardUISample.Droid.Resource.Drawable.ic_mr_button_connected_17_dark;
+			global::PayPal.Forms.Android.Resource.Drawable.ic_mr_button_connected_17_light = global::CreditCardUISample.Droid.Resource.Drawable.ic_mr_button_connected_17_light;
+			global::PayPal.Forms.Android.Resource.Drawable.ic_mr_button_connected_18_dark = global::CreditCardUISample.Droid.Resource.Drawable.ic_mr_button_connected_18_dark;
+			global::PayPal.Forms.Android.Resource.Drawable.ic_mr_button_connected_18_light = global::CreditCardUISample.Droid.Resource.Drawable.ic_mr_button_connected_18_light;
+			global::PayPal.Forms.Android.Resource.Drawable.ic_mr_button_connected_19_dark = global::CreditCardUISample.Droid.Resource.Drawable.ic_mr_button_connected_19_dark;
+			global::PayPal.Forms.Android.Resource.Drawable.ic_mr_button_connected_19_light = global::CreditCardUISample.Droid.Resource.Drawable.ic_mr_button_connected_19_light;
+			global::PayPal.Forms.Android.Resource.Drawable.ic_mr_button_connected_20_dark = global::CreditCardUISample.Droid.Resource.Drawable.ic_mr_button_connected_20_dark;
+			global::PayPal.Forms.Android.Resource.Drawable.ic_mr_button_connected_20_light = global::CreditCardUISample.Droid.Resource.Drawable.ic_mr_button_connected_20_light;
+			global::PayPal.Forms.Android.Resource.Drawable.ic_mr_button_connected_21_dark = global::CreditCardUISample.Droid.Resource.Drawable.ic_mr_button_connected_21_dark;
+			global::PayPal.Forms.Android.Resource.Drawable.ic_mr_button_connected_21_light = global::CreditCardUISample.Droid.Resource.Drawable.ic_mr_button_connected_21_light;
+			global::PayPal.Forms.Android.Resource.Drawable.ic_mr_button_connected_22_dark = global::CreditCardUISample.Droid.Resource.Drawable.ic_mr_button_connected_22_dark;
+			global::PayPal.Forms.Android.Resource.Drawable.ic_mr_button_connected_22_light = global::CreditCardUISample.Droid.Resource.Drawable.ic_mr_button_connected_22_light;
+			global::PayPal.Forms.Android.Resource.Drawable.ic_mr_button_connecting_00_dark = global::CreditCardUISample.Droid.Resource.Drawable.ic_mr_button_connecting_00_dark;
+			global::PayPal.Forms.Android.Resource.Drawable.ic_mr_button_connecting_00_light = global::CreditCardUISample.Droid.Resource.Drawable.ic_mr_button_connecting_00_light;
+			global::PayPal.Forms.Android.Resource.Drawable.ic_mr_button_connecting_01_dark = global::CreditCardUISample.Droid.Resource.Drawable.ic_mr_button_connecting_01_dark;
+			global::PayPal.Forms.Android.Resource.Drawable.ic_mr_button_connecting_01_light = global::CreditCardUISample.Droid.Resource.Drawable.ic_mr_button_connecting_01_light;
+			global::PayPal.Forms.Android.Resource.Drawable.ic_mr_button_connecting_02_dark = global::CreditCardUISample.Droid.Resource.Drawable.ic_mr_button_connecting_02_dark;
+			global::PayPal.Forms.Android.Resource.Drawable.ic_mr_button_connecting_02_light = global::CreditCardUISample.Droid.Resource.Drawable.ic_mr_button_connecting_02_light;
+			global::PayPal.Forms.Android.Resource.Drawable.ic_mr_button_connecting_03_dark = global::CreditCardUISample.Droid.Resource.Drawable.ic_mr_button_connecting_03_dark;
+			global::PayPal.Forms.Android.Resource.Drawable.ic_mr_button_connecting_03_light = global::CreditCardUISample.Droid.Resource.Drawable.ic_mr_button_connecting_03_light;
+			global::PayPal.Forms.Android.Resource.Drawable.ic_mr_button_connecting_04_dark = global::CreditCardUISample.Droid.Resource.Drawable.ic_mr_button_connecting_04_dark;
+			global::PayPal.Forms.Android.Resource.Drawable.ic_mr_button_connecting_04_light = global::CreditCardUISample.Droid.Resource.Drawable.ic_mr_button_connecting_04_light;
+			global::PayPal.Forms.Android.Resource.Drawable.ic_mr_button_connecting_05_dark = global::CreditCardUISample.Droid.Resource.Drawable.ic_mr_button_connecting_05_dark;
+			global::PayPal.Forms.Android.Resource.Drawable.ic_mr_button_connecting_05_light = global::CreditCardUISample.Droid.Resource.Drawable.ic_mr_button_connecting_05_light;
+			global::PayPal.Forms.Android.Resource.Drawable.ic_mr_button_connecting_06_dark = global::CreditCardUISample.Droid.Resource.Drawable.ic_mr_button_connecting_06_dark;
+			global::PayPal.Forms.Android.Resource.Drawable.ic_mr_button_connecting_06_light = global::CreditCardUISample.Droid.Resource.Drawable.ic_mr_button_connecting_06_light;
+			global::PayPal.Forms.Android.Resource.Drawable.ic_mr_button_connecting_07_dark = global::CreditCardUISample.Droid.Resource.Drawable.ic_mr_button_connecting_07_dark;
+			global::PayPal.Forms.Android.Resource.Drawable.ic_mr_button_connecting_07_light = global::CreditCardUISample.Droid.Resource.Drawable.ic_mr_button_connecting_07_light;
+			global::PayPal.Forms.Android.Resource.Drawable.ic_mr_button_connecting_08_dark = global::CreditCardUISample.Droid.Resource.Drawable.ic_mr_button_connecting_08_dark;
+			global::PayPal.Forms.Android.Resource.Drawable.ic_mr_button_connecting_08_light = global::CreditCardUISample.Droid.Resource.Drawable.ic_mr_button_connecting_08_light;
+			global::PayPal.Forms.Android.Resource.Drawable.ic_mr_button_connecting_09_dark = global::CreditCardUISample.Droid.Resource.Drawable.ic_mr_button_connecting_09_dark;
+			global::PayPal.Forms.Android.Resource.Drawable.ic_mr_button_connecting_09_light = global::CreditCardUISample.Droid.Resource.Drawable.ic_mr_button_connecting_09_light;
+			global::PayPal.Forms.Android.Resource.Drawable.ic_mr_button_connecting_10_dark = global::CreditCardUISample.Droid.Resource.Drawable.ic_mr_button_connecting_10_dark;
+			global::PayPal.Forms.Android.Resource.Drawable.ic_mr_button_connecting_10_light = global::CreditCardUISample.Droid.Resource.Drawable.ic_mr_button_connecting_10_light;
+			global::PayPal.Forms.Android.Resource.Drawable.ic_mr_button_connecting_11_dark = global::CreditCardUISample.Droid.Resource.Drawable.ic_mr_button_connecting_11_dark;
+			global::PayPal.Forms.Android.Resource.Drawable.ic_mr_button_connecting_11_light = global::CreditCardUISample.Droid.Resource.Drawable.ic_mr_button_connecting_11_light;
+			global::PayPal.Forms.Android.Resource.Drawable.ic_mr_button_connecting_12_dark = global::CreditCardUISample.Droid.Resource.Drawable.ic_mr_button_connecting_12_dark;
+			global::PayPal.Forms.Android.Resource.Drawable.ic_mr_button_connecting_12_light = global::CreditCardUISample.Droid.Resource.Drawable.ic_mr_button_connecting_12_light;
+			global::PayPal.Forms.Android.Resource.Drawable.ic_mr_button_connecting_13_dark = global::CreditCardUISample.Droid.Resource.Drawable.ic_mr_button_connecting_13_dark;
+			global::PayPal.Forms.Android.Resource.Drawable.ic_mr_button_connecting_13_light = global::CreditCardUISample.Droid.Resource.Drawable.ic_mr_button_connecting_13_light;
+			global::PayPal.Forms.Android.Resource.Drawable.ic_mr_button_connecting_14_dark = global::CreditCardUISample.Droid.Resource.Drawable.ic_mr_button_connecting_14_dark;
+			global::PayPal.Forms.Android.Resource.Drawable.ic_mr_button_connecting_14_light = global::CreditCardUISample.Droid.Resource.Drawable.ic_mr_button_connecting_14_light;
+			global::PayPal.Forms.Android.Resource.Drawable.ic_mr_button_connecting_15_dark = global::CreditCardUISample.Droid.Resource.Drawable.ic_mr_button_connecting_15_dark;
+			global::PayPal.Forms.Android.Resource.Drawable.ic_mr_button_connecting_15_light = global::CreditCardUISample.Droid.Resource.Drawable.ic_mr_button_connecting_15_light;
+			global::PayPal.Forms.Android.Resource.Drawable.ic_mr_button_connecting_16_dark = global::CreditCardUISample.Droid.Resource.Drawable.ic_mr_button_connecting_16_dark;
+			global::PayPal.Forms.Android.Resource.Drawable.ic_mr_button_connecting_16_light = global::CreditCardUISample.Droid.Resource.Drawable.ic_mr_button_connecting_16_light;
+			global::PayPal.Forms.Android.Resource.Drawable.ic_mr_button_connecting_17_dark = global::CreditCardUISample.Droid.Resource.Drawable.ic_mr_button_connecting_17_dark;
+			global::PayPal.Forms.Android.Resource.Drawable.ic_mr_button_connecting_17_light = global::CreditCardUISample.Droid.Resource.Drawable.ic_mr_button_connecting_17_light;
+			global::PayPal.Forms.Android.Resource.Drawable.ic_mr_button_connecting_18_dark = global::CreditCardUISample.Droid.Resource.Drawable.ic_mr_button_connecting_18_dark;
+			global::PayPal.Forms.Android.Resource.Drawable.ic_mr_button_connecting_18_light = global::CreditCardUISample.Droid.Resource.Drawable.ic_mr_button_connecting_18_light;
+			global::PayPal.Forms.Android.Resource.Drawable.ic_mr_button_connecting_19_dark = global::CreditCardUISample.Droid.Resource.Drawable.ic_mr_button_connecting_19_dark;
+			global::PayPal.Forms.Android.Resource.Drawable.ic_mr_button_connecting_19_light = global::CreditCardUISample.Droid.Resource.Drawable.ic_mr_button_connecting_19_light;
+			global::PayPal.Forms.Android.Resource.Drawable.ic_mr_button_connecting_20_dark = global::CreditCardUISample.Droid.Resource.Drawable.ic_mr_button_connecting_20_dark;
+			global::PayPal.Forms.Android.Resource.Drawable.ic_mr_button_connecting_20_light = global::CreditCardUISample.Droid.Resource.Drawable.ic_mr_button_connecting_20_light;
+			global::PayPal.Forms.Android.Resource.Drawable.ic_mr_button_connecting_21_dark = global::CreditCardUISample.Droid.Resource.Drawable.ic_mr_button_connecting_21_dark;
+			global::PayPal.Forms.Android.Resource.Drawable.ic_mr_button_connecting_21_light = global::CreditCardUISample.Droid.Resource.Drawable.ic_mr_button_connecting_21_light;
+			global::PayPal.Forms.Android.Resource.Drawable.ic_mr_button_connecting_22_dark = global::CreditCardUISample.Droid.Resource.Drawable.ic_mr_button_connecting_22_dark;
+			global::PayPal.Forms.Android.Resource.Drawable.ic_mr_button_connecting_22_light = global::CreditCardUISample.Droid.Resource.Drawable.ic_mr_button_connecting_22_light;
+			global::PayPal.Forms.Android.Resource.Drawable.ic_mr_button_disabled_dark = global::CreditCardUISample.Droid.Resource.Drawable.ic_mr_button_disabled_dark;
+			global::PayPal.Forms.Android.Resource.Drawable.ic_mr_button_disabled_light = global::CreditCardUISample.Droid.Resource.Drawable.ic_mr_button_disabled_light;
+			global::PayPal.Forms.Android.Resource.Drawable.ic_mr_button_disconnected_dark = global::CreditCardUISample.Droid.Resource.Drawable.ic_mr_button_disconnected_dark;
+			global::PayPal.Forms.Android.Resource.Drawable.ic_mr_button_disconnected_light = global::CreditCardUISample.Droid.Resource.Drawable.ic_mr_button_disconnected_light;
+			global::PayPal.Forms.Android.Resource.Drawable.ic_mr_button_grey = global::CreditCardUISample.Droid.Resource.Drawable.ic_mr_button_grey;
+			global::PayPal.Forms.Android.Resource.Drawable.ic_vol_type_speaker_dark = global::CreditCardUISample.Droid.Resource.Drawable.ic_vol_type_speaker_dark;
+			global::PayPal.Forms.Android.Resource.Drawable.ic_vol_type_speaker_group_dark = global::CreditCardUISample.Droid.Resource.Drawable.ic_vol_type_speaker_group_dark;
+			global::PayPal.Forms.Android.Resource.Drawable.ic_vol_type_speaker_group_light = global::CreditCardUISample.Droid.Resource.Drawable.ic_vol_type_speaker_group_light;
+			global::PayPal.Forms.Android.Resource.Drawable.ic_vol_type_speaker_light = global::CreditCardUISample.Droid.Resource.Drawable.ic_vol_type_speaker_light;
+			global::PayPal.Forms.Android.Resource.Drawable.ic_vol_type_tv_dark = global::CreditCardUISample.Droid.Resource.Drawable.ic_vol_type_tv_dark;
+			global::PayPal.Forms.Android.Resource.Drawable.ic_vol_type_tv_light = global::CreditCardUISample.Droid.Resource.Drawable.ic_vol_type_tv_light;
+			global::PayPal.Forms.Android.Resource.Drawable.mr_button_connected_dark = global::CreditCardUISample.Droid.Resource.Drawable.mr_button_connected_dark;
+			global::PayPal.Forms.Android.Resource.Drawable.mr_button_connected_light = global::CreditCardUISample.Droid.Resource.Drawable.mr_button_connected_light;
+			global::PayPal.Forms.Android.Resource.Drawable.mr_button_connecting_dark = global::CreditCardUISample.Droid.Resource.Drawable.mr_button_connecting_dark;
+			global::PayPal.Forms.Android.Resource.Drawable.mr_button_connecting_light = global::CreditCardUISample.Droid.Resource.Drawable.mr_button_connecting_light;
+			global::PayPal.Forms.Android.Resource.Drawable.mr_button_dark = global::CreditCardUISample.Droid.Resource.Drawable.mr_button_dark;
+			global::PayPal.Forms.Android.Resource.Drawable.mr_button_light = global::CreditCardUISample.Droid.Resource.Drawable.mr_button_light;
+			global::PayPal.Forms.Android.Resource.Drawable.mr_dialog_close_dark = global::CreditCardUISample.Droid.Resource.Drawable.mr_dialog_close_dark;
+			global::PayPal.Forms.Android.Resource.Drawable.mr_dialog_close_light = global::CreditCardUISample.Droid.Resource.Drawable.mr_dialog_close_light;
+			global::PayPal.Forms.Android.Resource.Drawable.mr_dialog_material_background_dark = global::CreditCardUISample.Droid.Resource.Drawable.mr_dialog_material_background_dark;
+			global::PayPal.Forms.Android.Resource.Drawable.mr_dialog_material_background_light = global::CreditCardUISample.Droid.Resource.Drawable.mr_dialog_material_background_light;
+			global::PayPal.Forms.Android.Resource.Drawable.mr_group_collapse = global::CreditCardUISample.Droid.Resource.Drawable.mr_group_collapse;
+			global::PayPal.Forms.Android.Resource.Drawable.mr_group_expand = global::CreditCardUISample.Droid.Resource.Drawable.mr_group_expand;
+			global::PayPal.Forms.Android.Resource.Drawable.mr_media_pause_dark = global::CreditCardUISample.Droid.Resource.Drawable.mr_media_pause_dark;
+			global::PayPal.Forms.Android.Resource.Drawable.mr_media_pause_light = global::CreditCardUISample.Droid.Resource.Drawable.mr_media_pause_light;
+			global::PayPal.Forms.Android.Resource.Drawable.mr_media_play_dark = global::CreditCardUISample.Droid.Resource.Drawable.mr_media_play_dark;
+			global::PayPal.Forms.Android.Resource.Drawable.mr_media_play_light = global::CreditCardUISample.Droid.Resource.Drawable.mr_media_play_light;
+			global::PayPal.Forms.Android.Resource.Drawable.mr_media_stop_dark = global::CreditCardUISample.Droid.Resource.Drawable.mr_media_stop_dark;
+			global::PayPal.Forms.Android.Resource.Drawable.mr_media_stop_light = global::CreditCardUISample.Droid.Resource.Drawable.mr_media_stop_light;
+			global::PayPal.Forms.Android.Resource.Drawable.mr_vol_type_audiotrack_dark = global::CreditCardUISample.Droid.Resource.Drawable.mr_vol_type_audiotrack_dark;
+			global::PayPal.Forms.Android.Resource.Drawable.mr_vol_type_audiotrack_light = global::CreditCardUISample.Droid.Resource.Drawable.mr_vol_type_audiotrack_light;
+			global::PayPal.Forms.Android.Resource.Drawable.navigation_empty_icon = global::CreditCardUISample.Droid.Resource.Drawable.navigation_empty_icon;
+			global::PayPal.Forms.Android.Resource.Drawable.notification_action_background = global::CreditCardUISample.Droid.Resource.Drawable.notification_action_background;
+			global::PayPal.Forms.Android.Resource.Drawable.notification_bg = global::CreditCardUISample.Droid.Resource.Drawable.notification_bg;
+			global::PayPal.Forms.Android.Resource.Drawable.notification_bg_low = global::CreditCardUISample.Droid.Resource.Drawable.notification_bg_low;
+			global::PayPal.Forms.Android.Resource.Drawable.notification_bg_low_normal = global::CreditCardUISample.Droid.Resource.Drawable.notification_bg_low_normal;
+			global::PayPal.Forms.Android.Resource.Drawable.notification_bg_low_pressed = global::CreditCardUISample.Droid.Resource.Drawable.notification_bg_low_pressed;
+			global::PayPal.Forms.Android.Resource.Drawable.notification_bg_normal = global::CreditCardUISample.Droid.Resource.Drawable.notification_bg_normal;
+			global::PayPal.Forms.Android.Resource.Drawable.notification_bg_normal_pressed = global::CreditCardUISample.Droid.Resource.Drawable.notification_bg_normal_pressed;
+			global::PayPal.Forms.Android.Resource.Drawable.notification_icon_background = global::CreditCardUISample.Droid.Resource.Drawable.notification_icon_background;
+			global::PayPal.Forms.Android.Resource.Drawable.notification_template_icon_bg = global::CreditCardUISample.Droid.Resource.Drawable.notification_template_icon_bg;
+			global::PayPal.Forms.Android.Resource.Drawable.notification_template_icon_low_bg = global::CreditCardUISample.Droid.Resource.Drawable.notification_template_icon_low_bg;
+			global::PayPal.Forms.Android.Resource.Drawable.notification_tile_bg = global::CreditCardUISample.Droid.Resource.Drawable.notification_tile_bg;
+			global::PayPal.Forms.Android.Resource.Drawable.notify_panel_notification_icon_bg = global::CreditCardUISample.Droid.Resource.Drawable.notify_panel_notification_icon_bg;
+			global::PayPal.Forms.Android.Resource.Id.action0 = global::CreditCardUISample.Droid.Resource.Id.action0;
+			global::PayPal.Forms.Android.Resource.Id.actions = global::CreditCardUISample.Droid.Resource.Id.actions;
+			global::PayPal.Forms.Android.Resource.Id.action_bar = global::CreditCardUISample.Droid.Resource.Id.action_bar;
+			global::PayPal.Forms.Android.Resource.Id.action_bar_activity_content = global::CreditCardUISample.Droid.Resource.Id.action_bar_activity_content;
+			global::PayPal.Forms.Android.Resource.Id.action_bar_container = global::CreditCardUISample.Droid.Resource.Id.action_bar_container;
+			global::PayPal.Forms.Android.Resource.Id.action_bar_root = global::CreditCardUISample.Droid.Resource.Id.action_bar_root;
+			global::PayPal.Forms.Android.Resource.Id.action_bar_spinner = global::CreditCardUISample.Droid.Resource.Id.action_bar_spinner;
+			global::PayPal.Forms.Android.Resource.Id.action_bar_subtitle = global::CreditCardUISample.Droid.Resource.Id.action_bar_subtitle;
+			global::PayPal.Forms.Android.Resource.Id.action_bar_title = global::CreditCardUISample.Droid.Resource.Id.action_bar_title;
+			global::PayPal.Forms.Android.Resource.Id.action_container = global::CreditCardUISample.Droid.Resource.Id.action_container;
+			global::PayPal.Forms.Android.Resource.Id.action_context_bar = global::CreditCardUISample.Droid.Resource.Id.action_context_bar;
+			global::PayPal.Forms.Android.Resource.Id.action_divider = global::CreditCardUISample.Droid.Resource.Id.action_divider;
+			global::PayPal.Forms.Android.Resource.Id.action_image = global::CreditCardUISample.Droid.Resource.Id.action_image;
+			global::PayPal.Forms.Android.Resource.Id.action_menu_divider = global::CreditCardUISample.Droid.Resource.Id.action_menu_divider;
+			global::PayPal.Forms.Android.Resource.Id.action_menu_presenter = global::CreditCardUISample.Droid.Resource.Id.action_menu_presenter;
+			global::PayPal.Forms.Android.Resource.Id.action_mode_bar = global::CreditCardUISample.Droid.Resource.Id.action_mode_bar;
+			global::PayPal.Forms.Android.Resource.Id.action_mode_bar_stub = global::CreditCardUISample.Droid.Resource.Id.action_mode_bar_stub;
+			global::PayPal.Forms.Android.Resource.Id.action_mode_close_button = global::CreditCardUISample.Droid.Resource.Id.action_mode_close_button;
+			global::PayPal.Forms.Android.Resource.Id.action_text = global::CreditCardUISample.Droid.Resource.Id.action_text;
+			global::PayPal.Forms.Android.Resource.Id.activity_chooser_view_content = global::CreditCardUISample.Droid.Resource.Id.activity_chooser_view_content;
+			global::PayPal.Forms.Android.Resource.Id.add = global::CreditCardUISample.Droid.Resource.Id.add;
+			global::PayPal.Forms.Android.Resource.Id.alertTitle = global::CreditCardUISample.Droid.Resource.Id.alertTitle;
+			global::PayPal.Forms.Android.Resource.Id.all = global::CreditCardUISample.Droid.Resource.Id.all;
+			global::PayPal.Forms.Android.Resource.Id.always = global::CreditCardUISample.Droid.Resource.Id.always;
+			global::PayPal.Forms.Android.Resource.Id.auto = global::CreditCardUISample.Droid.Resource.Id.auto;
+			global::PayPal.Forms.Android.Resource.Id.beginning = global::CreditCardUISample.Droid.Resource.Id.beginning;
+			global::PayPal.Forms.Android.Resource.Id.bottom = global::CreditCardUISample.Droid.Resource.Id.bottom;
+			global::PayPal.Forms.Android.Resource.Id.buttonPanel = global::CreditCardUISample.Droid.Resource.Id.buttonPanel;
+			global::PayPal.Forms.Android.Resource.Id.cancel_action = global::CreditCardUISample.Droid.Resource.Id.cancel_action;
+			global::PayPal.Forms.Android.Resource.Id.center = global::CreditCardUISample.Droid.Resource.Id.center;
+			global::PayPal.Forms.Android.Resource.Id.center_horizontal = global::CreditCardUISample.Droid.Resource.Id.center_horizontal;
+			global::PayPal.Forms.Android.Resource.Id.center_vertical = global::CreditCardUISample.Droid.Resource.Id.center_vertical;
+			global::PayPal.Forms.Android.Resource.Id.checkbox = global::CreditCardUISample.Droid.Resource.Id.checkbox;
+			global::PayPal.Forms.Android.Resource.Id.chronometer = global::CreditCardUISample.Droid.Resource.Id.chronometer;
+			global::PayPal.Forms.Android.Resource.Id.clip_horizontal = global::CreditCardUISample.Droid.Resource.Id.clip_horizontal;
+			global::PayPal.Forms.Android.Resource.Id.clip_vertical = global::CreditCardUISample.Droid.Resource.Id.clip_vertical;
+			global::PayPal.Forms.Android.Resource.Id.collapseActionView = global::CreditCardUISample.Droid.Resource.Id.collapseActionView;
+			global::PayPal.Forms.Android.Resource.Id.container = global::CreditCardUISample.Droid.Resource.Id.container;
+			global::PayPal.Forms.Android.Resource.Id.contentPanel = global::CreditCardUISample.Droid.Resource.Id.contentPanel;
+			global::PayPal.Forms.Android.Resource.Id.coordinator = global::CreditCardUISample.Droid.Resource.Id.coordinator;
+			global::PayPal.Forms.Android.Resource.Id.custom = global::CreditCardUISample.Droid.Resource.Id.custom;
+			global::PayPal.Forms.Android.Resource.Id.customPanel = global::CreditCardUISample.Droid.Resource.Id.customPanel;
+			global::PayPal.Forms.Android.Resource.Id.decor_content_parent = global::CreditCardUISample.Droid.Resource.Id.decor_content_parent;
+			global::PayPal.Forms.Android.Resource.Id.default_activity_button = global::CreditCardUISample.Droid.Resource.Id.default_activity_button;
+			global::PayPal.Forms.Android.Resource.Id.design_bottom_sheet = global::CreditCardUISample.Droid.Resource.Id.design_bottom_sheet;
+			global::PayPal.Forms.Android.Resource.Id.design_menu_item_action_area = global::CreditCardUISample.Droid.Resource.Id.design_menu_item_action_area;
+			global::PayPal.Forms.Android.Resource.Id.design_menu_item_action_area_stub = global::CreditCardUISample.Droid.Resource.Id.design_menu_item_action_area_stub;
+			global::PayPal.Forms.Android.Resource.Id.design_menu_item_text = global::CreditCardUISample.Droid.Resource.Id.design_menu_item_text;
+			global::PayPal.Forms.Android.Resource.Id.design_navigation_view = global::CreditCardUISample.Droid.Resource.Id.design_navigation_view;
+			global::PayPal.Forms.Android.Resource.Id.disableHome = global::CreditCardUISample.Droid.Resource.Id.disableHome;
+			global::PayPal.Forms.Android.Resource.Id.edit_query = global::CreditCardUISample.Droid.Resource.Id.edit_query;
+			global::PayPal.Forms.Android.Resource.Id.end = global::CreditCardUISample.Droid.Resource.Id.end;
+			global::PayPal.Forms.Android.Resource.Id.end_padder = global::CreditCardUISample.Droid.Resource.Id.end_padder;
+			global::PayPal.Forms.Android.Resource.Id.enterAlways = global::CreditCardUISample.Droid.Resource.Id.enterAlways;
+			global::PayPal.Forms.Android.Resource.Id.enterAlwaysCollapsed = global::CreditCardUISample.Droid.Resource.Id.enterAlwaysCollapsed;
+			global::PayPal.Forms.Android.Resource.Id.exitUntilCollapsed = global::CreditCardUISample.Droid.Resource.Id.exitUntilCollapsed;
+			global::PayPal.Forms.Android.Resource.Id.expanded_menu = global::CreditCardUISample.Droid.Resource.Id.expanded_menu;
+			global::PayPal.Forms.Android.Resource.Id.expand_activities_button = global::CreditCardUISample.Droid.Resource.Id.expand_activities_button;
+			global::PayPal.Forms.Android.Resource.Id.fill = global::CreditCardUISample.Droid.Resource.Id.fill;
+			global::PayPal.Forms.Android.Resource.Id.fill_horizontal = global::CreditCardUISample.Droid.Resource.Id.fill_horizontal;
+			global::PayPal.Forms.Android.Resource.Id.fill_vertical = global::CreditCardUISample.Droid.Resource.Id.fill_vertical;
+			global::PayPal.Forms.Android.Resource.Id.@fixed = global::CreditCardUISample.Droid.Resource.Id.@fixed;
+			global::PayPal.Forms.Android.Resource.Id.home = global::CreditCardUISample.Droid.Resource.Id.home;
+			global::PayPal.Forms.Android.Resource.Id.homeAsUp = global::CreditCardUISample.Droid.Resource.Id.homeAsUp;
+			global::PayPal.Forms.Android.Resource.Id.icon = global::CreditCardUISample.Droid.Resource.Id.icon;
+			global::PayPal.Forms.Android.Resource.Id.icon_group = global::CreditCardUISample.Droid.Resource.Id.icon_group;
+			global::PayPal.Forms.Android.Resource.Id.ifRoom = global::CreditCardUISample.Droid.Resource.Id.ifRoom;
+			global::PayPal.Forms.Android.Resource.Id.image = global::CreditCardUISample.Droid.Resource.Id.image;
+			global::PayPal.Forms.Android.Resource.Id.info = global::CreditCardUISample.Droid.Resource.Id.info;
+			global::PayPal.Forms.Android.Resource.Id.item_touch_helper_previous_elevation = global::CreditCardUISample.Droid.Resource.Id.item_touch_helper_previous_elevation;
+			global::PayPal.Forms.Android.Resource.Id.largeLabel = global::CreditCardUISample.Droid.Resource.Id.largeLabel;
+			global::PayPal.Forms.Android.Resource.Id.left = global::CreditCardUISample.Droid.Resource.Id.left;
+			global::PayPal.Forms.Android.Resource.Id.line1 = global::CreditCardUISample.Droid.Resource.Id.line1;
+			global::PayPal.Forms.Android.Resource.Id.line3 = global::CreditCardUISample.Droid.Resource.Id.line3;
+			global::PayPal.Forms.Android.Resource.Id.listMode = global::CreditCardUISample.Droid.Resource.Id.listMode;
+			global::PayPal.Forms.Android.Resource.Id.list_item = global::CreditCardUISample.Droid.Resource.Id.list_item;
+			global::PayPal.Forms.Android.Resource.Id.masked = global::CreditCardUISample.Droid.Resource.Id.masked;
+			global::PayPal.Forms.Android.Resource.Id.media_actions = global::CreditCardUISample.Droid.Resource.Id.media_actions;
+			global::PayPal.Forms.Android.Resource.Id.middle = global::CreditCardUISample.Droid.Resource.Id.middle;
+			global::PayPal.Forms.Android.Resource.Id.mini = global::CreditCardUISample.Droid.Resource.Id.mini;
+			global::PayPal.Forms.Android.Resource.Id.mr_art = global::CreditCardUISample.Droid.Resource.Id.mr_art;
+			global::PayPal.Forms.Android.Resource.Id.mr_chooser_list = global::CreditCardUISample.Droid.Resource.Id.mr_chooser_list;
+			global::PayPal.Forms.Android.Resource.Id.mr_chooser_route_desc = global::CreditCardUISample.Droid.Resource.Id.mr_chooser_route_desc;
+			global::PayPal.Forms.Android.Resource.Id.mr_chooser_route_icon = global::CreditCardUISample.Droid.Resource.Id.mr_chooser_route_icon;
+			global::PayPal.Forms.Android.Resource.Id.mr_chooser_route_name = global::CreditCardUISample.Droid.Resource.Id.mr_chooser_route_name;
+			global::PayPal.Forms.Android.Resource.Id.mr_chooser_title = global::CreditCardUISample.Droid.Resource.Id.mr_chooser_title;
+			global::PayPal.Forms.Android.Resource.Id.mr_close = global::CreditCardUISample.Droid.Resource.Id.mr_close;
+			global::PayPal.Forms.Android.Resource.Id.mr_control_divider = global::CreditCardUISample.Droid.Resource.Id.mr_control_divider;
+			global::PayPal.Forms.Android.Resource.Id.mr_control_playback_ctrl = global::CreditCardUISample.Droid.Resource.Id.mr_control_playback_ctrl;
+			global::PayPal.Forms.Android.Resource.Id.mr_control_subtitle = global::CreditCardUISample.Droid.Resource.Id.mr_control_subtitle;
+			global::PayPal.Forms.Android.Resource.Id.mr_control_title = global::CreditCardUISample.Droid.Resource.Id.mr_control_title;
+			global::PayPal.Forms.Android.Resource.Id.mr_control_title_container = global::CreditCardUISample.Droid.Resource.Id.mr_control_title_container;
+			global::PayPal.Forms.Android.Resource.Id.mr_custom_control = global::CreditCardUISample.Droid.Resource.Id.mr_custom_control;
+			global::PayPal.Forms.Android.Resource.Id.mr_default_control = global::CreditCardUISample.Droid.Resource.Id.mr_default_control;
+			global::PayPal.Forms.Android.Resource.Id.mr_dialog_area = global::CreditCardUISample.Droid.Resource.Id.mr_dialog_area;
+			global::PayPal.Forms.Android.Resource.Id.mr_expandable_area = global::CreditCardUISample.Droid.Resource.Id.mr_expandable_area;
+			global::PayPal.Forms.Android.Resource.Id.mr_group_expand_collapse = global::CreditCardUISample.Droid.Resource.Id.mr_group_expand_collapse;
+			global::PayPal.Forms.Android.Resource.Id.mr_media_main_control = global::CreditCardUISample.Droid.Resource.Id.mr_media_main_control;
+			global::PayPal.Forms.Android.Resource.Id.mr_name = global::CreditCardUISample.Droid.Resource.Id.mr_name;
+			global::PayPal.Forms.Android.Resource.Id.mr_playback_control = global::CreditCardUISample.Droid.Resource.Id.mr_playback_control;
+			global::PayPal.Forms.Android.Resource.Id.mr_title_bar = global::CreditCardUISample.Droid.Resource.Id.mr_title_bar;
+			global::PayPal.Forms.Android.Resource.Id.mr_volume_control = global::CreditCardUISample.Droid.Resource.Id.mr_volume_control;
+			global::PayPal.Forms.Android.Resource.Id.mr_volume_group_list = global::CreditCardUISample.Droid.Resource.Id.mr_volume_group_list;
+			global::PayPal.Forms.Android.Resource.Id.mr_volume_item_icon = global::CreditCardUISample.Droid.Resource.Id.mr_volume_item_icon;
+			global::PayPal.Forms.Android.Resource.Id.mr_volume_slider = global::CreditCardUISample.Droid.Resource.Id.mr_volume_slider;
+			global::PayPal.Forms.Android.Resource.Id.multiply = global::CreditCardUISample.Droid.Resource.Id.multiply;
+			global::PayPal.Forms.Android.Resource.Id.navigation_header_container = global::CreditCardUISample.Droid.Resource.Id.navigation_header_container;
+			global::PayPal.Forms.Android.Resource.Id.never = global::CreditCardUISample.Droid.Resource.Id.never;
+			global::PayPal.Forms.Android.Resource.Id.none = global::CreditCardUISample.Droid.Resource.Id.none;
+			global::PayPal.Forms.Android.Resource.Id.normal = global::CreditCardUISample.Droid.Resource.Id.normal;
+			global::PayPal.Forms.Android.Resource.Id.notification_background = global::CreditCardUISample.Droid.Resource.Id.notification_background;
+			global::PayPal.Forms.Android.Resource.Id.notification_main_column = global::CreditCardUISample.Droid.Resource.Id.notification_main_column;
+			global::PayPal.Forms.Android.Resource.Id.notification_main_column_container = global::CreditCardUISample.Droid.Resource.Id.notification_main_column_container;
+			global::PayPal.Forms.Android.Resource.Id.parallax = global::CreditCardUISample.Droid.Resource.Id.parallax;
+			global::PayPal.Forms.Android.Resource.Id.parentPanel = global::CreditCardUISample.Droid.Resource.Id.parentPanel;
+			global::PayPal.Forms.Android.Resource.Id.pin = global::CreditCardUISample.Droid.Resource.Id.pin;
+			global::PayPal.Forms.Android.Resource.Id.progress_circular = global::CreditCardUISample.Droid.Resource.Id.progress_circular;
+			global::PayPal.Forms.Android.Resource.Id.progress_horizontal = global::CreditCardUISample.Droid.Resource.Id.progress_horizontal;
+			global::PayPal.Forms.Android.Resource.Id.radio = global::CreditCardUISample.Droid.Resource.Id.radio;
+			global::PayPal.Forms.Android.Resource.Id.right = global::CreditCardUISample.Droid.Resource.Id.right;
+			global::PayPal.Forms.Android.Resource.Id.right_icon = global::CreditCardUISample.Droid.Resource.Id.right_icon;
+			global::PayPal.Forms.Android.Resource.Id.right_side = global::CreditCardUISample.Droid.Resource.Id.right_side;
+			global::PayPal.Forms.Android.Resource.Id.screen = global::CreditCardUISample.Droid.Resource.Id.screen;
+			global::PayPal.Forms.Android.Resource.Id.scroll = global::CreditCardUISample.Droid.Resource.Id.scroll;
+			global::PayPal.Forms.Android.Resource.Id.scrollable = global::CreditCardUISample.Droid.Resource.Id.scrollable;
+			global::PayPal.Forms.Android.Resource.Id.scrollIndicatorDown = global::CreditCardUISample.Droid.Resource.Id.scrollIndicatorDown;
+			global::PayPal.Forms.Android.Resource.Id.scrollIndicatorUp = global::CreditCardUISample.Droid.Resource.Id.scrollIndicatorUp;
+			global::PayPal.Forms.Android.Resource.Id.scrollView = global::CreditCardUISample.Droid.Resource.Id.scrollView;
+			global::PayPal.Forms.Android.Resource.Id.search_badge = global::CreditCardUISample.Droid.Resource.Id.search_badge;
+			global::PayPal.Forms.Android.Resource.Id.search_bar = global::CreditCardUISample.Droid.Resource.Id.search_bar;
+			global::PayPal.Forms.Android.Resource.Id.search_button = global::CreditCardUISample.Droid.Resource.Id.search_button;
+			global::PayPal.Forms.Android.Resource.Id.search_close_btn = global::CreditCardUISample.Droid.Resource.Id.search_close_btn;
+			global::PayPal.Forms.Android.Resource.Id.search_edit_frame = global::CreditCardUISample.Droid.Resource.Id.search_edit_frame;
+			global::PayPal.Forms.Android.Resource.Id.search_go_btn = global::CreditCardUISample.Droid.Resource.Id.search_go_btn;
+			global::PayPal.Forms.Android.Resource.Id.search_mag_icon = global::CreditCardUISample.Droid.Resource.Id.search_mag_icon;
+			global::PayPal.Forms.Android.Resource.Id.search_plate = global::CreditCardUISample.Droid.Resource.Id.search_plate;
+			global::PayPal.Forms.Android.Resource.Id.search_src_text = global::CreditCardUISample.Droid.Resource.Id.search_src_text;
+			global::PayPal.Forms.Android.Resource.Id.search_voice_btn = global::CreditCardUISample.Droid.Resource.Id.search_voice_btn;
+			global::PayPal.Forms.Android.Resource.Id.select_dialog_listview = global::CreditCardUISample.Droid.Resource.Id.select_dialog_listview;
+			global::PayPal.Forms.Android.Resource.Id.shortcut = global::CreditCardUISample.Droid.Resource.Id.shortcut;
+			global::PayPal.Forms.Android.Resource.Id.showCustom = global::CreditCardUISample.Droid.Resource.Id.showCustom;
+			global::PayPal.Forms.Android.Resource.Id.showHome = global::CreditCardUISample.Droid.Resource.Id.showHome;
+			global::PayPal.Forms.Android.Resource.Id.showTitle = global::CreditCardUISample.Droid.Resource.Id.showTitle;
+			global::PayPal.Forms.Android.Resource.Id.smallLabel = global::CreditCardUISample.Droid.Resource.Id.smallLabel;
+			global::PayPal.Forms.Android.Resource.Id.snackbar_action = global::CreditCardUISample.Droid.Resource.Id.snackbar_action;
+			global::PayPal.Forms.Android.Resource.Id.snackbar_text = global::CreditCardUISample.Droid.Resource.Id.snackbar_text;
+			global::PayPal.Forms.Android.Resource.Id.snap = global::CreditCardUISample.Droid.Resource.Id.snap;
+			global::PayPal.Forms.Android.Resource.Id.spacer = global::CreditCardUISample.Droid.Resource.Id.spacer;
+			global::PayPal.Forms.Android.Resource.Id.split_action_bar = global::CreditCardUISample.Droid.Resource.Id.split_action_bar;
+			global::PayPal.Forms.Android.Resource.Id.src_atop = global::CreditCardUISample.Droid.Resource.Id.src_atop;
+			global::PayPal.Forms.Android.Resource.Id.src_in = global::CreditCardUISample.Droid.Resource.Id.src_in;
+			global::PayPal.Forms.Android.Resource.Id.src_over = global::CreditCardUISample.Droid.Resource.Id.src_over;
+			global::PayPal.Forms.Android.Resource.Id.start = global::CreditCardUISample.Droid.Resource.Id.start;
+			global::PayPal.Forms.Android.Resource.Id.status_bar_latest_event_content = global::CreditCardUISample.Droid.Resource.Id.status_bar_latest_event_content;
+			global::PayPal.Forms.Android.Resource.Id.submenuarrow = global::CreditCardUISample.Droid.Resource.Id.submenuarrow;
+			global::PayPal.Forms.Android.Resource.Id.submit_area = global::CreditCardUISample.Droid.Resource.Id.submit_area;
+			global::PayPal.Forms.Android.Resource.Id.tabMode = global::CreditCardUISample.Droid.Resource.Id.tabMode;
+			global::PayPal.Forms.Android.Resource.Id.text = global::CreditCardUISample.Droid.Resource.Id.text;
+			global::PayPal.Forms.Android.Resource.Id.text2 = global::CreditCardUISample.Droid.Resource.Id.text2;
+			global::PayPal.Forms.Android.Resource.Id.textinput_counter = global::CreditCardUISample.Droid.Resource.Id.textinput_counter;
+			global::PayPal.Forms.Android.Resource.Id.textinput_error = global::CreditCardUISample.Droid.Resource.Id.textinput_error;
+			global::PayPal.Forms.Android.Resource.Id.textSpacerNoButtons = global::CreditCardUISample.Droid.Resource.Id.textSpacerNoButtons;
+			global::PayPal.Forms.Android.Resource.Id.textSpacerNoTitle = global::CreditCardUISample.Droid.Resource.Id.textSpacerNoTitle;
+			global::PayPal.Forms.Android.Resource.Id.text_input_password_toggle = global::CreditCardUISample.Droid.Resource.Id.text_input_password_toggle;
+			global::PayPal.Forms.Android.Resource.Id.time = global::CreditCardUISample.Droid.Resource.Id.time;
+			global::PayPal.Forms.Android.Resource.Id.title = global::CreditCardUISample.Droid.Resource.Id.title;
+			global::PayPal.Forms.Android.Resource.Id.titleDividerNoCustom = global::CreditCardUISample.Droid.Resource.Id.titleDividerNoCustom;
+			global::PayPal.Forms.Android.Resource.Id.title_template = global::CreditCardUISample.Droid.Resource.Id.title_template;
+			global::PayPal.Forms.Android.Resource.Id.top = global::CreditCardUISample.Droid.Resource.Id.top;
+			global::PayPal.Forms.Android.Resource.Id.topPanel = global::CreditCardUISample.Droid.Resource.Id.topPanel;
+			global::PayPal.Forms.Android.Resource.Id.touch_outside = global::CreditCardUISample.Droid.Resource.Id.touch_outside;
+			global::PayPal.Forms.Android.Resource.Id.transition_current_scene = global::CreditCardUISample.Droid.Resource.Id.transition_current_scene;
+			global::PayPal.Forms.Android.Resource.Id.transition_scene_layoutid_cache = global::CreditCardUISample.Droid.Resource.Id.transition_scene_layoutid_cache;
+			global::PayPal.Forms.Android.Resource.Id.up = global::CreditCardUISample.Droid.Resource.Id.up;
+			global::PayPal.Forms.Android.Resource.Id.useLogo = global::CreditCardUISample.Droid.Resource.Id.useLogo;
+			global::PayPal.Forms.Android.Resource.Id.view_offset_helper = global::CreditCardUISample.Droid.Resource.Id.view_offset_helper;
+			global::PayPal.Forms.Android.Resource.Id.visible = global::CreditCardUISample.Droid.Resource.Id.visible;
+			global::PayPal.Forms.Android.Resource.Id.volume_item_container = global::CreditCardUISample.Droid.Resource.Id.volume_item_container;
+			global::PayPal.Forms.Android.Resource.Id.withText = global::CreditCardUISample.Droid.Resource.Id.withText;
+			global::PayPal.Forms.Android.Resource.Id.wrap_content = global::CreditCardUISample.Droid.Resource.Id.wrap_content;
+			global::PayPal.Forms.Android.Resource.Integer.abc_config_activityDefaultDur = global::CreditCardUISample.Droid.Resource.Integer.abc_config_activityDefaultDur;
+			global::PayPal.Forms.Android.Resource.Integer.abc_config_activityShortDur = global::CreditCardUISample.Droid.Resource.Integer.abc_config_activityShortDur;
+			global::PayPal.Forms.Android.Resource.Integer.app_bar_elevation_anim_duration = global::CreditCardUISample.Droid.Resource.Integer.app_bar_elevation_anim_duration;
+			global::PayPal.Forms.Android.Resource.Integer.bottom_sheet_slide_duration = global::CreditCardUISample.Droid.Resource.Integer.bottom_sheet_slide_duration;
+			global::PayPal.Forms.Android.Resource.Integer.cancel_button_image_alpha = global::CreditCardUISample.Droid.Resource.Integer.cancel_button_image_alpha;
+			global::PayPal.Forms.Android.Resource.Integer.design_snackbar_text_max_lines = global::CreditCardUISample.Droid.Resource.Integer.design_snackbar_text_max_lines;
+			global::PayPal.Forms.Android.Resource.Integer.hide_password_duration = global::CreditCardUISample.Droid.Resource.Integer.hide_password_duration;
+			global::PayPal.Forms.Android.Resource.Integer.mr_controller_volume_group_list_animation_duration_ms = global::CreditCardUISample.Droid.Resource.Integer.mr_controller_volume_group_list_animation_duration_ms;
+			global::PayPal.Forms.Android.Resource.Integer.mr_controller_volume_group_list_fade_in_duration_ms = global::CreditCardUISample.Droid.Resource.Integer.mr_controller_volume_group_list_fade_in_duration_ms;
+			global::PayPal.Forms.Android.Resource.Integer.mr_controller_volume_group_list_fade_out_duration_ms = global::CreditCardUISample.Droid.Resource.Integer.mr_controller_volume_group_list_fade_out_duration_ms;
+			global::PayPal.Forms.Android.Resource.Integer.show_password_duration = global::CreditCardUISample.Droid.Resource.Integer.show_password_duration;
+			global::PayPal.Forms.Android.Resource.Integer.status_bar_notification_info_maxnum = global::CreditCardUISample.Droid.Resource.Integer.status_bar_notification_info_maxnum;
+			global::PayPal.Forms.Android.Resource.Interpolator.mr_fast_out_slow_in = global::CreditCardUISample.Droid.Resource.Interpolator.mr_fast_out_slow_in;
+			global::PayPal.Forms.Android.Resource.Interpolator.mr_linear_out_slow_in = global::CreditCardUISample.Droid.Resource.Interpolator.mr_linear_out_slow_in;
+			global::PayPal.Forms.Android.Resource.Layout.abc_action_bar_title_item = global::CreditCardUISample.Droid.Resource.Layout.abc_action_bar_title_item;
+			global::PayPal.Forms.Android.Resource.Layout.abc_action_bar_up_container = global::CreditCardUISample.Droid.Resource.Layout.abc_action_bar_up_container;
+			global::PayPal.Forms.Android.Resource.Layout.abc_action_menu_item_layout = global::CreditCardUISample.Droid.Resource.Layout.abc_action_menu_item_layout;
+			global::PayPal.Forms.Android.Resource.Layout.abc_action_menu_layout = global::CreditCardUISample.Droid.Resource.Layout.abc_action_menu_layout;
+			global::PayPal.Forms.Android.Resource.Layout.abc_action_mode_bar = global::CreditCardUISample.Droid.Resource.Layout.abc_action_mode_bar;
+			global::PayPal.Forms.Android.Resource.Layout.abc_action_mode_close_item_material = global::CreditCardUISample.Droid.Resource.Layout.abc_action_mode_close_item_material;
+			global::PayPal.Forms.Android.Resource.Layout.abc_activity_chooser_view = global::CreditCardUISample.Droid.Resource.Layout.abc_activity_chooser_view;
+			global::PayPal.Forms.Android.Resource.Layout.abc_activity_chooser_view_list_item = global::CreditCardUISample.Droid.Resource.Layout.abc_activity_chooser_view_list_item;
+			global::PayPal.Forms.Android.Resource.Layout.abc_alert_dialog_button_bar_material = global::CreditCardUISample.Droid.Resource.Layout.abc_alert_dialog_button_bar_material;
+			global::PayPal.Forms.Android.Resource.Layout.abc_alert_dialog_material = global::CreditCardUISample.Droid.Resource.Layout.abc_alert_dialog_material;
+			global::PayPal.Forms.Android.Resource.Layout.abc_alert_dialog_title_material = global::CreditCardUISample.Droid.Resource.Layout.abc_alert_dialog_title_material;
+			global::PayPal.Forms.Android.Resource.Layout.abc_dialog_title_material = global::CreditCardUISample.Droid.Resource.Layout.abc_dialog_title_material;
+			global::PayPal.Forms.Android.Resource.Layout.abc_expanded_menu_layout = global::CreditCardUISample.Droid.Resource.Layout.abc_expanded_menu_layout;
+			global::PayPal.Forms.Android.Resource.Layout.abc_list_menu_item_checkbox = global::CreditCardUISample.Droid.Resource.Layout.abc_list_menu_item_checkbox;
+			global::PayPal.Forms.Android.Resource.Layout.abc_list_menu_item_icon = global::CreditCardUISample.Droid.Resource.Layout.abc_list_menu_item_icon;
+			global::PayPal.Forms.Android.Resource.Layout.abc_list_menu_item_layout = global::CreditCardUISample.Droid.Resource.Layout.abc_list_menu_item_layout;
+			global::PayPal.Forms.Android.Resource.Layout.abc_list_menu_item_radio = global::CreditCardUISample.Droid.Resource.Layout.abc_list_menu_item_radio;
+			global::PayPal.Forms.Android.Resource.Layout.abc_popup_menu_header_item_layout = global::CreditCardUISample.Droid.Resource.Layout.abc_popup_menu_header_item_layout;
+			global::PayPal.Forms.Android.Resource.Layout.abc_popup_menu_item_layout = global::CreditCardUISample.Droid.Resource.Layout.abc_popup_menu_item_layout;
+			global::PayPal.Forms.Android.Resource.Layout.abc_screen_content_include = global::CreditCardUISample.Droid.Resource.Layout.abc_screen_content_include;
+			global::PayPal.Forms.Android.Resource.Layout.abc_screen_simple = global::CreditCardUISample.Droid.Resource.Layout.abc_screen_simple;
+			global::PayPal.Forms.Android.Resource.Layout.abc_screen_simple_overlay_action_mode = global::CreditCardUISample.Droid.Resource.Layout.abc_screen_simple_overlay_action_mode;
+			global::PayPal.Forms.Android.Resource.Layout.abc_screen_toolbar = global::CreditCardUISample.Droid.Resource.Layout.abc_screen_toolbar;
+			global::PayPal.Forms.Android.Resource.Layout.abc_search_dropdown_item_icons_2line = global::CreditCardUISample.Droid.Resource.Layout.abc_search_dropdown_item_icons_2line;
+			global::PayPal.Forms.Android.Resource.Layout.abc_search_view = global::CreditCardUISample.Droid.Resource.Layout.abc_search_view;
+			global::PayPal.Forms.Android.Resource.Layout.abc_select_dialog_material = global::CreditCardUISample.Droid.Resource.Layout.abc_select_dialog_material;
+			global::PayPal.Forms.Android.Resource.Layout.design_bottom_navigation_item = global::CreditCardUISample.Droid.Resource.Layout.design_bottom_navigation_item;
+			global::PayPal.Forms.Android.Resource.Layout.design_bottom_sheet_dialog = global::CreditCardUISample.Droid.Resource.Layout.design_bottom_sheet_dialog;
+			global::PayPal.Forms.Android.Resource.Layout.design_layout_snackbar = global::CreditCardUISample.Droid.Resource.Layout.design_layout_snackbar;
+			global::PayPal.Forms.Android.Resource.Layout.design_layout_snackbar_include = global::CreditCardUISample.Droid.Resource.Layout.design_layout_snackbar_include;
+			global::PayPal.Forms.Android.Resource.Layout.design_layout_tab_icon = global::CreditCardUISample.Droid.Resource.Layout.design_layout_tab_icon;
+			global::PayPal.Forms.Android.Resource.Layout.design_layout_tab_text = global::CreditCardUISample.Droid.Resource.Layout.design_layout_tab_text;
+			global::PayPal.Forms.Android.Resource.Layout.design_menu_item_action_area = global::CreditCardUISample.Droid.Resource.Layout.design_menu_item_action_area;
+			global::PayPal.Forms.Android.Resource.Layout.design_navigation_item = global::CreditCardUISample.Droid.Resource.Layout.design_navigation_item;
+			global::PayPal.Forms.Android.Resource.Layout.design_navigation_item_header = global::CreditCardUISample.Droid.Resource.Layout.design_navigation_item_header;
+			global::PayPal.Forms.Android.Resource.Layout.design_navigation_item_separator = global::CreditCardUISample.Droid.Resource.Layout.design_navigation_item_separator;
+			global::PayPal.Forms.Android.Resource.Layout.design_navigation_item_subheader = global::CreditCardUISample.Droid.Resource.Layout.design_navigation_item_subheader;
+			global::PayPal.Forms.Android.Resource.Layout.design_navigation_menu = global::CreditCardUISample.Droid.Resource.Layout.design_navigation_menu;
+			global::PayPal.Forms.Android.Resource.Layout.design_navigation_menu_item = global::CreditCardUISample.Droid.Resource.Layout.design_navigation_menu_item;
+			global::PayPal.Forms.Android.Resource.Layout.design_text_input_password_icon = global::CreditCardUISample.Droid.Resource.Layout.design_text_input_password_icon;
+			global::PayPal.Forms.Android.Resource.Layout.mr_chooser_dialog = global::CreditCardUISample.Droid.Resource.Layout.mr_chooser_dialog;
+			global::PayPal.Forms.Android.Resource.Layout.mr_chooser_list_item = global::CreditCardUISample.Droid.Resource.Layout.mr_chooser_list_item;
+			global::PayPal.Forms.Android.Resource.Layout.mr_controller_material_dialog_b = global::CreditCardUISample.Droid.Resource.Layout.mr_controller_material_dialog_b;
+			global::PayPal.Forms.Android.Resource.Layout.mr_controller_volume_item = global::CreditCardUISample.Droid.Resource.Layout.mr_controller_volume_item;
+			global::PayPal.Forms.Android.Resource.Layout.mr_playback_control = global::CreditCardUISample.Droid.Resource.Layout.mr_playback_control;
+			global::PayPal.Forms.Android.Resource.Layout.mr_volume_control = global::CreditCardUISample.Droid.Resource.Layout.mr_volume_control;
+			global::PayPal.Forms.Android.Resource.Layout.notification_action = global::CreditCardUISample.Droid.Resource.Layout.notification_action;
+			global::PayPal.Forms.Android.Resource.Layout.notification_action_tombstone = global::CreditCardUISample.Droid.Resource.Layout.notification_action_tombstone;
+			global::PayPal.Forms.Android.Resource.Layout.notification_media_action = global::CreditCardUISample.Droid.Resource.Layout.notification_media_action;
+			global::PayPal.Forms.Android.Resource.Layout.notification_media_cancel_action = global::CreditCardUISample.Droid.Resource.Layout.notification_media_cancel_action;
+			global::PayPal.Forms.Android.Resource.Layout.notification_template_big_media = global::CreditCardUISample.Droid.Resource.Layout.notification_template_big_media;
+			global::PayPal.Forms.Android.Resource.Layout.notification_template_big_media_custom = global::CreditCardUISample.Droid.Resource.Layout.notification_template_big_media_custom;
+			global::PayPal.Forms.Android.Resource.Layout.notification_template_big_media_narrow = global::CreditCardUISample.Droid.Resource.Layout.notification_template_big_media_narrow;
+			global::PayPal.Forms.Android.Resource.Layout.notification_template_big_media_narrow_custom = global::CreditCardUISample.Droid.Resource.Layout.notification_template_big_media_narrow_custom;
+			global::PayPal.Forms.Android.Resource.Layout.notification_template_custom_big = global::CreditCardUISample.Droid.Resource.Layout.notification_template_custom_big;
+			global::PayPal.Forms.Android.Resource.Layout.notification_template_icon_group = global::CreditCardUISample.Droid.Resource.Layout.notification_template_icon_group;
+			global::PayPal.Forms.Android.Resource.Layout.notification_template_lines_media = global::CreditCardUISample.Droid.Resource.Layout.notification_template_lines_media;
+			global::PayPal.Forms.Android.Resource.Layout.notification_template_media = global::CreditCardUISample.Droid.Resource.Layout.notification_template_media;
+			global::PayPal.Forms.Android.Resource.Layout.notification_template_media_custom = global::CreditCardUISample.Droid.Resource.Layout.notification_template_media_custom;
+			global::PayPal.Forms.Android.Resource.Layout.notification_template_part_chronometer = global::CreditCardUISample.Droid.Resource.Layout.notification_template_part_chronometer;
+			global::PayPal.Forms.Android.Resource.Layout.notification_template_part_time = global::CreditCardUISample.Droid.Resource.Layout.notification_template_part_time;
+			global::PayPal.Forms.Android.Resource.Layout.select_dialog_item_material = global::CreditCardUISample.Droid.Resource.Layout.select_dialog_item_material;
+			global::PayPal.Forms.Android.Resource.Layout.select_dialog_multichoice_material = global::CreditCardUISample.Droid.Resource.Layout.select_dialog_multichoice_material;
+			global::PayPal.Forms.Android.Resource.Layout.select_dialog_singlechoice_material = global::CreditCardUISample.Droid.Resource.Layout.select_dialog_singlechoice_material;
+			global::PayPal.Forms.Android.Resource.Layout.support_simple_spinner_dropdown_item = global::CreditCardUISample.Droid.Resource.Layout.support_simple_spinner_dropdown_item;
+			global::PayPal.Forms.Android.Resource.String.abc_action_bar_home_description = global::CreditCardUISample.Droid.Resource.String.abc_action_bar_home_description;
+			global::PayPal.Forms.Android.Resource.String.abc_action_bar_up_description = global::CreditCardUISample.Droid.Resource.String.abc_action_bar_up_description;
+			global::PayPal.Forms.Android.Resource.String.abc_action_menu_overflow_description = global::CreditCardUISample.Droid.Resource.String.abc_action_menu_overflow_description;
+			global::PayPal.Forms.Android.Resource.String.abc_action_mode_done = global::CreditCardUISample.Droid.Resource.String.abc_action_mode_done;
+			global::PayPal.Forms.Android.Resource.String.abc_activitychooserview_choose_application = global::CreditCardUISample.Droid.Resource.String.abc_activitychooserview_choose_application;
+			global::PayPal.Forms.Android.Resource.String.abc_activity_chooser_view_see_all = global::CreditCardUISample.Droid.Resource.String.abc_activity_chooser_view_see_all;
+			global::PayPal.Forms.Android.Resource.String.abc_capital_off = global::CreditCardUISample.Droid.Resource.String.abc_capital_off;
+			global::PayPal.Forms.Android.Resource.String.abc_capital_on = global::CreditCardUISample.Droid.Resource.String.abc_capital_on;
+			global::PayPal.Forms.Android.Resource.String.abc_font_family_body_1_material = global::CreditCardUISample.Droid.Resource.String.abc_font_family_body_1_material;
+			global::PayPal.Forms.Android.Resource.String.abc_font_family_body_2_material = global::CreditCardUISample.Droid.Resource.String.abc_font_family_body_2_material;
+			global::PayPal.Forms.Android.Resource.String.abc_font_family_button_material = global::CreditCardUISample.Droid.Resource.String.abc_font_family_button_material;
+			global::PayPal.Forms.Android.Resource.String.abc_font_family_caption_material = global::CreditCardUISample.Droid.Resource.String.abc_font_family_caption_material;
+			global::PayPal.Forms.Android.Resource.String.abc_font_family_display_1_material = global::CreditCardUISample.Droid.Resource.String.abc_font_family_display_1_material;
+			global::PayPal.Forms.Android.Resource.String.abc_font_family_display_2_material = global::CreditCardUISample.Droid.Resource.String.abc_font_family_display_2_material;
+			global::PayPal.Forms.Android.Resource.String.abc_font_family_display_3_material = global::CreditCardUISample.Droid.Resource.String.abc_font_family_display_3_material;
+			global::PayPal.Forms.Android.Resource.String.abc_font_family_display_4_material = global::CreditCardUISample.Droid.Resource.String.abc_font_family_display_4_material;
+			global::PayPal.Forms.Android.Resource.String.abc_font_family_headline_material = global::CreditCardUISample.Droid.Resource.String.abc_font_family_headline_material;
+			global::PayPal.Forms.Android.Resource.String.abc_font_family_menu_material = global::CreditCardUISample.Droid.Resource.String.abc_font_family_menu_material;
+			global::PayPal.Forms.Android.Resource.String.abc_font_family_subhead_material = global::CreditCardUISample.Droid.Resource.String.abc_font_family_subhead_material;
+			global::PayPal.Forms.Android.Resource.String.abc_font_family_title_material = global::CreditCardUISample.Droid.Resource.String.abc_font_family_title_material;
+			global::PayPal.Forms.Android.Resource.String.abc_searchview_description_clear = global::CreditCardUISample.Droid.Resource.String.abc_searchview_description_clear;
+			global::PayPal.Forms.Android.Resource.String.abc_searchview_description_query = global::CreditCardUISample.Droid.Resource.String.abc_searchview_description_query;
+			global::PayPal.Forms.Android.Resource.String.abc_searchview_description_search = global::CreditCardUISample.Droid.Resource.String.abc_searchview_description_search;
+			global::PayPal.Forms.Android.Resource.String.abc_searchview_description_submit = global::CreditCardUISample.Droid.Resource.String.abc_searchview_description_submit;
+			global::PayPal.Forms.Android.Resource.String.abc_searchview_description_voice = global::CreditCardUISample.Droid.Resource.String.abc_searchview_description_voice;
+			global::PayPal.Forms.Android.Resource.String.abc_search_hint = global::CreditCardUISample.Droid.Resource.String.abc_search_hint;
+			global::PayPal.Forms.Android.Resource.String.abc_shareactionprovider_share_with = global::CreditCardUISample.Droid.Resource.String.abc_shareactionprovider_share_with;
+			global::PayPal.Forms.Android.Resource.String.abc_shareactionprovider_share_with_application = global::CreditCardUISample.Droid.Resource.String.abc_shareactionprovider_share_with_application;
+			global::PayPal.Forms.Android.Resource.String.abc_toolbar_collapse_description = global::CreditCardUISample.Droid.Resource.String.abc_toolbar_collapse_description;
+			global::PayPal.Forms.Android.Resource.String.appbar_scrolling_view_behavior = global::CreditCardUISample.Droid.Resource.String.appbar_scrolling_view_behavior;
+			global::PayPal.Forms.Android.Resource.String.bottom_sheet_behavior = global::CreditCardUISample.Droid.Resource.String.bottom_sheet_behavior;
+			global::PayPal.Forms.Android.Resource.String.character_counter_pattern = global::CreditCardUISample.Droid.Resource.String.character_counter_pattern;
+			global::PayPal.Forms.Android.Resource.String.library_name = global::CreditCardUISample.Droid.Resource.String.library_name;
+			global::PayPal.Forms.Android.Resource.String.mr_button_content_description = global::CreditCardUISample.Droid.Resource.String.mr_button_content_description;
+			global::PayPal.Forms.Android.Resource.String.mr_cast_button_connected = global::CreditCardUISample.Droid.Resource.String.mr_cast_button_connected;
+			global::PayPal.Forms.Android.Resource.String.mr_cast_button_connecting = global::CreditCardUISample.Droid.Resource.String.mr_cast_button_connecting;
+			global::PayPal.Forms.Android.Resource.String.mr_cast_button_disconnected = global::CreditCardUISample.Droid.Resource.String.mr_cast_button_disconnected;
+			global::PayPal.Forms.Android.Resource.String.mr_chooser_searching = global::CreditCardUISample.Droid.Resource.String.mr_chooser_searching;
+			global::PayPal.Forms.Android.Resource.String.mr_chooser_title = global::CreditCardUISample.Droid.Resource.String.mr_chooser_title;
+			global::PayPal.Forms.Android.Resource.String.mr_controller_album_art = global::CreditCardUISample.Droid.Resource.String.mr_controller_album_art;
+			global::PayPal.Forms.Android.Resource.String.mr_controller_casting_screen = global::CreditCardUISample.Droid.Resource.String.mr_controller_casting_screen;
+			global::PayPal.Forms.Android.Resource.String.mr_controller_close_description = global::CreditCardUISample.Droid.Resource.String.mr_controller_close_description;
+			global::PayPal.Forms.Android.Resource.String.mr_controller_collapse_group = global::CreditCardUISample.Droid.Resource.String.mr_controller_collapse_group;
+			global::PayPal.Forms.Android.Resource.String.mr_controller_disconnect = global::CreditCardUISample.Droid.Resource.String.mr_controller_disconnect;
+			global::PayPal.Forms.Android.Resource.String.mr_controller_expand_group = global::CreditCardUISample.Droid.Resource.String.mr_controller_expand_group;
+			global::PayPal.Forms.Android.Resource.String.mr_controller_no_info_available = global::CreditCardUISample.Droid.Resource.String.mr_controller_no_info_available;
+			global::PayPal.Forms.Android.Resource.String.mr_controller_no_media_selected = global::CreditCardUISample.Droid.Resource.String.mr_controller_no_media_selected;
+			global::PayPal.Forms.Android.Resource.String.mr_controller_pause = global::CreditCardUISample.Droid.Resource.String.mr_controller_pause;
+			global::PayPal.Forms.Android.Resource.String.mr_controller_play = global::CreditCardUISample.Droid.Resource.String.mr_controller_play;
+			global::PayPal.Forms.Android.Resource.String.mr_controller_stop = global::CreditCardUISample.Droid.Resource.String.mr_controller_stop;
+			global::PayPal.Forms.Android.Resource.String.mr_controller_stop_casting = global::CreditCardUISample.Droid.Resource.String.mr_controller_stop_casting;
+			global::PayPal.Forms.Android.Resource.String.mr_controller_volume_slider = global::CreditCardUISample.Droid.Resource.String.mr_controller_volume_slider;
+			global::PayPal.Forms.Android.Resource.String.mr_system_route_name = global::CreditCardUISample.Droid.Resource.String.mr_system_route_name;
+			global::PayPal.Forms.Android.Resource.String.mr_user_route_category_name = global::CreditCardUISample.Droid.Resource.String.mr_user_route_category_name;
+			global::PayPal.Forms.Android.Resource.String.password_toggle_content_description = global::CreditCardUISample.Droid.Resource.String.password_toggle_content_description;
+			global::PayPal.Forms.Android.Resource.String.path_password_eye = global::CreditCardUISample.Droid.Resource.String.path_password_eye;
+			global::PayPal.Forms.Android.Resource.String.path_password_eye_mask_strike_through = global::CreditCardUISample.Droid.Resource.String.path_password_eye_mask_strike_through;
+			global::PayPal.Forms.Android.Resource.String.path_password_eye_mask_visible = global::CreditCardUISample.Droid.Resource.String.path_password_eye_mask_visible;
+			global::PayPal.Forms.Android.Resource.String.path_password_strike_through = global::CreditCardUISample.Droid.Resource.String.path_password_strike_through;
+			global::PayPal.Forms.Android.Resource.String.search_menu_title = global::CreditCardUISample.Droid.Resource.String.search_menu_title;
+			global::PayPal.Forms.Android.Resource.String.status_bar_notification_info_overflow = global::CreditCardUISample.Droid.Resource.String.status_bar_notification_info_overflow;
+			global::PayPal.Forms.Android.Resource.Style.AlertDialog_AppCompat = global::CreditCardUISample.Droid.Resource.Style.AlertDialog_AppCompat;
+			global::PayPal.Forms.Android.Resource.Style.AlertDialog_AppCompat_Light = global::CreditCardUISample.Droid.Resource.Style.AlertDialog_AppCompat_Light;
+			global::PayPal.Forms.Android.Resource.Style.Animation_AppCompat_Dialog = global::CreditCardUISample.Droid.Resource.Style.Animation_AppCompat_Dialog;
+			global::PayPal.Forms.Android.Resource.Style.Animation_AppCompat_DropDownUp = global::CreditCardUISample.Droid.Resource.Style.Animation_AppCompat_DropDownUp;
+			global::PayPal.Forms.Android.Resource.Style.Animation_Design_BottomSheetDialog = global::CreditCardUISample.Droid.Resource.Style.Animation_Design_BottomSheetDialog;
+			global::PayPal.Forms.Android.Resource.Style.Base_AlertDialog_AppCompat = global::CreditCardUISample.Droid.Resource.Style.Base_AlertDialog_AppCompat;
+			global::PayPal.Forms.Android.Resource.Style.Base_AlertDialog_AppCompat_Light = global::CreditCardUISample.Droid.Resource.Style.Base_AlertDialog_AppCompat_Light;
+			global::PayPal.Forms.Android.Resource.Style.Base_Animation_AppCompat_Dialog = global::CreditCardUISample.Droid.Resource.Style.Base_Animation_AppCompat_Dialog;
+			global::PayPal.Forms.Android.Resource.Style.Base_Animation_AppCompat_DropDownUp = global::CreditCardUISample.Droid.Resource.Style.Base_Animation_AppCompat_DropDownUp;
+			global::PayPal.Forms.Android.Resource.Style.Base_CardView = global::CreditCardUISample.Droid.Resource.Style.Base_CardView;
+			global::PayPal.Forms.Android.Resource.Style.Base_DialogWindowTitleBackground_AppCompat = global::CreditCardUISample.Droid.Resource.Style.Base_DialogWindowTitleBackground_AppCompat;
+			global::PayPal.Forms.Android.Resource.Style.Base_DialogWindowTitle_AppCompat = global::CreditCardUISample.Droid.Resource.Style.Base_DialogWindowTitle_AppCompat;
+			global::PayPal.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat = global::CreditCardUISample.Droid.Resource.Style.Base_TextAppearance_AppCompat;
+			global::PayPal.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Body1 = global::CreditCardUISample.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body1;
+			global::PayPal.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Body2 = global::CreditCardUISample.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body2;
+			global::PayPal.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Button = global::CreditCardUISample.Droid.Resource.Style.Base_TextAppearance_AppCompat_Button;
+			global::PayPal.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Caption = global::CreditCardUISample.Droid.Resource.Style.Base_TextAppearance_AppCompat_Caption;
+			global::PayPal.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Display1 = global::CreditCardUISample.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display1;
+			global::PayPal.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Display2 = global::CreditCardUISample.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display2;
+			global::PayPal.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Display3 = global::CreditCardUISample.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display3;
+			global::PayPal.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Display4 = global::CreditCardUISample.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display4;
+			global::PayPal.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Headline = global::CreditCardUISample.Droid.Resource.Style.Base_TextAppearance_AppCompat_Headline;
+			global::PayPal.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Inverse = global::CreditCardUISample.Droid.Resource.Style.Base_TextAppearance_AppCompat_Inverse;
+			global::PayPal.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Large = global::CreditCardUISample.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large;
+			global::PayPal.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse = global::CreditCardUISample.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse;
+			global::PayPal.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::CreditCardUISample.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::PayPal.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::CreditCardUISample.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::PayPal.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Medium = global::CreditCardUISample.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium;
+			global::PayPal.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse = global::CreditCardUISample.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse;
+			global::PayPal.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Menu = global::CreditCardUISample.Droid.Resource.Style.Base_TextAppearance_AppCompat_Menu;
+			global::PayPal.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_SearchResult = global::CreditCardUISample.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult;
+			global::PayPal.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle = global::CreditCardUISample.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::PayPal.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title = global::CreditCardUISample.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title;
+			global::PayPal.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Small = global::CreditCardUISample.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small;
+			global::PayPal.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse = global::CreditCardUISample.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse;
+			global::PayPal.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Subhead = global::CreditCardUISample.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead;
+			global::PayPal.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse = global::CreditCardUISample.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse;
+			global::PayPal.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Title = global::CreditCardUISample.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title;
+			global::PayPal.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse = global::CreditCardUISample.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse;
+			global::PayPal.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu = global::CreditCardUISample.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::PayPal.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::CreditCardUISample.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::PayPal.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::CreditCardUISample.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::PayPal.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title = global::CreditCardUISample.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::PayPal.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::CreditCardUISample.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::PayPal.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::CreditCardUISample.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::PayPal.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title = global::CreditCardUISample.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::PayPal.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button = global::CreditCardUISample.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button;
+			global::PayPal.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored = global::CreditCardUISample.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored;
+			global::PayPal.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Colored = global::CreditCardUISample.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Colored;
+			global::PayPal.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse = global::CreditCardUISample.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::PayPal.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem = global::CreditCardUISample.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem;
+			global::PayPal.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Header = global::CreditCardUISample.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Header;
+			global::PayPal.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large = global::CreditCardUISample.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::PayPal.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small = global::CreditCardUISample.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::PayPal.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch = global::CreditCardUISample.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch;
+			global::PayPal.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::CreditCardUISample.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::PayPal.Forms.Android.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::CreditCardUISample.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::PayPal.Forms.Android.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::CreditCardUISample.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::PayPal.Forms.Android.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title = global::CreditCardUISample.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::PayPal.Forms.Android.Resource.Style.Base_ThemeOverlay_AppCompat = global::CreditCardUISample.Droid.Resource.Style.Base_ThemeOverlay_AppCompat;
+			global::PayPal.Forms.Android.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar = global::CreditCardUISample.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar;
+			global::PayPal.Forms.Android.Resource.Style.Base_ThemeOverlay_AppCompat_Dark = global::CreditCardUISample.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark;
+			global::PayPal.Forms.Android.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar = global::CreditCardUISample.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::PayPal.Forms.Android.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog = global::CreditCardUISample.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog;
+			global::PayPal.Forms.Android.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert = global::CreditCardUISample.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert;
+			global::PayPal.Forms.Android.Resource.Style.Base_ThemeOverlay_AppCompat_Light = global::CreditCardUISample.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Light;
+			global::PayPal.Forms.Android.Resource.Style.Base_Theme_AppCompat = global::CreditCardUISample.Droid.Resource.Style.Base_Theme_AppCompat;
+			global::PayPal.Forms.Android.Resource.Style.Base_Theme_AppCompat_CompactMenu = global::CreditCardUISample.Droid.Resource.Style.Base_Theme_AppCompat_CompactMenu;
+			global::PayPal.Forms.Android.Resource.Style.Base_Theme_AppCompat_Dialog = global::CreditCardUISample.Droid.Resource.Style.Base_Theme_AppCompat_Dialog;
+			global::PayPal.Forms.Android.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge = global::CreditCardUISample.Droid.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge;
+			global::PayPal.Forms.Android.Resource.Style.Base_Theme_AppCompat_Dialog_Alert = global::CreditCardUISample.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_Alert;
+			global::PayPal.Forms.Android.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize = global::CreditCardUISample.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize;
+			global::PayPal.Forms.Android.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth = global::CreditCardUISample.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth;
+			global::PayPal.Forms.Android.Resource.Style.Base_Theme_AppCompat_Light = global::CreditCardUISample.Droid.Resource.Style.Base_Theme_AppCompat_Light;
+			global::PayPal.Forms.Android.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar = global::CreditCardUISample.Droid.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar;
+			global::PayPal.Forms.Android.Resource.Style.Base_Theme_AppCompat_Light_Dialog = global::CreditCardUISample.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog;
+			global::PayPal.Forms.Android.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge = global::CreditCardUISample.Droid.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge;
+			global::PayPal.Forms.Android.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert = global::CreditCardUISample.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert;
+			global::PayPal.Forms.Android.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize = global::CreditCardUISample.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize;
+			global::PayPal.Forms.Android.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth = global::CreditCardUISample.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth;
+			global::PayPal.Forms.Android.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog = global::CreditCardUISample.Droid.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog;
+			global::PayPal.Forms.Android.Resource.Style.Base_V21_Theme_AppCompat = global::CreditCardUISample.Droid.Resource.Style.Base_V21_Theme_AppCompat;
+			global::PayPal.Forms.Android.Resource.Style.Base_V21_Theme_AppCompat_Dialog = global::CreditCardUISample.Droid.Resource.Style.Base_V21_Theme_AppCompat_Dialog;
+			global::PayPal.Forms.Android.Resource.Style.Base_V21_Theme_AppCompat_Light = global::CreditCardUISample.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light;
+			global::PayPal.Forms.Android.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog = global::CreditCardUISample.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog;
+			global::PayPal.Forms.Android.Resource.Style.Base_V22_Theme_AppCompat = global::CreditCardUISample.Droid.Resource.Style.Base_V22_Theme_AppCompat;
+			global::PayPal.Forms.Android.Resource.Style.Base_V22_Theme_AppCompat_Light = global::CreditCardUISample.Droid.Resource.Style.Base_V22_Theme_AppCompat_Light;
+			global::PayPal.Forms.Android.Resource.Style.Base_V23_Theme_AppCompat = global::CreditCardUISample.Droid.Resource.Style.Base_V23_Theme_AppCompat;
+			global::PayPal.Forms.Android.Resource.Style.Base_V23_Theme_AppCompat_Light = global::CreditCardUISample.Droid.Resource.Style.Base_V23_Theme_AppCompat_Light;
+			global::PayPal.Forms.Android.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog = global::CreditCardUISample.Droid.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog;
+			global::PayPal.Forms.Android.Resource.Style.Base_V7_Theme_AppCompat = global::CreditCardUISample.Droid.Resource.Style.Base_V7_Theme_AppCompat;
+			global::PayPal.Forms.Android.Resource.Style.Base_V7_Theme_AppCompat_Dialog = global::CreditCardUISample.Droid.Resource.Style.Base_V7_Theme_AppCompat_Dialog;
+			global::PayPal.Forms.Android.Resource.Style.Base_V7_Theme_AppCompat_Light = global::CreditCardUISample.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light;
+			global::PayPal.Forms.Android.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog = global::CreditCardUISample.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog;
+			global::PayPal.Forms.Android.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView = global::CreditCardUISample.Droid.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView;
+			global::PayPal.Forms.Android.Resource.Style.Base_V7_Widget_AppCompat_EditText = global::CreditCardUISample.Droid.Resource.Style.Base_V7_Widget_AppCompat_EditText;
+			global::PayPal.Forms.Android.Resource.Style.Base_Widget_AppCompat_ActionBar = global::CreditCardUISample.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar;
+			global::PayPal.Forms.Android.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid = global::CreditCardUISample.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid;
+			global::PayPal.Forms.Android.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar = global::CreditCardUISample.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar;
+			global::PayPal.Forms.Android.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText = global::CreditCardUISample.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText;
+			global::PayPal.Forms.Android.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView = global::CreditCardUISample.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView;
+			global::PayPal.Forms.Android.Resource.Style.Base_Widget_AppCompat_ActionButton = global::CreditCardUISample.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton;
+			global::PayPal.Forms.Android.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode = global::CreditCardUISample.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode;
+			global::PayPal.Forms.Android.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow = global::CreditCardUISample.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow;
+			global::PayPal.Forms.Android.Resource.Style.Base_Widget_AppCompat_ActionMode = global::CreditCardUISample.Droid.Resource.Style.Base_Widget_AppCompat_ActionMode;
+			global::PayPal.Forms.Android.Resource.Style.Base_Widget_AppCompat_ActivityChooserView = global::CreditCardUISample.Droid.Resource.Style.Base_Widget_AppCompat_ActivityChooserView;
+			global::PayPal.Forms.Android.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView = global::CreditCardUISample.Droid.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView;
+			global::PayPal.Forms.Android.Resource.Style.Base_Widget_AppCompat_Button = global::CreditCardUISample.Droid.Resource.Style.Base_Widget_AppCompat_Button;
+			global::PayPal.Forms.Android.Resource.Style.Base_Widget_AppCompat_ButtonBar = global::CreditCardUISample.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar;
+			global::PayPal.Forms.Android.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog = global::CreditCardUISample.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog;
+			global::PayPal.Forms.Android.Resource.Style.Base_Widget_AppCompat_Button_Borderless = global::CreditCardUISample.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless;
+			global::PayPal.Forms.Android.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored = global::CreditCardUISample.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored;
+			global::PayPal.Forms.Android.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog = global::CreditCardUISample.Droid.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::PayPal.Forms.Android.Resource.Style.Base_Widget_AppCompat_Button_Colored = global::CreditCardUISample.Droid.Resource.Style.Base_Widget_AppCompat_Button_Colored;
+			global::PayPal.Forms.Android.Resource.Style.Base_Widget_AppCompat_Button_Small = global::CreditCardUISample.Droid.Resource.Style.Base_Widget_AppCompat_Button_Small;
+			global::PayPal.Forms.Android.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox = global::CreditCardUISample.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox;
+			global::PayPal.Forms.Android.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton = global::CreditCardUISample.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton;
+			global::PayPal.Forms.Android.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch = global::CreditCardUISample.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch;
+			global::PayPal.Forms.Android.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle = global::CreditCardUISample.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle;
+			global::PayPal.Forms.Android.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common = global::CreditCardUISample.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common;
+			global::PayPal.Forms.Android.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner = global::CreditCardUISample.Droid.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner;
+			global::PayPal.Forms.Android.Resource.Style.Base_Widget_AppCompat_EditText = global::CreditCardUISample.Droid.Resource.Style.Base_Widget_AppCompat_EditText;
+			global::PayPal.Forms.Android.Resource.Style.Base_Widget_AppCompat_ImageButton = global::CreditCardUISample.Droid.Resource.Style.Base_Widget_AppCompat_ImageButton;
+			global::PayPal.Forms.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar = global::CreditCardUISample.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar;
+			global::PayPal.Forms.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid = global::CreditCardUISample.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid;
+			global::PayPal.Forms.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar = global::CreditCardUISample.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar;
+			global::PayPal.Forms.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText = global::CreditCardUISample.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText;
+			global::PayPal.Forms.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::CreditCardUISample.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::PayPal.Forms.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView = global::CreditCardUISample.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView;
+			global::PayPal.Forms.Android.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu = global::CreditCardUISample.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu;
+			global::PayPal.Forms.Android.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow = global::CreditCardUISample.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::PayPal.Forms.Android.Resource.Style.Base_Widget_AppCompat_ListMenuView = global::CreditCardUISample.Droid.Resource.Style.Base_Widget_AppCompat_ListMenuView;
+			global::PayPal.Forms.Android.Resource.Style.Base_Widget_AppCompat_ListPopupWindow = global::CreditCardUISample.Droid.Resource.Style.Base_Widget_AppCompat_ListPopupWindow;
+			global::PayPal.Forms.Android.Resource.Style.Base_Widget_AppCompat_ListView = global::CreditCardUISample.Droid.Resource.Style.Base_Widget_AppCompat_ListView;
+			global::PayPal.Forms.Android.Resource.Style.Base_Widget_AppCompat_ListView_DropDown = global::CreditCardUISample.Droid.Resource.Style.Base_Widget_AppCompat_ListView_DropDown;
+			global::PayPal.Forms.Android.Resource.Style.Base_Widget_AppCompat_ListView_Menu = global::CreditCardUISample.Droid.Resource.Style.Base_Widget_AppCompat_ListView_Menu;
+			global::PayPal.Forms.Android.Resource.Style.Base_Widget_AppCompat_PopupMenu = global::CreditCardUISample.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu;
+			global::PayPal.Forms.Android.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow = global::CreditCardUISample.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow;
+			global::PayPal.Forms.Android.Resource.Style.Base_Widget_AppCompat_PopupWindow = global::CreditCardUISample.Droid.Resource.Style.Base_Widget_AppCompat_PopupWindow;
+			global::PayPal.Forms.Android.Resource.Style.Base_Widget_AppCompat_ProgressBar = global::CreditCardUISample.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar;
+			global::PayPal.Forms.Android.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal = global::CreditCardUISample.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal;
+			global::PayPal.Forms.Android.Resource.Style.Base_Widget_AppCompat_RatingBar = global::CreditCardUISample.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar;
+			global::PayPal.Forms.Android.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator = global::CreditCardUISample.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator;
+			global::PayPal.Forms.Android.Resource.Style.Base_Widget_AppCompat_RatingBar_Small = global::CreditCardUISample.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Small;
+			global::PayPal.Forms.Android.Resource.Style.Base_Widget_AppCompat_SearchView = global::CreditCardUISample.Droid.Resource.Style.Base_Widget_AppCompat_SearchView;
+			global::PayPal.Forms.Android.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar = global::CreditCardUISample.Droid.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar;
+			global::PayPal.Forms.Android.Resource.Style.Base_Widget_AppCompat_SeekBar = global::CreditCardUISample.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar;
+			global::PayPal.Forms.Android.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete = global::CreditCardUISample.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete;
+			global::PayPal.Forms.Android.Resource.Style.Base_Widget_AppCompat_Spinner = global::CreditCardUISample.Droid.Resource.Style.Base_Widget_AppCompat_Spinner;
+			global::PayPal.Forms.Android.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined = global::CreditCardUISample.Droid.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined;
+			global::PayPal.Forms.Android.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem = global::CreditCardUISample.Droid.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem;
+			global::PayPal.Forms.Android.Resource.Style.Base_Widget_AppCompat_Toolbar = global::CreditCardUISample.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar;
+			global::PayPal.Forms.Android.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation = global::CreditCardUISample.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation;
+			global::PayPal.Forms.Android.Resource.Style.Base_Widget_Design_TabLayout = global::CreditCardUISample.Droid.Resource.Style.Base_Widget_Design_TabLayout;
+			global::PayPal.Forms.Android.Resource.Style.CardView = global::CreditCardUISample.Droid.Resource.Style.CardView;
+			global::PayPal.Forms.Android.Resource.Style.CardView_Dark = global::CreditCardUISample.Droid.Resource.Style.CardView_Dark;
+			global::PayPal.Forms.Android.Resource.Style.CardView_Light = global::CreditCardUISample.Droid.Resource.Style.CardView_Light;
+			global::PayPal.Forms.Android.Resource.Style.Platform_AppCompat = global::CreditCardUISample.Droid.Resource.Style.Platform_AppCompat;
+			global::PayPal.Forms.Android.Resource.Style.Platform_AppCompat_Light = global::CreditCardUISample.Droid.Resource.Style.Platform_AppCompat_Light;
+			global::PayPal.Forms.Android.Resource.Style.Platform_ThemeOverlay_AppCompat = global::CreditCardUISample.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat;
+			global::PayPal.Forms.Android.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark = global::CreditCardUISample.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark;
+			global::PayPal.Forms.Android.Resource.Style.Platform_ThemeOverlay_AppCompat_Light = global::CreditCardUISample.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Light;
+			global::PayPal.Forms.Android.Resource.Style.Platform_V21_AppCompat = global::CreditCardUISample.Droid.Resource.Style.Platform_V21_AppCompat;
+			global::PayPal.Forms.Android.Resource.Style.Platform_V21_AppCompat_Light = global::CreditCardUISample.Droid.Resource.Style.Platform_V21_AppCompat_Light;
+			global::PayPal.Forms.Android.Resource.Style.Platform_V25_AppCompat = global::CreditCardUISample.Droid.Resource.Style.Platform_V25_AppCompat;
+			global::PayPal.Forms.Android.Resource.Style.Platform_V25_AppCompat_Light = global::CreditCardUISample.Droid.Resource.Style.Platform_V25_AppCompat_Light;
+			global::PayPal.Forms.Android.Resource.Style.Platform_Widget_AppCompat_Spinner = global::CreditCardUISample.Droid.Resource.Style.Platform_Widget_AppCompat_Spinner;
+			global::PayPal.Forms.Android.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat = global::CreditCardUISample.Droid.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat;
+			global::PayPal.Forms.Android.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem = global::CreditCardUISample.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem;
+			global::PayPal.Forms.Android.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon = global::CreditCardUISample.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon;
+			global::PayPal.Forms.Android.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem = global::CreditCardUISample.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem;
+			global::PayPal.Forms.Android.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup = global::CreditCardUISample.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup;
+			global::PayPal.Forms.Android.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text = global::CreditCardUISample.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text;
+			global::PayPal.Forms.Android.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon = global::CreditCardUISample.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon;
+			global::PayPal.Forms.Android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown = global::CreditCardUISample.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown;
+			global::PayPal.Forms.Android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1 = global::CreditCardUISample.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1;
+			global::PayPal.Forms.Android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2 = global::CreditCardUISample.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2;
+			global::PayPal.Forms.Android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query = global::CreditCardUISample.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query;
+			global::PayPal.Forms.Android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text = global::CreditCardUISample.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text;
+			global::PayPal.Forms.Android.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton = global::CreditCardUISample.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton;
+			global::PayPal.Forms.Android.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow = global::CreditCardUISample.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow;
+			global::PayPal.Forms.Android.Resource.Style.TextAppearance_AppCompat = global::CreditCardUISample.Droid.Resource.Style.TextAppearance_AppCompat;
+			global::PayPal.Forms.Android.Resource.Style.TextAppearance_AppCompat_Body1 = global::CreditCardUISample.Droid.Resource.Style.TextAppearance_AppCompat_Body1;
+			global::PayPal.Forms.Android.Resource.Style.TextAppearance_AppCompat_Body2 = global::CreditCardUISample.Droid.Resource.Style.TextAppearance_AppCompat_Body2;
+			global::PayPal.Forms.Android.Resource.Style.TextAppearance_AppCompat_Button = global::CreditCardUISample.Droid.Resource.Style.TextAppearance_AppCompat_Button;
+			global::PayPal.Forms.Android.Resource.Style.TextAppearance_AppCompat_Caption = global::CreditCardUISample.Droid.Resource.Style.TextAppearance_AppCompat_Caption;
+			global::PayPal.Forms.Android.Resource.Style.TextAppearance_AppCompat_Display1 = global::CreditCardUISample.Droid.Resource.Style.TextAppearance_AppCompat_Display1;
+			global::PayPal.Forms.Android.Resource.Style.TextAppearance_AppCompat_Display2 = global::CreditCardUISample.Droid.Resource.Style.TextAppearance_AppCompat_Display2;
+			global::PayPal.Forms.Android.Resource.Style.TextAppearance_AppCompat_Display3 = global::CreditCardUISample.Droid.Resource.Style.TextAppearance_AppCompat_Display3;
+			global::PayPal.Forms.Android.Resource.Style.TextAppearance_AppCompat_Display4 = global::CreditCardUISample.Droid.Resource.Style.TextAppearance_AppCompat_Display4;
+			global::PayPal.Forms.Android.Resource.Style.TextAppearance_AppCompat_Headline = global::CreditCardUISample.Droid.Resource.Style.TextAppearance_AppCompat_Headline;
+			global::PayPal.Forms.Android.Resource.Style.TextAppearance_AppCompat_Inverse = global::CreditCardUISample.Droid.Resource.Style.TextAppearance_AppCompat_Inverse;
+			global::PayPal.Forms.Android.Resource.Style.TextAppearance_AppCompat_Large = global::CreditCardUISample.Droid.Resource.Style.TextAppearance_AppCompat_Large;
+			global::PayPal.Forms.Android.Resource.Style.TextAppearance_AppCompat_Large_Inverse = global::CreditCardUISample.Droid.Resource.Style.TextAppearance_AppCompat_Large_Inverse;
+			global::PayPal.Forms.Android.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle = global::CreditCardUISample.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle;
+			global::PayPal.Forms.Android.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title = global::CreditCardUISample.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title;
+			global::PayPal.Forms.Android.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::CreditCardUISample.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::PayPal.Forms.Android.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::CreditCardUISample.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::PayPal.Forms.Android.Resource.Style.TextAppearance_AppCompat_Medium = global::CreditCardUISample.Droid.Resource.Style.TextAppearance_AppCompat_Medium;
+			global::PayPal.Forms.Android.Resource.Style.TextAppearance_AppCompat_Medium_Inverse = global::CreditCardUISample.Droid.Resource.Style.TextAppearance_AppCompat_Medium_Inverse;
+			global::PayPal.Forms.Android.Resource.Style.TextAppearance_AppCompat_Menu = global::CreditCardUISample.Droid.Resource.Style.TextAppearance_AppCompat_Menu;
+			global::PayPal.Forms.Android.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle = global::CreditCardUISample.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::PayPal.Forms.Android.Resource.Style.TextAppearance_AppCompat_SearchResult_Title = global::CreditCardUISample.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Title;
+			global::PayPal.Forms.Android.Resource.Style.TextAppearance_AppCompat_Small = global::CreditCardUISample.Droid.Resource.Style.TextAppearance_AppCompat_Small;
+			global::PayPal.Forms.Android.Resource.Style.TextAppearance_AppCompat_Small_Inverse = global::CreditCardUISample.Droid.Resource.Style.TextAppearance_AppCompat_Small_Inverse;
+			global::PayPal.Forms.Android.Resource.Style.TextAppearance_AppCompat_Subhead = global::CreditCardUISample.Droid.Resource.Style.TextAppearance_AppCompat_Subhead;
+			global::PayPal.Forms.Android.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse = global::CreditCardUISample.Droid.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse;
+			global::PayPal.Forms.Android.Resource.Style.TextAppearance_AppCompat_Title = global::CreditCardUISample.Droid.Resource.Style.TextAppearance_AppCompat_Title;
+			global::PayPal.Forms.Android.Resource.Style.TextAppearance_AppCompat_Title_Inverse = global::CreditCardUISample.Droid.Resource.Style.TextAppearance_AppCompat_Title_Inverse;
+			global::PayPal.Forms.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu = global::CreditCardUISample.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::PayPal.Forms.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::CreditCardUISample.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::PayPal.Forms.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::CreditCardUISample.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::PayPal.Forms.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title = global::CreditCardUISample.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::PayPal.Forms.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::CreditCardUISample.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::PayPal.Forms.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::CreditCardUISample.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::PayPal.Forms.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse = global::CreditCardUISample.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse;
+			global::PayPal.Forms.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title = global::CreditCardUISample.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::PayPal.Forms.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse = global::CreditCardUISample.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse;
+			global::PayPal.Forms.Android.Resource.Style.TextAppearance_AppCompat_Widget_Button = global::CreditCardUISample.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button;
+			global::PayPal.Forms.Android.Resource.Style.TextAppearance_AppCompat_Widget_Button_Borderless_Colored = global::CreditCardUISample.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Borderless_Colored;
+			global::PayPal.Forms.Android.Resource.Style.TextAppearance_AppCompat_Widget_Button_Colored = global::CreditCardUISample.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Colored;
+			global::PayPal.Forms.Android.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse = global::CreditCardUISample.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::PayPal.Forms.Android.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem = global::CreditCardUISample.Droid.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem;
+			global::PayPal.Forms.Android.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Header = global::CreditCardUISample.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Header;
+			global::PayPal.Forms.Android.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large = global::CreditCardUISample.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::PayPal.Forms.Android.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small = global::CreditCardUISample.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::PayPal.Forms.Android.Resource.Style.TextAppearance_AppCompat_Widget_Switch = global::CreditCardUISample.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Switch;
+			global::PayPal.Forms.Android.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::CreditCardUISample.Droid.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::PayPal.Forms.Android.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded = global::CreditCardUISample.Droid.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded;
+			global::PayPal.Forms.Android.Resource.Style.TextAppearance_Design_Counter = global::CreditCardUISample.Droid.Resource.Style.TextAppearance_Design_Counter;
+			global::PayPal.Forms.Android.Resource.Style.TextAppearance_Design_Counter_Overflow = global::CreditCardUISample.Droid.Resource.Style.TextAppearance_Design_Counter_Overflow;
+			global::PayPal.Forms.Android.Resource.Style.TextAppearance_Design_Error = global::CreditCardUISample.Droid.Resource.Style.TextAppearance_Design_Error;
+			global::PayPal.Forms.Android.Resource.Style.TextAppearance_Design_Hint = global::CreditCardUISample.Droid.Resource.Style.TextAppearance_Design_Hint;
+			global::PayPal.Forms.Android.Resource.Style.TextAppearance_Design_Snackbar_Message = global::CreditCardUISample.Droid.Resource.Style.TextAppearance_Design_Snackbar_Message;
+			global::PayPal.Forms.Android.Resource.Style.TextAppearance_Design_Tab = global::CreditCardUISample.Droid.Resource.Style.TextAppearance_Design_Tab;
+			global::PayPal.Forms.Android.Resource.Style.TextAppearance_MediaRouter_PrimaryText = global::CreditCardUISample.Droid.Resource.Style.TextAppearance_MediaRouter_PrimaryText;
+			global::PayPal.Forms.Android.Resource.Style.TextAppearance_MediaRouter_SecondaryText = global::CreditCardUISample.Droid.Resource.Style.TextAppearance_MediaRouter_SecondaryText;
+			global::PayPal.Forms.Android.Resource.Style.TextAppearance_MediaRouter_Title = global::CreditCardUISample.Droid.Resource.Style.TextAppearance_MediaRouter_Title;
+			global::PayPal.Forms.Android.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::CreditCardUISample.Droid.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::PayPal.Forms.Android.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::CreditCardUISample.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::PayPal.Forms.Android.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title = global::CreditCardUISample.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::PayPal.Forms.Android.Resource.Style.ThemeOverlay_AppCompat = global::CreditCardUISample.Droid.Resource.Style.ThemeOverlay_AppCompat;
+			global::PayPal.Forms.Android.Resource.Style.ThemeOverlay_AppCompat_ActionBar = global::CreditCardUISample.Droid.Resource.Style.ThemeOverlay_AppCompat_ActionBar;
+			global::PayPal.Forms.Android.Resource.Style.ThemeOverlay_AppCompat_Dark = global::CreditCardUISample.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark;
+			global::PayPal.Forms.Android.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar = global::CreditCardUISample.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::PayPal.Forms.Android.Resource.Style.ThemeOverlay_AppCompat_Dialog = global::CreditCardUISample.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog;
+			global::PayPal.Forms.Android.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert = global::CreditCardUISample.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert;
+			global::PayPal.Forms.Android.Resource.Style.ThemeOverlay_AppCompat_Light = global::CreditCardUISample.Droid.Resource.Style.ThemeOverlay_AppCompat_Light;
+			global::PayPal.Forms.Android.Resource.Style.ThemeOverlay_MediaRouter_Dark = global::CreditCardUISample.Droid.Resource.Style.ThemeOverlay_MediaRouter_Dark;
+			global::PayPal.Forms.Android.Resource.Style.ThemeOverlay_MediaRouter_Light = global::CreditCardUISample.Droid.Resource.Style.ThemeOverlay_MediaRouter_Light;
+			global::PayPal.Forms.Android.Resource.Style.Theme_AppCompat = global::CreditCardUISample.Droid.Resource.Style.Theme_AppCompat;
+			global::PayPal.Forms.Android.Resource.Style.Theme_AppCompat_CompactMenu = global::CreditCardUISample.Droid.Resource.Style.Theme_AppCompat_CompactMenu;
+			global::PayPal.Forms.Android.Resource.Style.Theme_AppCompat_DayNight = global::CreditCardUISample.Droid.Resource.Style.Theme_AppCompat_DayNight;
+			global::PayPal.Forms.Android.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar = global::CreditCardUISample.Droid.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar;
+			global::PayPal.Forms.Android.Resource.Style.Theme_AppCompat_DayNight_Dialog = global::CreditCardUISample.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog;
+			global::PayPal.Forms.Android.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge = global::CreditCardUISample.Droid.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge;
+			global::PayPal.Forms.Android.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert = global::CreditCardUISample.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert;
+			global::PayPal.Forms.Android.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth = global::CreditCardUISample.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth;
+			global::PayPal.Forms.Android.Resource.Style.Theme_AppCompat_DayNight_NoActionBar = global::CreditCardUISample.Droid.Resource.Style.Theme_AppCompat_DayNight_NoActionBar;
+			global::PayPal.Forms.Android.Resource.Style.Theme_AppCompat_Dialog = global::CreditCardUISample.Droid.Resource.Style.Theme_AppCompat_Dialog;
+			global::PayPal.Forms.Android.Resource.Style.Theme_AppCompat_DialogWhenLarge = global::CreditCardUISample.Droid.Resource.Style.Theme_AppCompat_DialogWhenLarge;
+			global::PayPal.Forms.Android.Resource.Style.Theme_AppCompat_Dialog_Alert = global::CreditCardUISample.Droid.Resource.Style.Theme_AppCompat_Dialog_Alert;
+			global::PayPal.Forms.Android.Resource.Style.Theme_AppCompat_Dialog_MinWidth = global::CreditCardUISample.Droid.Resource.Style.Theme_AppCompat_Dialog_MinWidth;
+			global::PayPal.Forms.Android.Resource.Style.Theme_AppCompat_Light = global::CreditCardUISample.Droid.Resource.Style.Theme_AppCompat_Light;
+			global::PayPal.Forms.Android.Resource.Style.Theme_AppCompat_Light_DarkActionBar = global::CreditCardUISample.Droid.Resource.Style.Theme_AppCompat_Light_DarkActionBar;
+			global::PayPal.Forms.Android.Resource.Style.Theme_AppCompat_Light_Dialog = global::CreditCardUISample.Droid.Resource.Style.Theme_AppCompat_Light_Dialog;
+			global::PayPal.Forms.Android.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge = global::CreditCardUISample.Droid.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge;
+			global::PayPal.Forms.Android.Resource.Style.Theme_AppCompat_Light_Dialog_Alert = global::CreditCardUISample.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_Alert;
+			global::PayPal.Forms.Android.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth = global::CreditCardUISample.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth;
+			global::PayPal.Forms.Android.Resource.Style.Theme_AppCompat_Light_NoActionBar = global::CreditCardUISample.Droid.Resource.Style.Theme_AppCompat_Light_NoActionBar;
+			global::PayPal.Forms.Android.Resource.Style.Theme_AppCompat_NoActionBar = global::CreditCardUISample.Droid.Resource.Style.Theme_AppCompat_NoActionBar;
+			global::PayPal.Forms.Android.Resource.Style.Theme_Design = global::CreditCardUISample.Droid.Resource.Style.Theme_Design;
+			global::PayPal.Forms.Android.Resource.Style.Theme_Design_BottomSheetDialog = global::CreditCardUISample.Droid.Resource.Style.Theme_Design_BottomSheetDialog;
+			global::PayPal.Forms.Android.Resource.Style.Theme_Design_Light = global::CreditCardUISample.Droid.Resource.Style.Theme_Design_Light;
+			global::PayPal.Forms.Android.Resource.Style.Theme_Design_Light_BottomSheetDialog = global::CreditCardUISample.Droid.Resource.Style.Theme_Design_Light_BottomSheetDialog;
+			global::PayPal.Forms.Android.Resource.Style.Theme_Design_Light_NoActionBar = global::CreditCardUISample.Droid.Resource.Style.Theme_Design_Light_NoActionBar;
+			global::PayPal.Forms.Android.Resource.Style.Theme_Design_NoActionBar = global::CreditCardUISample.Droid.Resource.Style.Theme_Design_NoActionBar;
+			global::PayPal.Forms.Android.Resource.Style.Theme_MediaRouter = global::CreditCardUISample.Droid.Resource.Style.Theme_MediaRouter;
+			global::PayPal.Forms.Android.Resource.Style.Theme_MediaRouter_Light = global::CreditCardUISample.Droid.Resource.Style.Theme_MediaRouter_Light;
+			global::PayPal.Forms.Android.Resource.Style.Theme_MediaRouter_LightControlPanel = global::CreditCardUISample.Droid.Resource.Style.Theme_MediaRouter_LightControlPanel;
+			global::PayPal.Forms.Android.Resource.Style.Theme_MediaRouter_Light_DarkControlPanel = global::CreditCardUISample.Droid.Resource.Style.Theme_MediaRouter_Light_DarkControlPanel;
+			global::PayPal.Forms.Android.Resource.Style.Widget_AppCompat_ActionBar = global::CreditCardUISample.Droid.Resource.Style.Widget_AppCompat_ActionBar;
+			global::PayPal.Forms.Android.Resource.Style.Widget_AppCompat_ActionBar_Solid = global::CreditCardUISample.Droid.Resource.Style.Widget_AppCompat_ActionBar_Solid;
+			global::PayPal.Forms.Android.Resource.Style.Widget_AppCompat_ActionBar_TabBar = global::CreditCardUISample.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabBar;
+			global::PayPal.Forms.Android.Resource.Style.Widget_AppCompat_ActionBar_TabText = global::CreditCardUISample.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabText;
+			global::PayPal.Forms.Android.Resource.Style.Widget_AppCompat_ActionBar_TabView = global::CreditCardUISample.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabView;
+			global::PayPal.Forms.Android.Resource.Style.Widget_AppCompat_ActionButton = global::CreditCardUISample.Droid.Resource.Style.Widget_AppCompat_ActionButton;
+			global::PayPal.Forms.Android.Resource.Style.Widget_AppCompat_ActionButton_CloseMode = global::CreditCardUISample.Droid.Resource.Style.Widget_AppCompat_ActionButton_CloseMode;
+			global::PayPal.Forms.Android.Resource.Style.Widget_AppCompat_ActionButton_Overflow = global::CreditCardUISample.Droid.Resource.Style.Widget_AppCompat_ActionButton_Overflow;
+			global::PayPal.Forms.Android.Resource.Style.Widget_AppCompat_ActionMode = global::CreditCardUISample.Droid.Resource.Style.Widget_AppCompat_ActionMode;
+			global::PayPal.Forms.Android.Resource.Style.Widget_AppCompat_ActivityChooserView = global::CreditCardUISample.Droid.Resource.Style.Widget_AppCompat_ActivityChooserView;
+			global::PayPal.Forms.Android.Resource.Style.Widget_AppCompat_AutoCompleteTextView = global::CreditCardUISample.Droid.Resource.Style.Widget_AppCompat_AutoCompleteTextView;
+			global::PayPal.Forms.Android.Resource.Style.Widget_AppCompat_Button = global::CreditCardUISample.Droid.Resource.Style.Widget_AppCompat_Button;
+			global::PayPal.Forms.Android.Resource.Style.Widget_AppCompat_ButtonBar = global::CreditCardUISample.Droid.Resource.Style.Widget_AppCompat_ButtonBar;
+			global::PayPal.Forms.Android.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog = global::CreditCardUISample.Droid.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog;
+			global::PayPal.Forms.Android.Resource.Style.Widget_AppCompat_Button_Borderless = global::CreditCardUISample.Droid.Resource.Style.Widget_AppCompat_Button_Borderless;
+			global::PayPal.Forms.Android.Resource.Style.Widget_AppCompat_Button_Borderless_Colored = global::CreditCardUISample.Droid.Resource.Style.Widget_AppCompat_Button_Borderless_Colored;
+			global::PayPal.Forms.Android.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog = global::CreditCardUISample.Droid.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::PayPal.Forms.Android.Resource.Style.Widget_AppCompat_Button_Colored = global::CreditCardUISample.Droid.Resource.Style.Widget_AppCompat_Button_Colored;
+			global::PayPal.Forms.Android.Resource.Style.Widget_AppCompat_Button_Small = global::CreditCardUISample.Droid.Resource.Style.Widget_AppCompat_Button_Small;
+			global::PayPal.Forms.Android.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox = global::CreditCardUISample.Droid.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox;
+			global::PayPal.Forms.Android.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton = global::CreditCardUISample.Droid.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton;
+			global::PayPal.Forms.Android.Resource.Style.Widget_AppCompat_CompoundButton_Switch = global::CreditCardUISample.Droid.Resource.Style.Widget_AppCompat_CompoundButton_Switch;
+			global::PayPal.Forms.Android.Resource.Style.Widget_AppCompat_DrawerArrowToggle = global::CreditCardUISample.Droid.Resource.Style.Widget_AppCompat_DrawerArrowToggle;
+			global::PayPal.Forms.Android.Resource.Style.Widget_AppCompat_DropDownItem_Spinner = global::CreditCardUISample.Droid.Resource.Style.Widget_AppCompat_DropDownItem_Spinner;
+			global::PayPal.Forms.Android.Resource.Style.Widget_AppCompat_EditText = global::CreditCardUISample.Droid.Resource.Style.Widget_AppCompat_EditText;
+			global::PayPal.Forms.Android.Resource.Style.Widget_AppCompat_ImageButton = global::CreditCardUISample.Droid.Resource.Style.Widget_AppCompat_ImageButton;
+			global::PayPal.Forms.Android.Resource.Style.Widget_AppCompat_Light_ActionBar = global::CreditCardUISample.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar;
+			global::PayPal.Forms.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid = global::CreditCardUISample.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid;
+			global::PayPal.Forms.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse = global::CreditCardUISample.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse;
+			global::PayPal.Forms.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar = global::CreditCardUISample.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar;
+			global::PayPal.Forms.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse = global::CreditCardUISample.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse;
+			global::PayPal.Forms.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText = global::CreditCardUISample.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText;
+			global::PayPal.Forms.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::CreditCardUISample.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::PayPal.Forms.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView = global::CreditCardUISample.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView;
+			global::PayPal.Forms.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse = global::CreditCardUISample.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse;
+			global::PayPal.Forms.Android.Resource.Style.Widget_AppCompat_Light_ActionButton = global::CreditCardUISample.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton;
+			global::PayPal.Forms.Android.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode = global::CreditCardUISample.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode;
+			global::PayPal.Forms.Android.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow = global::CreditCardUISample.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow;
+			global::PayPal.Forms.Android.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse = global::CreditCardUISample.Droid.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse;
+			global::PayPal.Forms.Android.Resource.Style.Widget_AppCompat_Light_ActivityChooserView = global::CreditCardUISample.Droid.Resource.Style.Widget_AppCompat_Light_ActivityChooserView;
+			global::PayPal.Forms.Android.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView = global::CreditCardUISample.Droid.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView;
+			global::PayPal.Forms.Android.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner = global::CreditCardUISample.Droid.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner;
+			global::PayPal.Forms.Android.Resource.Style.Widget_AppCompat_Light_ListPopupWindow = global::CreditCardUISample.Droid.Resource.Style.Widget_AppCompat_Light_ListPopupWindow;
+			global::PayPal.Forms.Android.Resource.Style.Widget_AppCompat_Light_ListView_DropDown = global::CreditCardUISample.Droid.Resource.Style.Widget_AppCompat_Light_ListView_DropDown;
+			global::PayPal.Forms.Android.Resource.Style.Widget_AppCompat_Light_PopupMenu = global::CreditCardUISample.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu;
+			global::PayPal.Forms.Android.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow = global::CreditCardUISample.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::PayPal.Forms.Android.Resource.Style.Widget_AppCompat_Light_SearchView = global::CreditCardUISample.Droid.Resource.Style.Widget_AppCompat_Light_SearchView;
+			global::PayPal.Forms.Android.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar = global::CreditCardUISample.Droid.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar;
+			global::PayPal.Forms.Android.Resource.Style.Widget_AppCompat_ListMenuView = global::CreditCardUISample.Droid.Resource.Style.Widget_AppCompat_ListMenuView;
+			global::PayPal.Forms.Android.Resource.Style.Widget_AppCompat_ListPopupWindow = global::CreditCardUISample.Droid.Resource.Style.Widget_AppCompat_ListPopupWindow;
+			global::PayPal.Forms.Android.Resource.Style.Widget_AppCompat_ListView = global::CreditCardUISample.Droid.Resource.Style.Widget_AppCompat_ListView;
+			global::PayPal.Forms.Android.Resource.Style.Widget_AppCompat_ListView_DropDown = global::CreditCardUISample.Droid.Resource.Style.Widget_AppCompat_ListView_DropDown;
+			global::PayPal.Forms.Android.Resource.Style.Widget_AppCompat_ListView_Menu = global::CreditCardUISample.Droid.Resource.Style.Widget_AppCompat_ListView_Menu;
+			global::PayPal.Forms.Android.Resource.Style.Widget_AppCompat_PopupMenu = global::CreditCardUISample.Droid.Resource.Style.Widget_AppCompat_PopupMenu;
+			global::PayPal.Forms.Android.Resource.Style.Widget_AppCompat_PopupMenu_Overflow = global::CreditCardUISample.Droid.Resource.Style.Widget_AppCompat_PopupMenu_Overflow;
+			global::PayPal.Forms.Android.Resource.Style.Widget_AppCompat_PopupWindow = global::CreditCardUISample.Droid.Resource.Style.Widget_AppCompat_PopupWindow;
+			global::PayPal.Forms.Android.Resource.Style.Widget_AppCompat_ProgressBar = global::CreditCardUISample.Droid.Resource.Style.Widget_AppCompat_ProgressBar;
+			global::PayPal.Forms.Android.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal = global::CreditCardUISample.Droid.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal;
+			global::PayPal.Forms.Android.Resource.Style.Widget_AppCompat_RatingBar = global::CreditCardUISample.Droid.Resource.Style.Widget_AppCompat_RatingBar;
+			global::PayPal.Forms.Android.Resource.Style.Widget_AppCompat_RatingBar_Indicator = global::CreditCardUISample.Droid.Resource.Style.Widget_AppCompat_RatingBar_Indicator;
+			global::PayPal.Forms.Android.Resource.Style.Widget_AppCompat_RatingBar_Small = global::CreditCardUISample.Droid.Resource.Style.Widget_AppCompat_RatingBar_Small;
+			global::PayPal.Forms.Android.Resource.Style.Widget_AppCompat_SearchView = global::CreditCardUISample.Droid.Resource.Style.Widget_AppCompat_SearchView;
+			global::PayPal.Forms.Android.Resource.Style.Widget_AppCompat_SearchView_ActionBar = global::CreditCardUISample.Droid.Resource.Style.Widget_AppCompat_SearchView_ActionBar;
+			global::PayPal.Forms.Android.Resource.Style.Widget_AppCompat_SeekBar = global::CreditCardUISample.Droid.Resource.Style.Widget_AppCompat_SeekBar;
+			global::PayPal.Forms.Android.Resource.Style.Widget_AppCompat_SeekBar_Discrete = global::CreditCardUISample.Droid.Resource.Style.Widget_AppCompat_SeekBar_Discrete;
+			global::PayPal.Forms.Android.Resource.Style.Widget_AppCompat_Spinner = global::CreditCardUISample.Droid.Resource.Style.Widget_AppCompat_Spinner;
+			global::PayPal.Forms.Android.Resource.Style.Widget_AppCompat_Spinner_DropDown = global::CreditCardUISample.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown;
+			global::PayPal.Forms.Android.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar = global::CreditCardUISample.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar;
+			global::PayPal.Forms.Android.Resource.Style.Widget_AppCompat_Spinner_Underlined = global::CreditCardUISample.Droid.Resource.Style.Widget_AppCompat_Spinner_Underlined;
+			global::PayPal.Forms.Android.Resource.Style.Widget_AppCompat_TextView_SpinnerItem = global::CreditCardUISample.Droid.Resource.Style.Widget_AppCompat_TextView_SpinnerItem;
+			global::PayPal.Forms.Android.Resource.Style.Widget_AppCompat_Toolbar = global::CreditCardUISample.Droid.Resource.Style.Widget_AppCompat_Toolbar;
+			global::PayPal.Forms.Android.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation = global::CreditCardUISample.Droid.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation;
+			global::PayPal.Forms.Android.Resource.Style.Widget_Design_AppBarLayout = global::CreditCardUISample.Droid.Resource.Style.Widget_Design_AppBarLayout;
+			global::PayPal.Forms.Android.Resource.Style.Widget_Design_BottomNavigationView = global::CreditCardUISample.Droid.Resource.Style.Widget_Design_BottomNavigationView;
+			global::PayPal.Forms.Android.Resource.Style.Widget_Design_BottomSheet_Modal = global::CreditCardUISample.Droid.Resource.Style.Widget_Design_BottomSheet_Modal;
+			global::PayPal.Forms.Android.Resource.Style.Widget_Design_CollapsingToolbar = global::CreditCardUISample.Droid.Resource.Style.Widget_Design_CollapsingToolbar;
+			global::PayPal.Forms.Android.Resource.Style.Widget_Design_FloatingActionButton = global::CreditCardUISample.Droid.Resource.Style.Widget_Design_FloatingActionButton;
+			global::PayPal.Forms.Android.Resource.Style.Widget_Design_NavigationView = global::CreditCardUISample.Droid.Resource.Style.Widget_Design_NavigationView;
+			global::PayPal.Forms.Android.Resource.Style.Widget_Design_ScrimInsetsFrameLayout = global::CreditCardUISample.Droid.Resource.Style.Widget_Design_ScrimInsetsFrameLayout;
+			global::PayPal.Forms.Android.Resource.Style.Widget_Design_Snackbar = global::CreditCardUISample.Droid.Resource.Style.Widget_Design_Snackbar;
+			global::PayPal.Forms.Android.Resource.Style.Widget_Design_TabLayout = global::CreditCardUISample.Droid.Resource.Style.Widget_Design_TabLayout;
+			global::PayPal.Forms.Android.Resource.Style.Widget_Design_TextInputLayout = global::CreditCardUISample.Droid.Resource.Style.Widget_Design_TextInputLayout;
+			global::PayPal.Forms.Android.Resource.Style.Widget_MediaRouter_Light_MediaRouteButton = global::CreditCardUISample.Droid.Resource.Style.Widget_MediaRouter_Light_MediaRouteButton;
+			global::PayPal.Forms.Android.Resource.Style.Widget_MediaRouter_MediaRouteButton = global::CreditCardUISample.Droid.Resource.Style.Widget_MediaRouter_MediaRouteButton;
+			global::PayPal.Forms.Android.Resource.Styleable.ActionBar = global::CreditCardUISample.Droid.Resource.Styleable.ActionBar;
+			global::PayPal.Forms.Android.Resource.Styleable.ActionBarLayout = global::CreditCardUISample.Droid.Resource.Styleable.ActionBarLayout;
+			global::PayPal.Forms.Android.Resource.Styleable.ActionBarLayout_android_layout_gravity = global::CreditCardUISample.Droid.Resource.Styleable.ActionBarLayout_android_layout_gravity;
+			global::PayPal.Forms.Android.Resource.Styleable.ActionBar_background = global::CreditCardUISample.Droid.Resource.Styleable.ActionBar_background;
+			global::PayPal.Forms.Android.Resource.Styleable.ActionBar_backgroundSplit = global::CreditCardUISample.Droid.Resource.Styleable.ActionBar_backgroundSplit;
+			global::PayPal.Forms.Android.Resource.Styleable.ActionBar_backgroundStacked = global::CreditCardUISample.Droid.Resource.Styleable.ActionBar_backgroundStacked;
+			global::PayPal.Forms.Android.Resource.Styleable.ActionBar_contentInsetEnd = global::CreditCardUISample.Droid.Resource.Styleable.ActionBar_contentInsetEnd;
+			global::PayPal.Forms.Android.Resource.Styleable.ActionBar_contentInsetEndWithActions = global::CreditCardUISample.Droid.Resource.Styleable.ActionBar_contentInsetEndWithActions;
+			global::PayPal.Forms.Android.Resource.Styleable.ActionBar_contentInsetLeft = global::CreditCardUISample.Droid.Resource.Styleable.ActionBar_contentInsetLeft;
+			global::PayPal.Forms.Android.Resource.Styleable.ActionBar_contentInsetRight = global::CreditCardUISample.Droid.Resource.Styleable.ActionBar_contentInsetRight;
+			global::PayPal.Forms.Android.Resource.Styleable.ActionBar_contentInsetStart = global::CreditCardUISample.Droid.Resource.Styleable.ActionBar_contentInsetStart;
+			global::PayPal.Forms.Android.Resource.Styleable.ActionBar_contentInsetStartWithNavigation = global::CreditCardUISample.Droid.Resource.Styleable.ActionBar_contentInsetStartWithNavigation;
+			global::PayPal.Forms.Android.Resource.Styleable.ActionBar_customNavigationLayout = global::CreditCardUISample.Droid.Resource.Styleable.ActionBar_customNavigationLayout;
+			global::PayPal.Forms.Android.Resource.Styleable.ActionBar_displayOptions = global::CreditCardUISample.Droid.Resource.Styleable.ActionBar_displayOptions;
+			global::PayPal.Forms.Android.Resource.Styleable.ActionBar_divider = global::CreditCardUISample.Droid.Resource.Styleable.ActionBar_divider;
+			global::PayPal.Forms.Android.Resource.Styleable.ActionBar_elevation = global::CreditCardUISample.Droid.Resource.Styleable.ActionBar_elevation;
+			global::PayPal.Forms.Android.Resource.Styleable.ActionBar_height = global::CreditCardUISample.Droid.Resource.Styleable.ActionBar_height;
+			global::PayPal.Forms.Android.Resource.Styleable.ActionBar_hideOnContentScroll = global::CreditCardUISample.Droid.Resource.Styleable.ActionBar_hideOnContentScroll;
+			global::PayPal.Forms.Android.Resource.Styleable.ActionBar_homeAsUpIndicator = global::CreditCardUISample.Droid.Resource.Styleable.ActionBar_homeAsUpIndicator;
+			global::PayPal.Forms.Android.Resource.Styleable.ActionBar_homeLayout = global::CreditCardUISample.Droid.Resource.Styleable.ActionBar_homeLayout;
+			global::PayPal.Forms.Android.Resource.Styleable.ActionBar_icon = global::CreditCardUISample.Droid.Resource.Styleable.ActionBar_icon;
+			global::PayPal.Forms.Android.Resource.Styleable.ActionBar_indeterminateProgressStyle = global::CreditCardUISample.Droid.Resource.Styleable.ActionBar_indeterminateProgressStyle;
+			global::PayPal.Forms.Android.Resource.Styleable.ActionBar_itemPadding = global::CreditCardUISample.Droid.Resource.Styleable.ActionBar_itemPadding;
+			global::PayPal.Forms.Android.Resource.Styleable.ActionBar_logo = global::CreditCardUISample.Droid.Resource.Styleable.ActionBar_logo;
+			global::PayPal.Forms.Android.Resource.Styleable.ActionBar_navigationMode = global::CreditCardUISample.Droid.Resource.Styleable.ActionBar_navigationMode;
+			global::PayPal.Forms.Android.Resource.Styleable.ActionBar_popupTheme = global::CreditCardUISample.Droid.Resource.Styleable.ActionBar_popupTheme;
+			global::PayPal.Forms.Android.Resource.Styleable.ActionBar_progressBarPadding = global::CreditCardUISample.Droid.Resource.Styleable.ActionBar_progressBarPadding;
+			global::PayPal.Forms.Android.Resource.Styleable.ActionBar_progressBarStyle = global::CreditCardUISample.Droid.Resource.Styleable.ActionBar_progressBarStyle;
+			global::PayPal.Forms.Android.Resource.Styleable.ActionBar_subtitle = global::CreditCardUISample.Droid.Resource.Styleable.ActionBar_subtitle;
+			global::PayPal.Forms.Android.Resource.Styleable.ActionBar_subtitleTextStyle = global::CreditCardUISample.Droid.Resource.Styleable.ActionBar_subtitleTextStyle;
+			global::PayPal.Forms.Android.Resource.Styleable.ActionBar_title = global::CreditCardUISample.Droid.Resource.Styleable.ActionBar_title;
+			global::PayPal.Forms.Android.Resource.Styleable.ActionBar_titleTextStyle = global::CreditCardUISample.Droid.Resource.Styleable.ActionBar_titleTextStyle;
+			global::PayPal.Forms.Android.Resource.Styleable.ActionMenuItemView = global::CreditCardUISample.Droid.Resource.Styleable.ActionMenuItemView;
+			global::PayPal.Forms.Android.Resource.Styleable.ActionMenuItemView_android_minWidth = global::CreditCardUISample.Droid.Resource.Styleable.ActionMenuItemView_android_minWidth;
+			global::PayPal.Forms.Android.Resource.Styleable.ActionMenuView = global::CreditCardUISample.Droid.Resource.Styleable.ActionMenuView;
+			global::PayPal.Forms.Android.Resource.Styleable.ActionMode = global::CreditCardUISample.Droid.Resource.Styleable.ActionMode;
+			global::PayPal.Forms.Android.Resource.Styleable.ActionMode_background = global::CreditCardUISample.Droid.Resource.Styleable.ActionMode_background;
+			global::PayPal.Forms.Android.Resource.Styleable.ActionMode_backgroundSplit = global::CreditCardUISample.Droid.Resource.Styleable.ActionMode_backgroundSplit;
+			global::PayPal.Forms.Android.Resource.Styleable.ActionMode_closeItemLayout = global::CreditCardUISample.Droid.Resource.Styleable.ActionMode_closeItemLayout;
+			global::PayPal.Forms.Android.Resource.Styleable.ActionMode_height = global::CreditCardUISample.Droid.Resource.Styleable.ActionMode_height;
+			global::PayPal.Forms.Android.Resource.Styleable.ActionMode_subtitleTextStyle = global::CreditCardUISample.Droid.Resource.Styleable.ActionMode_subtitleTextStyle;
+			global::PayPal.Forms.Android.Resource.Styleable.ActionMode_titleTextStyle = global::CreditCardUISample.Droid.Resource.Styleable.ActionMode_titleTextStyle;
+			global::PayPal.Forms.Android.Resource.Styleable.ActivityChooserView = global::CreditCardUISample.Droid.Resource.Styleable.ActivityChooserView;
+			global::PayPal.Forms.Android.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable = global::CreditCardUISample.Droid.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable;
+			global::PayPal.Forms.Android.Resource.Styleable.ActivityChooserView_initialActivityCount = global::CreditCardUISample.Droid.Resource.Styleable.ActivityChooserView_initialActivityCount;
+			global::PayPal.Forms.Android.Resource.Styleable.AlertDialog = global::CreditCardUISample.Droid.Resource.Styleable.AlertDialog;
+			global::PayPal.Forms.Android.Resource.Styleable.AlertDialog_android_layout = global::CreditCardUISample.Droid.Resource.Styleable.AlertDialog_android_layout;
+			global::PayPal.Forms.Android.Resource.Styleable.AlertDialog_buttonPanelSideLayout = global::CreditCardUISample.Droid.Resource.Styleable.AlertDialog_buttonPanelSideLayout;
+			global::PayPal.Forms.Android.Resource.Styleable.AlertDialog_listItemLayout = global::CreditCardUISample.Droid.Resource.Styleable.AlertDialog_listItemLayout;
+			global::PayPal.Forms.Android.Resource.Styleable.AlertDialog_listLayout = global::CreditCardUISample.Droid.Resource.Styleable.AlertDialog_listLayout;
+			global::PayPal.Forms.Android.Resource.Styleable.AlertDialog_multiChoiceItemLayout = global::CreditCardUISample.Droid.Resource.Styleable.AlertDialog_multiChoiceItemLayout;
+			global::PayPal.Forms.Android.Resource.Styleable.AlertDialog_showTitle = global::CreditCardUISample.Droid.Resource.Styleable.AlertDialog_showTitle;
+			global::PayPal.Forms.Android.Resource.Styleable.AlertDialog_singleChoiceItemLayout = global::CreditCardUISample.Droid.Resource.Styleable.AlertDialog_singleChoiceItemLayout;
+			global::PayPal.Forms.Android.Resource.Styleable.AppBarLayout = global::CreditCardUISample.Droid.Resource.Styleable.AppBarLayout;
+			global::PayPal.Forms.Android.Resource.Styleable.AppBarLayoutStates = global::CreditCardUISample.Droid.Resource.Styleable.AppBarLayoutStates;
+			global::PayPal.Forms.Android.Resource.Styleable.AppBarLayoutStates_state_collapsed = global::CreditCardUISample.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsed;
+			global::PayPal.Forms.Android.Resource.Styleable.AppBarLayoutStates_state_collapsible = global::CreditCardUISample.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsible;
+			global::PayPal.Forms.Android.Resource.Styleable.AppBarLayout_android_background = global::CreditCardUISample.Droid.Resource.Styleable.AppBarLayout_android_background;
+			global::PayPal.Forms.Android.Resource.Styleable.AppBarLayout_elevation = global::CreditCardUISample.Droid.Resource.Styleable.AppBarLayout_elevation;
+			global::PayPal.Forms.Android.Resource.Styleable.AppBarLayout_expanded = global::CreditCardUISample.Droid.Resource.Styleable.AppBarLayout_expanded;
+			global::PayPal.Forms.Android.Resource.Styleable.AppBarLayout_Layout = global::CreditCardUISample.Droid.Resource.Styleable.AppBarLayout_Layout;
+			global::PayPal.Forms.Android.Resource.Styleable.AppBarLayout_Layout_layout_scrollFlags = global::CreditCardUISample.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollFlags;
+			global::PayPal.Forms.Android.Resource.Styleable.AppBarLayout_Layout_layout_scrollInterpolator = global::CreditCardUISample.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollInterpolator;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatImageView = global::CreditCardUISample.Droid.Resource.Styleable.AppCompatImageView;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatImageView_android_src = global::CreditCardUISample.Droid.Resource.Styleable.AppCompatImageView_android_src;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatImageView_srcCompat = global::CreditCardUISample.Droid.Resource.Styleable.AppCompatImageView_srcCompat;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatImageView_tint = global::CreditCardUISample.Droid.Resource.Styleable.AppCompatImageView_tint;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatImageView_tintMode = global::CreditCardUISample.Droid.Resource.Styleable.AppCompatImageView_tintMode;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatSeekBar = global::CreditCardUISample.Droid.Resource.Styleable.AppCompatSeekBar;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatSeekBar_android_thumb = global::CreditCardUISample.Droid.Resource.Styleable.AppCompatSeekBar_android_thumb;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatSeekBar_tickMark = global::CreditCardUISample.Droid.Resource.Styleable.AppCompatSeekBar_tickMark;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatSeekBar_tickMarkTint = global::CreditCardUISample.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTint;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatSeekBar_tickMarkTintMode = global::CreditCardUISample.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTintMode;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTextHelper = global::CreditCardUISample.Droid.Resource.Styleable.AppCompatTextHelper;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTextHelper_android_drawableBottom = global::CreditCardUISample.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableBottom;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTextHelper_android_drawableEnd = global::CreditCardUISample.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableEnd;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTextHelper_android_drawableLeft = global::CreditCardUISample.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableLeft;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTextHelper_android_drawableRight = global::CreditCardUISample.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableRight;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTextHelper_android_drawableStart = global::CreditCardUISample.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableStart;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTextHelper_android_drawableTop = global::CreditCardUISample.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableTop;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTextHelper_android_textAppearance = global::CreditCardUISample.Droid.Resource.Styleable.AppCompatTextHelper_android_textAppearance;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTextView = global::CreditCardUISample.Droid.Resource.Styleable.AppCompatTextView;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTextView_android_textAppearance = global::CreditCardUISample.Droid.Resource.Styleable.AppCompatTextView_android_textAppearance;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTextView_textAllCaps = global::CreditCardUISample.Droid.Resource.Styleable.AppCompatTextView_textAllCaps;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme = global::CreditCardUISample.Droid.Resource.Styleable.AppCompatTheme;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_actionBarDivider = global::CreditCardUISample.Droid.Resource.Styleable.AppCompatTheme_actionBarDivider;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_actionBarItemBackground = global::CreditCardUISample.Droid.Resource.Styleable.AppCompatTheme_actionBarItemBackground;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_actionBarPopupTheme = global::CreditCardUISample.Droid.Resource.Styleable.AppCompatTheme_actionBarPopupTheme;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_actionBarSize = global::CreditCardUISample.Droid.Resource.Styleable.AppCompatTheme_actionBarSize;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_actionBarSplitStyle = global::CreditCardUISample.Droid.Resource.Styleable.AppCompatTheme_actionBarSplitStyle;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_actionBarStyle = global::CreditCardUISample.Droid.Resource.Styleable.AppCompatTheme_actionBarStyle;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle = global::CreditCardUISample.Droid.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_actionBarTabStyle = global::CreditCardUISample.Droid.Resource.Styleable.AppCompatTheme_actionBarTabStyle;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle = global::CreditCardUISample.Droid.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_actionBarTheme = global::CreditCardUISample.Droid.Resource.Styleable.AppCompatTheme_actionBarTheme;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme = global::CreditCardUISample.Droid.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_actionButtonStyle = global::CreditCardUISample.Droid.Resource.Styleable.AppCompatTheme_actionButtonStyle;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_actionDropDownStyle = global::CreditCardUISample.Droid.Resource.Styleable.AppCompatTheme_actionDropDownStyle;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance = global::CreditCardUISample.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_actionMenuTextColor = global::CreditCardUISample.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextColor;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_actionModeBackground = global::CreditCardUISample.Droid.Resource.Styleable.AppCompatTheme_actionModeBackground;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle = global::CreditCardUISample.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable = global::CreditCardUISample.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable = global::CreditCardUISample.Droid.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_actionModeCutDrawable = global::CreditCardUISample.Droid.Resource.Styleable.AppCompatTheme_actionModeCutDrawable;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_actionModeFindDrawable = global::CreditCardUISample.Droid.Resource.Styleable.AppCompatTheme_actionModeFindDrawable;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_actionModePasteDrawable = global::CreditCardUISample.Droid.Resource.Styleable.AppCompatTheme_actionModePasteDrawable;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle = global::CreditCardUISample.Droid.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable = global::CreditCardUISample.Droid.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_actionModeShareDrawable = global::CreditCardUISample.Droid.Resource.Styleable.AppCompatTheme_actionModeShareDrawable;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_actionModeSplitBackground = global::CreditCardUISample.Droid.Resource.Styleable.AppCompatTheme_actionModeSplitBackground;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_actionModeStyle = global::CreditCardUISample.Droid.Resource.Styleable.AppCompatTheme_actionModeStyle;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable = global::CreditCardUISample.Droid.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle = global::CreditCardUISample.Droid.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle = global::CreditCardUISample.Droid.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_activityChooserViewStyle = global::CreditCardUISample.Droid.Resource.Styleable.AppCompatTheme_activityChooserViewStyle;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle = global::CreditCardUISample.Droid.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons = global::CreditCardUISample.Droid.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_alertDialogStyle = global::CreditCardUISample.Droid.Resource.Styleable.AppCompatTheme_alertDialogStyle;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_alertDialogTheme = global::CreditCardUISample.Droid.Resource.Styleable.AppCompatTheme_alertDialogTheme;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle = global::CreditCardUISample.Droid.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_android_windowIsFloating = global::CreditCardUISample.Droid.Resource.Styleable.AppCompatTheme_android_windowIsFloating;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle = global::CreditCardUISample.Droid.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_borderlessButtonStyle = global::CreditCardUISample.Droid.Resource.Styleable.AppCompatTheme_borderlessButtonStyle;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle = global::CreditCardUISample.Droid.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle = global::CreditCardUISample.Droid.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle = global::CreditCardUISample.Droid.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle = global::CreditCardUISample.Droid.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_buttonBarStyle = global::CreditCardUISample.Droid.Resource.Styleable.AppCompatTheme_buttonBarStyle;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_buttonStyle = global::CreditCardUISample.Droid.Resource.Styleable.AppCompatTheme_buttonStyle;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_buttonStyleSmall = global::CreditCardUISample.Droid.Resource.Styleable.AppCompatTheme_buttonStyleSmall;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_checkboxStyle = global::CreditCardUISample.Droid.Resource.Styleable.AppCompatTheme_checkboxStyle;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_checkedTextViewStyle = global::CreditCardUISample.Droid.Resource.Styleable.AppCompatTheme_checkedTextViewStyle;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_colorAccent = global::CreditCardUISample.Droid.Resource.Styleable.AppCompatTheme_colorAccent;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_colorBackgroundFloating = global::CreditCardUISample.Droid.Resource.Styleable.AppCompatTheme_colorBackgroundFloating;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_colorButtonNormal = global::CreditCardUISample.Droid.Resource.Styleable.AppCompatTheme_colorButtonNormal;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_colorControlActivated = global::CreditCardUISample.Droid.Resource.Styleable.AppCompatTheme_colorControlActivated;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_colorControlHighlight = global::CreditCardUISample.Droid.Resource.Styleable.AppCompatTheme_colorControlHighlight;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_colorControlNormal = global::CreditCardUISample.Droid.Resource.Styleable.AppCompatTheme_colorControlNormal;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_colorPrimary = global::CreditCardUISample.Droid.Resource.Styleable.AppCompatTheme_colorPrimary;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_colorPrimaryDark = global::CreditCardUISample.Droid.Resource.Styleable.AppCompatTheme_colorPrimaryDark;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal = global::CreditCardUISample.Droid.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_controlBackground = global::CreditCardUISample.Droid.Resource.Styleable.AppCompatTheme_controlBackground;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_dialogPreferredPadding = global::CreditCardUISample.Droid.Resource.Styleable.AppCompatTheme_dialogPreferredPadding;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_dialogTheme = global::CreditCardUISample.Droid.Resource.Styleable.AppCompatTheme_dialogTheme;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_dividerHorizontal = global::CreditCardUISample.Droid.Resource.Styleable.AppCompatTheme_dividerHorizontal;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_dividerVertical = global::CreditCardUISample.Droid.Resource.Styleable.AppCompatTheme_dividerVertical;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight = global::CreditCardUISample.Droid.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_dropDownListViewStyle = global::CreditCardUISample.Droid.Resource.Styleable.AppCompatTheme_dropDownListViewStyle;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_editTextBackground = global::CreditCardUISample.Droid.Resource.Styleable.AppCompatTheme_editTextBackground;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_editTextColor = global::CreditCardUISample.Droid.Resource.Styleable.AppCompatTheme_editTextColor;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_editTextStyle = global::CreditCardUISample.Droid.Resource.Styleable.AppCompatTheme_editTextStyle;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_homeAsUpIndicator = global::CreditCardUISample.Droid.Resource.Styleable.AppCompatTheme_homeAsUpIndicator;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_imageButtonStyle = global::CreditCardUISample.Droid.Resource.Styleable.AppCompatTheme_imageButtonStyle;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator = global::CreditCardUISample.Droid.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_listDividerAlertDialog = global::CreditCardUISample.Droid.Resource.Styleable.AppCompatTheme_listDividerAlertDialog;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_listMenuViewStyle = global::CreditCardUISample.Droid.Resource.Styleable.AppCompatTheme_listMenuViewStyle;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_listPopupWindowStyle = global::CreditCardUISample.Droid.Resource.Styleable.AppCompatTheme_listPopupWindowStyle;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_listPreferredItemHeight = global::CreditCardUISample.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeight;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge = global::CreditCardUISample.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall = global::CreditCardUISample.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft = global::CreditCardUISample.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight = global::CreditCardUISample.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_panelBackground = global::CreditCardUISample.Droid.Resource.Styleable.AppCompatTheme_panelBackground;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_panelMenuListTheme = global::CreditCardUISample.Droid.Resource.Styleable.AppCompatTheme_panelMenuListTheme;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_panelMenuListWidth = global::CreditCardUISample.Droid.Resource.Styleable.AppCompatTheme_panelMenuListWidth;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_popupMenuStyle = global::CreditCardUISample.Droid.Resource.Styleable.AppCompatTheme_popupMenuStyle;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_popupWindowStyle = global::CreditCardUISample.Droid.Resource.Styleable.AppCompatTheme_popupWindowStyle;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_radioButtonStyle = global::CreditCardUISample.Droid.Resource.Styleable.AppCompatTheme_radioButtonStyle;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_ratingBarStyle = global::CreditCardUISample.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyle;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator = global::CreditCardUISample.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall = global::CreditCardUISample.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_searchViewStyle = global::CreditCardUISample.Droid.Resource.Styleable.AppCompatTheme_searchViewStyle;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_seekBarStyle = global::CreditCardUISample.Droid.Resource.Styleable.AppCompatTheme_seekBarStyle;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_selectableItemBackground = global::CreditCardUISample.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackground;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless = global::CreditCardUISample.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle = global::CreditCardUISample.Droid.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_spinnerStyle = global::CreditCardUISample.Droid.Resource.Styleable.AppCompatTheme_spinnerStyle;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_switchStyle = global::CreditCardUISample.Droid.Resource.Styleable.AppCompatTheme_switchStyle;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu = global::CreditCardUISample.Droid.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_textAppearanceListItem = global::CreditCardUISample.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItem;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_textAppearanceListItemSecondary = global::CreditCardUISample.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSecondary;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall = global::CreditCardUISample.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader = global::CreditCardUISample.Droid.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle = global::CreditCardUISample.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle = global::CreditCardUISample.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu = global::CreditCardUISample.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem = global::CreditCardUISample.Droid.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_textColorSearchUrl = global::CreditCardUISample.Droid.Resource.Styleable.AppCompatTheme_textColorSearchUrl;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle = global::CreditCardUISample.Droid.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_toolbarStyle = global::CreditCardUISample.Droid.Resource.Styleable.AppCompatTheme_toolbarStyle;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_windowActionBar = global::CreditCardUISample.Droid.Resource.Styleable.AppCompatTheme_windowActionBar;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_windowActionBarOverlay = global::CreditCardUISample.Droid.Resource.Styleable.AppCompatTheme_windowActionBarOverlay;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_windowActionModeOverlay = global::CreditCardUISample.Droid.Resource.Styleable.AppCompatTheme_windowActionModeOverlay;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor = global::CreditCardUISample.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor = global::CreditCardUISample.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor = global::CreditCardUISample.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor = global::CreditCardUISample.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_windowMinWidthMajor = global::CreditCardUISample.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMajor;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_windowMinWidthMinor = global::CreditCardUISample.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMinor;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_windowNoTitle = global::CreditCardUISample.Droid.Resource.Styleable.AppCompatTheme_windowNoTitle;
+			global::PayPal.Forms.Android.Resource.Styleable.BottomNavigationView = global::CreditCardUISample.Droid.Resource.Styleable.BottomNavigationView;
+			global::PayPal.Forms.Android.Resource.Styleable.BottomNavigationView_elevation = global::CreditCardUISample.Droid.Resource.Styleable.BottomNavigationView_elevation;
+			global::PayPal.Forms.Android.Resource.Styleable.BottomNavigationView_itemBackground = global::CreditCardUISample.Droid.Resource.Styleable.BottomNavigationView_itemBackground;
+			global::PayPal.Forms.Android.Resource.Styleable.BottomNavigationView_itemIconTint = global::CreditCardUISample.Droid.Resource.Styleable.BottomNavigationView_itemIconTint;
+			global::PayPal.Forms.Android.Resource.Styleable.BottomNavigationView_itemTextColor = global::CreditCardUISample.Droid.Resource.Styleable.BottomNavigationView_itemTextColor;
+			global::PayPal.Forms.Android.Resource.Styleable.BottomNavigationView_menu = global::CreditCardUISample.Droid.Resource.Styleable.BottomNavigationView_menu;
+			global::PayPal.Forms.Android.Resource.Styleable.BottomSheetBehavior_Layout = global::CreditCardUISample.Droid.Resource.Styleable.BottomSheetBehavior_Layout;
+			global::PayPal.Forms.Android.Resource.Styleable.BottomSheetBehavior_Layout_behavior_hideable = global::CreditCardUISample.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_hideable;
+			global::PayPal.Forms.Android.Resource.Styleable.BottomSheetBehavior_Layout_behavior_peekHeight = global::CreditCardUISample.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_peekHeight;
+			global::PayPal.Forms.Android.Resource.Styleable.BottomSheetBehavior_Layout_behavior_skipCollapsed = global::CreditCardUISample.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_skipCollapsed;
+			global::PayPal.Forms.Android.Resource.Styleable.ButtonBarLayout = global::CreditCardUISample.Droid.Resource.Styleable.ButtonBarLayout;
+			global::PayPal.Forms.Android.Resource.Styleable.ButtonBarLayout_allowStacking = global::CreditCardUISample.Droid.Resource.Styleable.ButtonBarLayout_allowStacking;
+			global::PayPal.Forms.Android.Resource.Styleable.CardView = global::CreditCardUISample.Droid.Resource.Styleable.CardView;
+			global::PayPal.Forms.Android.Resource.Styleable.CardView_android_minHeight = global::CreditCardUISample.Droid.Resource.Styleable.CardView_android_minHeight;
+			global::PayPal.Forms.Android.Resource.Styleable.CardView_android_minWidth = global::CreditCardUISample.Droid.Resource.Styleable.CardView_android_minWidth;
+			global::PayPal.Forms.Android.Resource.Styleable.CardView_cardBackgroundColor = global::CreditCardUISample.Droid.Resource.Styleable.CardView_cardBackgroundColor;
+			global::PayPal.Forms.Android.Resource.Styleable.CardView_cardCornerRadius = global::CreditCardUISample.Droid.Resource.Styleable.CardView_cardCornerRadius;
+			global::PayPal.Forms.Android.Resource.Styleable.CardView_cardElevation = global::CreditCardUISample.Droid.Resource.Styleable.CardView_cardElevation;
+			global::PayPal.Forms.Android.Resource.Styleable.CardView_cardMaxElevation = global::CreditCardUISample.Droid.Resource.Styleable.CardView_cardMaxElevation;
+			global::PayPal.Forms.Android.Resource.Styleable.CardView_cardPreventCornerOverlap = global::CreditCardUISample.Droid.Resource.Styleable.CardView_cardPreventCornerOverlap;
+			global::PayPal.Forms.Android.Resource.Styleable.CardView_cardUseCompatPadding = global::CreditCardUISample.Droid.Resource.Styleable.CardView_cardUseCompatPadding;
+			global::PayPal.Forms.Android.Resource.Styleable.CardView_contentPadding = global::CreditCardUISample.Droid.Resource.Styleable.CardView_contentPadding;
+			global::PayPal.Forms.Android.Resource.Styleable.CardView_contentPaddingBottom = global::CreditCardUISample.Droid.Resource.Styleable.CardView_contentPaddingBottom;
+			global::PayPal.Forms.Android.Resource.Styleable.CardView_contentPaddingLeft = global::CreditCardUISample.Droid.Resource.Styleable.CardView_contentPaddingLeft;
+			global::PayPal.Forms.Android.Resource.Styleable.CardView_contentPaddingRight = global::CreditCardUISample.Droid.Resource.Styleable.CardView_contentPaddingRight;
+			global::PayPal.Forms.Android.Resource.Styleable.CardView_contentPaddingTop = global::CreditCardUISample.Droid.Resource.Styleable.CardView_contentPaddingTop;
+			global::PayPal.Forms.Android.Resource.Styleable.CollapsingToolbarLayout = global::CreditCardUISample.Droid.Resource.Styleable.CollapsingToolbarLayout;
+			global::PayPal.Forms.Android.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity = global::CreditCardUISample.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity;
+			global::PayPal.Forms.Android.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance = global::CreditCardUISample.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance;
+			global::PayPal.Forms.Android.Resource.Styleable.CollapsingToolbarLayout_contentScrim = global::CreditCardUISample.Droid.Resource.Styleable.CollapsingToolbarLayout_contentScrim;
+			global::PayPal.Forms.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity = global::CreditCardUISample.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity;
+			global::PayPal.Forms.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin = global::CreditCardUISample.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin;
+			global::PayPal.Forms.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom = global::CreditCardUISample.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom;
+			global::PayPal.Forms.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd = global::CreditCardUISample.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd;
+			global::PayPal.Forms.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart = global::CreditCardUISample.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart;
+			global::PayPal.Forms.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop = global::CreditCardUISample.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop;
+			global::PayPal.Forms.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance = global::CreditCardUISample.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance;
+			global::PayPal.Forms.Android.Resource.Styleable.CollapsingToolbarLayout_Layout = global::CreditCardUISample.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout;
+			global::PayPal.Forms.Android.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseMode = global::CreditCardUISample.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseMode;
+			global::PayPal.Forms.Android.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier = global::CreditCardUISample.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier;
+			global::PayPal.Forms.Android.Resource.Styleable.CollapsingToolbarLayout_scrimAnimationDuration = global::CreditCardUISample.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimAnimationDuration;
+			global::PayPal.Forms.Android.Resource.Styleable.CollapsingToolbarLayout_scrimVisibleHeightTrigger = global::CreditCardUISample.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimVisibleHeightTrigger;
+			global::PayPal.Forms.Android.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim = global::CreditCardUISample.Droid.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim;
+			global::PayPal.Forms.Android.Resource.Styleable.CollapsingToolbarLayout_title = global::CreditCardUISample.Droid.Resource.Styleable.CollapsingToolbarLayout_title;
+			global::PayPal.Forms.Android.Resource.Styleable.CollapsingToolbarLayout_titleEnabled = global::CreditCardUISample.Droid.Resource.Styleable.CollapsingToolbarLayout_titleEnabled;
+			global::PayPal.Forms.Android.Resource.Styleable.CollapsingToolbarLayout_toolbarId = global::CreditCardUISample.Droid.Resource.Styleable.CollapsingToolbarLayout_toolbarId;
+			global::PayPal.Forms.Android.Resource.Styleable.ColorStateListItem = global::CreditCardUISample.Droid.Resource.Styleable.ColorStateListItem;
+			global::PayPal.Forms.Android.Resource.Styleable.ColorStateListItem_alpha = global::CreditCardUISample.Droid.Resource.Styleable.ColorStateListItem_alpha;
+			global::PayPal.Forms.Android.Resource.Styleable.ColorStateListItem_android_alpha = global::CreditCardUISample.Droid.Resource.Styleable.ColorStateListItem_android_alpha;
+			global::PayPal.Forms.Android.Resource.Styleable.ColorStateListItem_android_color = global::CreditCardUISample.Droid.Resource.Styleable.ColorStateListItem_android_color;
+			global::PayPal.Forms.Android.Resource.Styleable.CompoundButton = global::CreditCardUISample.Droid.Resource.Styleable.CompoundButton;
+			global::PayPal.Forms.Android.Resource.Styleable.CompoundButton_android_button = global::CreditCardUISample.Droid.Resource.Styleable.CompoundButton_android_button;
+			global::PayPal.Forms.Android.Resource.Styleable.CompoundButton_buttonTint = global::CreditCardUISample.Droid.Resource.Styleable.CompoundButton_buttonTint;
+			global::PayPal.Forms.Android.Resource.Styleable.CompoundButton_buttonTintMode = global::CreditCardUISample.Droid.Resource.Styleable.CompoundButton_buttonTintMode;
+			global::PayPal.Forms.Android.Resource.Styleable.CoordinatorLayout = global::CreditCardUISample.Droid.Resource.Styleable.CoordinatorLayout;
+			global::PayPal.Forms.Android.Resource.Styleable.CoordinatorLayout_keylines = global::CreditCardUISample.Droid.Resource.Styleable.CoordinatorLayout_keylines;
+			global::PayPal.Forms.Android.Resource.Styleable.CoordinatorLayout_Layout = global::CreditCardUISample.Droid.Resource.Styleable.CoordinatorLayout_Layout;
+			global::PayPal.Forms.Android.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity = global::CreditCardUISample.Droid.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity;
+			global::PayPal.Forms.Android.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor = global::CreditCardUISample.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor;
+			global::PayPal.Forms.Android.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity = global::CreditCardUISample.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity;
+			global::PayPal.Forms.Android.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior = global::CreditCardUISample.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior;
+			global::PayPal.Forms.Android.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges = global::CreditCardUISample.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges;
+			global::PayPal.Forms.Android.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge = global::CreditCardUISample.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge;
+			global::PayPal.Forms.Android.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline = global::CreditCardUISample.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline;
+			global::PayPal.Forms.Android.Resource.Styleable.CoordinatorLayout_statusBarBackground = global::CreditCardUISample.Droid.Resource.Styleable.CoordinatorLayout_statusBarBackground;
+			global::PayPal.Forms.Android.Resource.Styleable.DesignTheme = global::CreditCardUISample.Droid.Resource.Styleable.DesignTheme;
+			global::PayPal.Forms.Android.Resource.Styleable.DesignTheme_bottomSheetDialogTheme = global::CreditCardUISample.Droid.Resource.Styleable.DesignTheme_bottomSheetDialogTheme;
+			global::PayPal.Forms.Android.Resource.Styleable.DesignTheme_bottomSheetStyle = global::CreditCardUISample.Droid.Resource.Styleable.DesignTheme_bottomSheetStyle;
+			global::PayPal.Forms.Android.Resource.Styleable.DrawerArrowToggle = global::CreditCardUISample.Droid.Resource.Styleable.DrawerArrowToggle;
+			global::PayPal.Forms.Android.Resource.Styleable.DrawerArrowToggle_arrowHeadLength = global::CreditCardUISample.Droid.Resource.Styleable.DrawerArrowToggle_arrowHeadLength;
+			global::PayPal.Forms.Android.Resource.Styleable.DrawerArrowToggle_arrowShaftLength = global::CreditCardUISample.Droid.Resource.Styleable.DrawerArrowToggle_arrowShaftLength;
+			global::PayPal.Forms.Android.Resource.Styleable.DrawerArrowToggle_barLength = global::CreditCardUISample.Droid.Resource.Styleable.DrawerArrowToggle_barLength;
+			global::PayPal.Forms.Android.Resource.Styleable.DrawerArrowToggle_color = global::CreditCardUISample.Droid.Resource.Styleable.DrawerArrowToggle_color;
+			global::PayPal.Forms.Android.Resource.Styleable.DrawerArrowToggle_drawableSize = global::CreditCardUISample.Droid.Resource.Styleable.DrawerArrowToggle_drawableSize;
+			global::PayPal.Forms.Android.Resource.Styleable.DrawerArrowToggle_gapBetweenBars = global::CreditCardUISample.Droid.Resource.Styleable.DrawerArrowToggle_gapBetweenBars;
+			global::PayPal.Forms.Android.Resource.Styleable.DrawerArrowToggle_spinBars = global::CreditCardUISample.Droid.Resource.Styleable.DrawerArrowToggle_spinBars;
+			global::PayPal.Forms.Android.Resource.Styleable.DrawerArrowToggle_thickness = global::CreditCardUISample.Droid.Resource.Styleable.DrawerArrowToggle_thickness;
+			global::PayPal.Forms.Android.Resource.Styleable.FloatingActionButton = global::CreditCardUISample.Droid.Resource.Styleable.FloatingActionButton;
+			global::PayPal.Forms.Android.Resource.Styleable.FloatingActionButton_backgroundTint = global::CreditCardUISample.Droid.Resource.Styleable.FloatingActionButton_backgroundTint;
+			global::PayPal.Forms.Android.Resource.Styleable.FloatingActionButton_backgroundTintMode = global::CreditCardUISample.Droid.Resource.Styleable.FloatingActionButton_backgroundTintMode;
+			global::PayPal.Forms.Android.Resource.Styleable.FloatingActionButton_Behavior_Layout = global::CreditCardUISample.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout;
+			global::PayPal.Forms.Android.Resource.Styleable.FloatingActionButton_Behavior_Layout_behavior_autoHide = global::CreditCardUISample.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout_behavior_autoHide;
+			global::PayPal.Forms.Android.Resource.Styleable.FloatingActionButton_borderWidth = global::CreditCardUISample.Droid.Resource.Styleable.FloatingActionButton_borderWidth;
+			global::PayPal.Forms.Android.Resource.Styleable.FloatingActionButton_elevation = global::CreditCardUISample.Droid.Resource.Styleable.FloatingActionButton_elevation;
+			global::PayPal.Forms.Android.Resource.Styleable.FloatingActionButton_fabSize = global::CreditCardUISample.Droid.Resource.Styleable.FloatingActionButton_fabSize;
+			global::PayPal.Forms.Android.Resource.Styleable.FloatingActionButton_pressedTranslationZ = global::CreditCardUISample.Droid.Resource.Styleable.FloatingActionButton_pressedTranslationZ;
+			global::PayPal.Forms.Android.Resource.Styleable.FloatingActionButton_rippleColor = global::CreditCardUISample.Droid.Resource.Styleable.FloatingActionButton_rippleColor;
+			global::PayPal.Forms.Android.Resource.Styleable.FloatingActionButton_useCompatPadding = global::CreditCardUISample.Droid.Resource.Styleable.FloatingActionButton_useCompatPadding;
+			global::PayPal.Forms.Android.Resource.Styleable.ForegroundLinearLayout = global::CreditCardUISample.Droid.Resource.Styleable.ForegroundLinearLayout;
+			global::PayPal.Forms.Android.Resource.Styleable.ForegroundLinearLayout_android_foreground = global::CreditCardUISample.Droid.Resource.Styleable.ForegroundLinearLayout_android_foreground;
+			global::PayPal.Forms.Android.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity = global::CreditCardUISample.Droid.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity;
+			global::PayPal.Forms.Android.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding = global::CreditCardUISample.Droid.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding;
+			global::PayPal.Forms.Android.Resource.Styleable.LinearLayoutCompat = global::CreditCardUISample.Droid.Resource.Styleable.LinearLayoutCompat;
+			global::PayPal.Forms.Android.Resource.Styleable.LinearLayoutCompat_android_baselineAligned = global::CreditCardUISample.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAligned;
+			global::PayPal.Forms.Android.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex = global::CreditCardUISample.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex;
+			global::PayPal.Forms.Android.Resource.Styleable.LinearLayoutCompat_android_gravity = global::CreditCardUISample.Droid.Resource.Styleable.LinearLayoutCompat_android_gravity;
+			global::PayPal.Forms.Android.Resource.Styleable.LinearLayoutCompat_android_orientation = global::CreditCardUISample.Droid.Resource.Styleable.LinearLayoutCompat_android_orientation;
+			global::PayPal.Forms.Android.Resource.Styleable.LinearLayoutCompat_android_weightSum = global::CreditCardUISample.Droid.Resource.Styleable.LinearLayoutCompat_android_weightSum;
+			global::PayPal.Forms.Android.Resource.Styleable.LinearLayoutCompat_divider = global::CreditCardUISample.Droid.Resource.Styleable.LinearLayoutCompat_divider;
+			global::PayPal.Forms.Android.Resource.Styleable.LinearLayoutCompat_dividerPadding = global::CreditCardUISample.Droid.Resource.Styleable.LinearLayoutCompat_dividerPadding;
+			global::PayPal.Forms.Android.Resource.Styleable.LinearLayoutCompat_Layout = global::CreditCardUISample.Droid.Resource.Styleable.LinearLayoutCompat_Layout;
+			global::PayPal.Forms.Android.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity = global::CreditCardUISample.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity;
+			global::PayPal.Forms.Android.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height = global::CreditCardUISample.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height;
+			global::PayPal.Forms.Android.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight = global::CreditCardUISample.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight;
+			global::PayPal.Forms.Android.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width = global::CreditCardUISample.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width;
+			global::PayPal.Forms.Android.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild = global::CreditCardUISample.Droid.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild;
+			global::PayPal.Forms.Android.Resource.Styleable.LinearLayoutCompat_showDividers = global::CreditCardUISample.Droid.Resource.Styleable.LinearLayoutCompat_showDividers;
+			global::PayPal.Forms.Android.Resource.Styleable.ListPopupWindow = global::CreditCardUISample.Droid.Resource.Styleable.ListPopupWindow;
+			global::PayPal.Forms.Android.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset = global::CreditCardUISample.Droid.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset;
+			global::PayPal.Forms.Android.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset = global::CreditCardUISample.Droid.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset;
+			global::PayPal.Forms.Android.Resource.Styleable.MediaRouteButton = global::CreditCardUISample.Droid.Resource.Styleable.MediaRouteButton;
+			global::PayPal.Forms.Android.Resource.Styleable.MediaRouteButton_android_minHeight = global::CreditCardUISample.Droid.Resource.Styleable.MediaRouteButton_android_minHeight;
+			global::PayPal.Forms.Android.Resource.Styleable.MediaRouteButton_android_minWidth = global::CreditCardUISample.Droid.Resource.Styleable.MediaRouteButton_android_minWidth;
+			global::PayPal.Forms.Android.Resource.Styleable.MediaRouteButton_externalRouteEnabledDrawable = global::CreditCardUISample.Droid.Resource.Styleable.MediaRouteButton_externalRouteEnabledDrawable;
+			global::PayPal.Forms.Android.Resource.Styleable.MenuGroup = global::CreditCardUISample.Droid.Resource.Styleable.MenuGroup;
+			global::PayPal.Forms.Android.Resource.Styleable.MenuGroup_android_checkableBehavior = global::CreditCardUISample.Droid.Resource.Styleable.MenuGroup_android_checkableBehavior;
+			global::PayPal.Forms.Android.Resource.Styleable.MenuGroup_android_enabled = global::CreditCardUISample.Droid.Resource.Styleable.MenuGroup_android_enabled;
+			global::PayPal.Forms.Android.Resource.Styleable.MenuGroup_android_id = global::CreditCardUISample.Droid.Resource.Styleable.MenuGroup_android_id;
+			global::PayPal.Forms.Android.Resource.Styleable.MenuGroup_android_menuCategory = global::CreditCardUISample.Droid.Resource.Styleable.MenuGroup_android_menuCategory;
+			global::PayPal.Forms.Android.Resource.Styleable.MenuGroup_android_orderInCategory = global::CreditCardUISample.Droid.Resource.Styleable.MenuGroup_android_orderInCategory;
+			global::PayPal.Forms.Android.Resource.Styleable.MenuGroup_android_visible = global::CreditCardUISample.Droid.Resource.Styleable.MenuGroup_android_visible;
+			global::PayPal.Forms.Android.Resource.Styleable.MenuItem = global::CreditCardUISample.Droid.Resource.Styleable.MenuItem;
+			global::PayPal.Forms.Android.Resource.Styleable.MenuItem_actionLayout = global::CreditCardUISample.Droid.Resource.Styleable.MenuItem_actionLayout;
+			global::PayPal.Forms.Android.Resource.Styleable.MenuItem_actionProviderClass = global::CreditCardUISample.Droid.Resource.Styleable.MenuItem_actionProviderClass;
+			global::PayPal.Forms.Android.Resource.Styleable.MenuItem_actionViewClass = global::CreditCardUISample.Droid.Resource.Styleable.MenuItem_actionViewClass;
+			global::PayPal.Forms.Android.Resource.Styleable.MenuItem_android_alphabeticShortcut = global::CreditCardUISample.Droid.Resource.Styleable.MenuItem_android_alphabeticShortcut;
+			global::PayPal.Forms.Android.Resource.Styleable.MenuItem_android_checkable = global::CreditCardUISample.Droid.Resource.Styleable.MenuItem_android_checkable;
+			global::PayPal.Forms.Android.Resource.Styleable.MenuItem_android_checked = global::CreditCardUISample.Droid.Resource.Styleable.MenuItem_android_checked;
+			global::PayPal.Forms.Android.Resource.Styleable.MenuItem_android_enabled = global::CreditCardUISample.Droid.Resource.Styleable.MenuItem_android_enabled;
+			global::PayPal.Forms.Android.Resource.Styleable.MenuItem_android_icon = global::CreditCardUISample.Droid.Resource.Styleable.MenuItem_android_icon;
+			global::PayPal.Forms.Android.Resource.Styleable.MenuItem_android_id = global::CreditCardUISample.Droid.Resource.Styleable.MenuItem_android_id;
+			global::PayPal.Forms.Android.Resource.Styleable.MenuItem_android_menuCategory = global::CreditCardUISample.Droid.Resource.Styleable.MenuItem_android_menuCategory;
+			global::PayPal.Forms.Android.Resource.Styleable.MenuItem_android_numericShortcut = global::CreditCardUISample.Droid.Resource.Styleable.MenuItem_android_numericShortcut;
+			global::PayPal.Forms.Android.Resource.Styleable.MenuItem_android_onClick = global::CreditCardUISample.Droid.Resource.Styleable.MenuItem_android_onClick;
+			global::PayPal.Forms.Android.Resource.Styleable.MenuItem_android_orderInCategory = global::CreditCardUISample.Droid.Resource.Styleable.MenuItem_android_orderInCategory;
+			global::PayPal.Forms.Android.Resource.Styleable.MenuItem_android_title = global::CreditCardUISample.Droid.Resource.Styleable.MenuItem_android_title;
+			global::PayPal.Forms.Android.Resource.Styleable.MenuItem_android_titleCondensed = global::CreditCardUISample.Droid.Resource.Styleable.MenuItem_android_titleCondensed;
+			global::PayPal.Forms.Android.Resource.Styleable.MenuItem_android_visible = global::CreditCardUISample.Droid.Resource.Styleable.MenuItem_android_visible;
+			global::PayPal.Forms.Android.Resource.Styleable.MenuItem_showAsAction = global::CreditCardUISample.Droid.Resource.Styleable.MenuItem_showAsAction;
+			global::PayPal.Forms.Android.Resource.Styleable.MenuView = global::CreditCardUISample.Droid.Resource.Styleable.MenuView;
+			global::PayPal.Forms.Android.Resource.Styleable.MenuView_android_headerBackground = global::CreditCardUISample.Droid.Resource.Styleable.MenuView_android_headerBackground;
+			global::PayPal.Forms.Android.Resource.Styleable.MenuView_android_horizontalDivider = global::CreditCardUISample.Droid.Resource.Styleable.MenuView_android_horizontalDivider;
+			global::PayPal.Forms.Android.Resource.Styleable.MenuView_android_itemBackground = global::CreditCardUISample.Droid.Resource.Styleable.MenuView_android_itemBackground;
+			global::PayPal.Forms.Android.Resource.Styleable.MenuView_android_itemIconDisabledAlpha = global::CreditCardUISample.Droid.Resource.Styleable.MenuView_android_itemIconDisabledAlpha;
+			global::PayPal.Forms.Android.Resource.Styleable.MenuView_android_itemTextAppearance = global::CreditCardUISample.Droid.Resource.Styleable.MenuView_android_itemTextAppearance;
+			global::PayPal.Forms.Android.Resource.Styleable.MenuView_android_verticalDivider = global::CreditCardUISample.Droid.Resource.Styleable.MenuView_android_verticalDivider;
+			global::PayPal.Forms.Android.Resource.Styleable.MenuView_android_windowAnimationStyle = global::CreditCardUISample.Droid.Resource.Styleable.MenuView_android_windowAnimationStyle;
+			global::PayPal.Forms.Android.Resource.Styleable.MenuView_preserveIconSpacing = global::CreditCardUISample.Droid.Resource.Styleable.MenuView_preserveIconSpacing;
+			global::PayPal.Forms.Android.Resource.Styleable.MenuView_subMenuArrow = global::CreditCardUISample.Droid.Resource.Styleable.MenuView_subMenuArrow;
+			global::PayPal.Forms.Android.Resource.Styleable.NavigationView = global::CreditCardUISample.Droid.Resource.Styleable.NavigationView;
+			global::PayPal.Forms.Android.Resource.Styleable.NavigationView_android_background = global::CreditCardUISample.Droid.Resource.Styleable.NavigationView_android_background;
+			global::PayPal.Forms.Android.Resource.Styleable.NavigationView_android_fitsSystemWindows = global::CreditCardUISample.Droid.Resource.Styleable.NavigationView_android_fitsSystemWindows;
+			global::PayPal.Forms.Android.Resource.Styleable.NavigationView_android_maxWidth = global::CreditCardUISample.Droid.Resource.Styleable.NavigationView_android_maxWidth;
+			global::PayPal.Forms.Android.Resource.Styleable.NavigationView_elevation = global::CreditCardUISample.Droid.Resource.Styleable.NavigationView_elevation;
+			global::PayPal.Forms.Android.Resource.Styleable.NavigationView_headerLayout = global::CreditCardUISample.Droid.Resource.Styleable.NavigationView_headerLayout;
+			global::PayPal.Forms.Android.Resource.Styleable.NavigationView_itemBackground = global::CreditCardUISample.Droid.Resource.Styleable.NavigationView_itemBackground;
+			global::PayPal.Forms.Android.Resource.Styleable.NavigationView_itemIconTint = global::CreditCardUISample.Droid.Resource.Styleable.NavigationView_itemIconTint;
+			global::PayPal.Forms.Android.Resource.Styleable.NavigationView_itemTextAppearance = global::CreditCardUISample.Droid.Resource.Styleable.NavigationView_itemTextAppearance;
+			global::PayPal.Forms.Android.Resource.Styleable.NavigationView_itemTextColor = global::CreditCardUISample.Droid.Resource.Styleable.NavigationView_itemTextColor;
+			global::PayPal.Forms.Android.Resource.Styleable.NavigationView_menu = global::CreditCardUISample.Droid.Resource.Styleable.NavigationView_menu;
+			global::PayPal.Forms.Android.Resource.Styleable.PopupWindow = global::CreditCardUISample.Droid.Resource.Styleable.PopupWindow;
+			global::PayPal.Forms.Android.Resource.Styleable.PopupWindowBackgroundState = global::CreditCardUISample.Droid.Resource.Styleable.PopupWindowBackgroundState;
+			global::PayPal.Forms.Android.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor = global::CreditCardUISample.Droid.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor;
+			global::PayPal.Forms.Android.Resource.Styleable.PopupWindow_android_popupAnimationStyle = global::CreditCardUISample.Droid.Resource.Styleable.PopupWindow_android_popupAnimationStyle;
+			global::PayPal.Forms.Android.Resource.Styleable.PopupWindow_android_popupBackground = global::CreditCardUISample.Droid.Resource.Styleable.PopupWindow_android_popupBackground;
+			global::PayPal.Forms.Android.Resource.Styleable.PopupWindow_overlapAnchor = global::CreditCardUISample.Droid.Resource.Styleable.PopupWindow_overlapAnchor;
+			global::PayPal.Forms.Android.Resource.Styleable.RecycleListView = global::CreditCardUISample.Droid.Resource.Styleable.RecycleListView;
+			global::PayPal.Forms.Android.Resource.Styleable.RecycleListView_paddingBottomNoButtons = global::CreditCardUISample.Droid.Resource.Styleable.RecycleListView_paddingBottomNoButtons;
+			global::PayPal.Forms.Android.Resource.Styleable.RecycleListView_paddingTopNoTitle = global::CreditCardUISample.Droid.Resource.Styleable.RecycleListView_paddingTopNoTitle;
+			global::PayPal.Forms.Android.Resource.Styleable.RecyclerView = global::CreditCardUISample.Droid.Resource.Styleable.RecyclerView;
+			global::PayPal.Forms.Android.Resource.Styleable.RecyclerView_android_descendantFocusability = global::CreditCardUISample.Droid.Resource.Styleable.RecyclerView_android_descendantFocusability;
+			global::PayPal.Forms.Android.Resource.Styleable.RecyclerView_android_orientation = global::CreditCardUISample.Droid.Resource.Styleable.RecyclerView_android_orientation;
+			global::PayPal.Forms.Android.Resource.Styleable.RecyclerView_layoutManager = global::CreditCardUISample.Droid.Resource.Styleable.RecyclerView_layoutManager;
+			global::PayPal.Forms.Android.Resource.Styleable.RecyclerView_reverseLayout = global::CreditCardUISample.Droid.Resource.Styleable.RecyclerView_reverseLayout;
+			global::PayPal.Forms.Android.Resource.Styleable.RecyclerView_spanCount = global::CreditCardUISample.Droid.Resource.Styleable.RecyclerView_spanCount;
+			global::PayPal.Forms.Android.Resource.Styleable.RecyclerView_stackFromEnd = global::CreditCardUISample.Droid.Resource.Styleable.RecyclerView_stackFromEnd;
+			global::PayPal.Forms.Android.Resource.Styleable.ScrimInsetsFrameLayout = global::CreditCardUISample.Droid.Resource.Styleable.ScrimInsetsFrameLayout;
+			global::PayPal.Forms.Android.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground = global::CreditCardUISample.Droid.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground;
+			global::PayPal.Forms.Android.Resource.Styleable.ScrollingViewBehavior_Layout = global::CreditCardUISample.Droid.Resource.Styleable.ScrollingViewBehavior_Layout;
+			global::PayPal.Forms.Android.Resource.Styleable.ScrollingViewBehavior_Layout_behavior_overlapTop = global::CreditCardUISample.Droid.Resource.Styleable.ScrollingViewBehavior_Layout_behavior_overlapTop;
+			global::PayPal.Forms.Android.Resource.Styleable.SearchView = global::CreditCardUISample.Droid.Resource.Styleable.SearchView;
+			global::PayPal.Forms.Android.Resource.Styleable.SearchView_android_focusable = global::CreditCardUISample.Droid.Resource.Styleable.SearchView_android_focusable;
+			global::PayPal.Forms.Android.Resource.Styleable.SearchView_android_imeOptions = global::CreditCardUISample.Droid.Resource.Styleable.SearchView_android_imeOptions;
+			global::PayPal.Forms.Android.Resource.Styleable.SearchView_android_inputType = global::CreditCardUISample.Droid.Resource.Styleable.SearchView_android_inputType;
+			global::PayPal.Forms.Android.Resource.Styleable.SearchView_android_maxWidth = global::CreditCardUISample.Droid.Resource.Styleable.SearchView_android_maxWidth;
+			global::PayPal.Forms.Android.Resource.Styleable.SearchView_closeIcon = global::CreditCardUISample.Droid.Resource.Styleable.SearchView_closeIcon;
+			global::PayPal.Forms.Android.Resource.Styleable.SearchView_commitIcon = global::CreditCardUISample.Droid.Resource.Styleable.SearchView_commitIcon;
+			global::PayPal.Forms.Android.Resource.Styleable.SearchView_defaultQueryHint = global::CreditCardUISample.Droid.Resource.Styleable.SearchView_defaultQueryHint;
+			global::PayPal.Forms.Android.Resource.Styleable.SearchView_goIcon = global::CreditCardUISample.Droid.Resource.Styleable.SearchView_goIcon;
+			global::PayPal.Forms.Android.Resource.Styleable.SearchView_iconifiedByDefault = global::CreditCardUISample.Droid.Resource.Styleable.SearchView_iconifiedByDefault;
+			global::PayPal.Forms.Android.Resource.Styleable.SearchView_layout = global::CreditCardUISample.Droid.Resource.Styleable.SearchView_layout;
+			global::PayPal.Forms.Android.Resource.Styleable.SearchView_queryBackground = global::CreditCardUISample.Droid.Resource.Styleable.SearchView_queryBackground;
+			global::PayPal.Forms.Android.Resource.Styleable.SearchView_queryHint = global::CreditCardUISample.Droid.Resource.Styleable.SearchView_queryHint;
+			global::PayPal.Forms.Android.Resource.Styleable.SearchView_searchHintIcon = global::CreditCardUISample.Droid.Resource.Styleable.SearchView_searchHintIcon;
+			global::PayPal.Forms.Android.Resource.Styleable.SearchView_searchIcon = global::CreditCardUISample.Droid.Resource.Styleable.SearchView_searchIcon;
+			global::PayPal.Forms.Android.Resource.Styleable.SearchView_submitBackground = global::CreditCardUISample.Droid.Resource.Styleable.SearchView_submitBackground;
+			global::PayPal.Forms.Android.Resource.Styleable.SearchView_suggestionRowLayout = global::CreditCardUISample.Droid.Resource.Styleable.SearchView_suggestionRowLayout;
+			global::PayPal.Forms.Android.Resource.Styleable.SearchView_voiceIcon = global::CreditCardUISample.Droid.Resource.Styleable.SearchView_voiceIcon;
+			global::PayPal.Forms.Android.Resource.Styleable.SnackbarLayout = global::CreditCardUISample.Droid.Resource.Styleable.SnackbarLayout;
+			global::PayPal.Forms.Android.Resource.Styleable.SnackbarLayout_android_maxWidth = global::CreditCardUISample.Droid.Resource.Styleable.SnackbarLayout_android_maxWidth;
+			global::PayPal.Forms.Android.Resource.Styleable.SnackbarLayout_elevation = global::CreditCardUISample.Droid.Resource.Styleable.SnackbarLayout_elevation;
+			global::PayPal.Forms.Android.Resource.Styleable.SnackbarLayout_maxActionInlineWidth = global::CreditCardUISample.Droid.Resource.Styleable.SnackbarLayout_maxActionInlineWidth;
+			global::PayPal.Forms.Android.Resource.Styleable.Spinner = global::CreditCardUISample.Droid.Resource.Styleable.Spinner;
+			global::PayPal.Forms.Android.Resource.Styleable.Spinner_android_dropDownWidth = global::CreditCardUISample.Droid.Resource.Styleable.Spinner_android_dropDownWidth;
+			global::PayPal.Forms.Android.Resource.Styleable.Spinner_android_entries = global::CreditCardUISample.Droid.Resource.Styleable.Spinner_android_entries;
+			global::PayPal.Forms.Android.Resource.Styleable.Spinner_android_popupBackground = global::CreditCardUISample.Droid.Resource.Styleable.Spinner_android_popupBackground;
+			global::PayPal.Forms.Android.Resource.Styleable.Spinner_android_prompt = global::CreditCardUISample.Droid.Resource.Styleable.Spinner_android_prompt;
+			global::PayPal.Forms.Android.Resource.Styleable.Spinner_popupTheme = global::CreditCardUISample.Droid.Resource.Styleable.Spinner_popupTheme;
+			global::PayPal.Forms.Android.Resource.Styleable.SwitchCompat = global::CreditCardUISample.Droid.Resource.Styleable.SwitchCompat;
+			global::PayPal.Forms.Android.Resource.Styleable.SwitchCompat_android_textOff = global::CreditCardUISample.Droid.Resource.Styleable.SwitchCompat_android_textOff;
+			global::PayPal.Forms.Android.Resource.Styleable.SwitchCompat_android_textOn = global::CreditCardUISample.Droid.Resource.Styleable.SwitchCompat_android_textOn;
+			global::PayPal.Forms.Android.Resource.Styleable.SwitchCompat_android_thumb = global::CreditCardUISample.Droid.Resource.Styleable.SwitchCompat_android_thumb;
+			global::PayPal.Forms.Android.Resource.Styleable.SwitchCompat_showText = global::CreditCardUISample.Droid.Resource.Styleable.SwitchCompat_showText;
+			global::PayPal.Forms.Android.Resource.Styleable.SwitchCompat_splitTrack = global::CreditCardUISample.Droid.Resource.Styleable.SwitchCompat_splitTrack;
+			global::PayPal.Forms.Android.Resource.Styleable.SwitchCompat_switchMinWidth = global::CreditCardUISample.Droid.Resource.Styleable.SwitchCompat_switchMinWidth;
+			global::PayPal.Forms.Android.Resource.Styleable.SwitchCompat_switchPadding = global::CreditCardUISample.Droid.Resource.Styleable.SwitchCompat_switchPadding;
+			global::PayPal.Forms.Android.Resource.Styleable.SwitchCompat_switchTextAppearance = global::CreditCardUISample.Droid.Resource.Styleable.SwitchCompat_switchTextAppearance;
+			global::PayPal.Forms.Android.Resource.Styleable.SwitchCompat_thumbTextPadding = global::CreditCardUISample.Droid.Resource.Styleable.SwitchCompat_thumbTextPadding;
+			global::PayPal.Forms.Android.Resource.Styleable.SwitchCompat_thumbTint = global::CreditCardUISample.Droid.Resource.Styleable.SwitchCompat_thumbTint;
+			global::PayPal.Forms.Android.Resource.Styleable.SwitchCompat_thumbTintMode = global::CreditCardUISample.Droid.Resource.Styleable.SwitchCompat_thumbTintMode;
+			global::PayPal.Forms.Android.Resource.Styleable.SwitchCompat_track = global::CreditCardUISample.Droid.Resource.Styleable.SwitchCompat_track;
+			global::PayPal.Forms.Android.Resource.Styleable.SwitchCompat_trackTint = global::CreditCardUISample.Droid.Resource.Styleable.SwitchCompat_trackTint;
+			global::PayPal.Forms.Android.Resource.Styleable.SwitchCompat_trackTintMode = global::CreditCardUISample.Droid.Resource.Styleable.SwitchCompat_trackTintMode;
+			global::PayPal.Forms.Android.Resource.Styleable.TabItem = global::CreditCardUISample.Droid.Resource.Styleable.TabItem;
+			global::PayPal.Forms.Android.Resource.Styleable.TabItem_android_icon = global::CreditCardUISample.Droid.Resource.Styleable.TabItem_android_icon;
+			global::PayPal.Forms.Android.Resource.Styleable.TabItem_android_layout = global::CreditCardUISample.Droid.Resource.Styleable.TabItem_android_layout;
+			global::PayPal.Forms.Android.Resource.Styleable.TabItem_android_text = global::CreditCardUISample.Droid.Resource.Styleable.TabItem_android_text;
+			global::PayPal.Forms.Android.Resource.Styleable.TabLayout = global::CreditCardUISample.Droid.Resource.Styleable.TabLayout;
+			global::PayPal.Forms.Android.Resource.Styleable.TabLayout_tabBackground = global::CreditCardUISample.Droid.Resource.Styleable.TabLayout_tabBackground;
+			global::PayPal.Forms.Android.Resource.Styleable.TabLayout_tabContentStart = global::CreditCardUISample.Droid.Resource.Styleable.TabLayout_tabContentStart;
+			global::PayPal.Forms.Android.Resource.Styleable.TabLayout_tabGravity = global::CreditCardUISample.Droid.Resource.Styleable.TabLayout_tabGravity;
+			global::PayPal.Forms.Android.Resource.Styleable.TabLayout_tabIndicatorColor = global::CreditCardUISample.Droid.Resource.Styleable.TabLayout_tabIndicatorColor;
+			global::PayPal.Forms.Android.Resource.Styleable.TabLayout_tabIndicatorHeight = global::CreditCardUISample.Droid.Resource.Styleable.TabLayout_tabIndicatorHeight;
+			global::PayPal.Forms.Android.Resource.Styleable.TabLayout_tabMaxWidth = global::CreditCardUISample.Droid.Resource.Styleable.TabLayout_tabMaxWidth;
+			global::PayPal.Forms.Android.Resource.Styleable.TabLayout_tabMinWidth = global::CreditCardUISample.Droid.Resource.Styleable.TabLayout_tabMinWidth;
+			global::PayPal.Forms.Android.Resource.Styleable.TabLayout_tabMode = global::CreditCardUISample.Droid.Resource.Styleable.TabLayout_tabMode;
+			global::PayPal.Forms.Android.Resource.Styleable.TabLayout_tabPadding = global::CreditCardUISample.Droid.Resource.Styleable.TabLayout_tabPadding;
+			global::PayPal.Forms.Android.Resource.Styleable.TabLayout_tabPaddingBottom = global::CreditCardUISample.Droid.Resource.Styleable.TabLayout_tabPaddingBottom;
+			global::PayPal.Forms.Android.Resource.Styleable.TabLayout_tabPaddingEnd = global::CreditCardUISample.Droid.Resource.Styleable.TabLayout_tabPaddingEnd;
+			global::PayPal.Forms.Android.Resource.Styleable.TabLayout_tabPaddingStart = global::CreditCardUISample.Droid.Resource.Styleable.TabLayout_tabPaddingStart;
+			global::PayPal.Forms.Android.Resource.Styleable.TabLayout_tabPaddingTop = global::CreditCardUISample.Droid.Resource.Styleable.TabLayout_tabPaddingTop;
+			global::PayPal.Forms.Android.Resource.Styleable.TabLayout_tabSelectedTextColor = global::CreditCardUISample.Droid.Resource.Styleable.TabLayout_tabSelectedTextColor;
+			global::PayPal.Forms.Android.Resource.Styleable.TabLayout_tabTextAppearance = global::CreditCardUISample.Droid.Resource.Styleable.TabLayout_tabTextAppearance;
+			global::PayPal.Forms.Android.Resource.Styleable.TabLayout_tabTextColor = global::CreditCardUISample.Droid.Resource.Styleable.TabLayout_tabTextColor;
+			global::PayPal.Forms.Android.Resource.Styleable.TextAppearance = global::CreditCardUISample.Droid.Resource.Styleable.TextAppearance;
+			global::PayPal.Forms.Android.Resource.Styleable.TextAppearance_android_shadowColor = global::CreditCardUISample.Droid.Resource.Styleable.TextAppearance_android_shadowColor;
+			global::PayPal.Forms.Android.Resource.Styleable.TextAppearance_android_shadowDx = global::CreditCardUISample.Droid.Resource.Styleable.TextAppearance_android_shadowDx;
+			global::PayPal.Forms.Android.Resource.Styleable.TextAppearance_android_shadowDy = global::CreditCardUISample.Droid.Resource.Styleable.TextAppearance_android_shadowDy;
+			global::PayPal.Forms.Android.Resource.Styleable.TextAppearance_android_shadowRadius = global::CreditCardUISample.Droid.Resource.Styleable.TextAppearance_android_shadowRadius;
+			global::PayPal.Forms.Android.Resource.Styleable.TextAppearance_android_textColor = global::CreditCardUISample.Droid.Resource.Styleable.TextAppearance_android_textColor;
+			global::PayPal.Forms.Android.Resource.Styleable.TextAppearance_android_textColorHint = global::CreditCardUISample.Droid.Resource.Styleable.TextAppearance_android_textColorHint;
+			global::PayPal.Forms.Android.Resource.Styleable.TextAppearance_android_textSize = global::CreditCardUISample.Droid.Resource.Styleable.TextAppearance_android_textSize;
+			global::PayPal.Forms.Android.Resource.Styleable.TextAppearance_android_textStyle = global::CreditCardUISample.Droid.Resource.Styleable.TextAppearance_android_textStyle;
+			global::PayPal.Forms.Android.Resource.Styleable.TextAppearance_android_typeface = global::CreditCardUISample.Droid.Resource.Styleable.TextAppearance_android_typeface;
+			global::PayPal.Forms.Android.Resource.Styleable.TextAppearance_textAllCaps = global::CreditCardUISample.Droid.Resource.Styleable.TextAppearance_textAllCaps;
+			global::PayPal.Forms.Android.Resource.Styleable.TextInputLayout = global::CreditCardUISample.Droid.Resource.Styleable.TextInputLayout;
+			global::PayPal.Forms.Android.Resource.Styleable.TextInputLayout_android_hint = global::CreditCardUISample.Droid.Resource.Styleable.TextInputLayout_android_hint;
+			global::PayPal.Forms.Android.Resource.Styleable.TextInputLayout_android_textColorHint = global::CreditCardUISample.Droid.Resource.Styleable.TextInputLayout_android_textColorHint;
+			global::PayPal.Forms.Android.Resource.Styleable.TextInputLayout_counterEnabled = global::CreditCardUISample.Droid.Resource.Styleable.TextInputLayout_counterEnabled;
+			global::PayPal.Forms.Android.Resource.Styleable.TextInputLayout_counterMaxLength = global::CreditCardUISample.Droid.Resource.Styleable.TextInputLayout_counterMaxLength;
+			global::PayPal.Forms.Android.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance = global::CreditCardUISample.Droid.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance;
+			global::PayPal.Forms.Android.Resource.Styleable.TextInputLayout_counterTextAppearance = global::CreditCardUISample.Droid.Resource.Styleable.TextInputLayout_counterTextAppearance;
+			global::PayPal.Forms.Android.Resource.Styleable.TextInputLayout_errorEnabled = global::CreditCardUISample.Droid.Resource.Styleable.TextInputLayout_errorEnabled;
+			global::PayPal.Forms.Android.Resource.Styleable.TextInputLayout_errorTextAppearance = global::CreditCardUISample.Droid.Resource.Styleable.TextInputLayout_errorTextAppearance;
+			global::PayPal.Forms.Android.Resource.Styleable.TextInputLayout_hintAnimationEnabled = global::CreditCardUISample.Droid.Resource.Styleable.TextInputLayout_hintAnimationEnabled;
+			global::PayPal.Forms.Android.Resource.Styleable.TextInputLayout_hintEnabled = global::CreditCardUISample.Droid.Resource.Styleable.TextInputLayout_hintEnabled;
+			global::PayPal.Forms.Android.Resource.Styleable.TextInputLayout_hintTextAppearance = global::CreditCardUISample.Droid.Resource.Styleable.TextInputLayout_hintTextAppearance;
+			global::PayPal.Forms.Android.Resource.Styleable.TextInputLayout_passwordToggleContentDescription = global::CreditCardUISample.Droid.Resource.Styleable.TextInputLayout_passwordToggleContentDescription;
+			global::PayPal.Forms.Android.Resource.Styleable.TextInputLayout_passwordToggleDrawable = global::CreditCardUISample.Droid.Resource.Styleable.TextInputLayout_passwordToggleDrawable;
+			global::PayPal.Forms.Android.Resource.Styleable.TextInputLayout_passwordToggleEnabled = global::CreditCardUISample.Droid.Resource.Styleable.TextInputLayout_passwordToggleEnabled;
+			global::PayPal.Forms.Android.Resource.Styleable.TextInputLayout_passwordToggleTint = global::CreditCardUISample.Droid.Resource.Styleable.TextInputLayout_passwordToggleTint;
+			global::PayPal.Forms.Android.Resource.Styleable.TextInputLayout_passwordToggleTintMode = global::CreditCardUISample.Droid.Resource.Styleable.TextInputLayout_passwordToggleTintMode;
+			global::PayPal.Forms.Android.Resource.Styleable.Toolbar = global::CreditCardUISample.Droid.Resource.Styleable.Toolbar;
+			global::PayPal.Forms.Android.Resource.Styleable.Toolbar_android_gravity = global::CreditCardUISample.Droid.Resource.Styleable.Toolbar_android_gravity;
+			global::PayPal.Forms.Android.Resource.Styleable.Toolbar_android_minHeight = global::CreditCardUISample.Droid.Resource.Styleable.Toolbar_android_minHeight;
+			global::PayPal.Forms.Android.Resource.Styleable.Toolbar_buttonGravity = global::CreditCardUISample.Droid.Resource.Styleable.Toolbar_buttonGravity;
+			global::PayPal.Forms.Android.Resource.Styleable.Toolbar_collapseContentDescription = global::CreditCardUISample.Droid.Resource.Styleable.Toolbar_collapseContentDescription;
+			global::PayPal.Forms.Android.Resource.Styleable.Toolbar_collapseIcon = global::CreditCardUISample.Droid.Resource.Styleable.Toolbar_collapseIcon;
+			global::PayPal.Forms.Android.Resource.Styleable.Toolbar_contentInsetEnd = global::CreditCardUISample.Droid.Resource.Styleable.Toolbar_contentInsetEnd;
+			global::PayPal.Forms.Android.Resource.Styleable.Toolbar_contentInsetEndWithActions = global::CreditCardUISample.Droid.Resource.Styleable.Toolbar_contentInsetEndWithActions;
+			global::PayPal.Forms.Android.Resource.Styleable.Toolbar_contentInsetLeft = global::CreditCardUISample.Droid.Resource.Styleable.Toolbar_contentInsetLeft;
+			global::PayPal.Forms.Android.Resource.Styleable.Toolbar_contentInsetRight = global::CreditCardUISample.Droid.Resource.Styleable.Toolbar_contentInsetRight;
+			global::PayPal.Forms.Android.Resource.Styleable.Toolbar_contentInsetStart = global::CreditCardUISample.Droid.Resource.Styleable.Toolbar_contentInsetStart;
+			global::PayPal.Forms.Android.Resource.Styleable.Toolbar_contentInsetStartWithNavigation = global::CreditCardUISample.Droid.Resource.Styleable.Toolbar_contentInsetStartWithNavigation;
+			global::PayPal.Forms.Android.Resource.Styleable.Toolbar_logo = global::CreditCardUISample.Droid.Resource.Styleable.Toolbar_logo;
+			global::PayPal.Forms.Android.Resource.Styleable.Toolbar_logoDescription = global::CreditCardUISample.Droid.Resource.Styleable.Toolbar_logoDescription;
+			global::PayPal.Forms.Android.Resource.Styleable.Toolbar_maxButtonHeight = global::CreditCardUISample.Droid.Resource.Styleable.Toolbar_maxButtonHeight;
+			global::PayPal.Forms.Android.Resource.Styleable.Toolbar_navigationContentDescription = global::CreditCardUISample.Droid.Resource.Styleable.Toolbar_navigationContentDescription;
+			global::PayPal.Forms.Android.Resource.Styleable.Toolbar_navigationIcon = global::CreditCardUISample.Droid.Resource.Styleable.Toolbar_navigationIcon;
+			global::PayPal.Forms.Android.Resource.Styleable.Toolbar_popupTheme = global::CreditCardUISample.Droid.Resource.Styleable.Toolbar_popupTheme;
+			global::PayPal.Forms.Android.Resource.Styleable.Toolbar_subtitle = global::CreditCardUISample.Droid.Resource.Styleable.Toolbar_subtitle;
+			global::PayPal.Forms.Android.Resource.Styleable.Toolbar_subtitleTextAppearance = global::CreditCardUISample.Droid.Resource.Styleable.Toolbar_subtitleTextAppearance;
+			global::PayPal.Forms.Android.Resource.Styleable.Toolbar_subtitleTextColor = global::CreditCardUISample.Droid.Resource.Styleable.Toolbar_subtitleTextColor;
+			global::PayPal.Forms.Android.Resource.Styleable.Toolbar_title = global::CreditCardUISample.Droid.Resource.Styleable.Toolbar_title;
+			global::PayPal.Forms.Android.Resource.Styleable.Toolbar_titleMargin = global::CreditCardUISample.Droid.Resource.Styleable.Toolbar_titleMargin;
+			global::PayPal.Forms.Android.Resource.Styleable.Toolbar_titleMarginBottom = global::CreditCardUISample.Droid.Resource.Styleable.Toolbar_titleMarginBottom;
+			global::PayPal.Forms.Android.Resource.Styleable.Toolbar_titleMarginEnd = global::CreditCardUISample.Droid.Resource.Styleable.Toolbar_titleMarginEnd;
+			global::PayPal.Forms.Android.Resource.Styleable.Toolbar_titleMargins = global::CreditCardUISample.Droid.Resource.Styleable.Toolbar_titleMargins;
+			global::PayPal.Forms.Android.Resource.Styleable.Toolbar_titleMarginStart = global::CreditCardUISample.Droid.Resource.Styleable.Toolbar_titleMarginStart;
+			global::PayPal.Forms.Android.Resource.Styleable.Toolbar_titleMarginTop = global::CreditCardUISample.Droid.Resource.Styleable.Toolbar_titleMarginTop;
+			global::PayPal.Forms.Android.Resource.Styleable.Toolbar_titleTextAppearance = global::CreditCardUISample.Droid.Resource.Styleable.Toolbar_titleTextAppearance;
+			global::PayPal.Forms.Android.Resource.Styleable.Toolbar_titleTextColor = global::CreditCardUISample.Droid.Resource.Styleable.Toolbar_titleTextColor;
+			global::PayPal.Forms.Android.Resource.Styleable.View = global::CreditCardUISample.Droid.Resource.Styleable.View;
+			global::PayPal.Forms.Android.Resource.Styleable.ViewBackgroundHelper = global::CreditCardUISample.Droid.Resource.Styleable.ViewBackgroundHelper;
+			global::PayPal.Forms.Android.Resource.Styleable.ViewBackgroundHelper_android_background = global::CreditCardUISample.Droid.Resource.Styleable.ViewBackgroundHelper_android_background;
+			global::PayPal.Forms.Android.Resource.Styleable.ViewBackgroundHelper_backgroundTint = global::CreditCardUISample.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTint;
+			global::PayPal.Forms.Android.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode = global::CreditCardUISample.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode;
+			global::PayPal.Forms.Android.Resource.Styleable.ViewStubCompat = global::CreditCardUISample.Droid.Resource.Styleable.ViewStubCompat;
+			global::PayPal.Forms.Android.Resource.Styleable.ViewStubCompat_android_id = global::CreditCardUISample.Droid.Resource.Styleable.ViewStubCompat_android_id;
+			global::PayPal.Forms.Android.Resource.Styleable.ViewStubCompat_android_inflatedId = global::CreditCardUISample.Droid.Resource.Styleable.ViewStubCompat_android_inflatedId;
+			global::PayPal.Forms.Android.Resource.Styleable.ViewStubCompat_android_layout = global::CreditCardUISample.Droid.Resource.Styleable.ViewStubCompat_android_layout;
+			global::PayPal.Forms.Android.Resource.Styleable.View_android_focusable = global::CreditCardUISample.Droid.Resource.Styleable.View_android_focusable;
+			global::PayPal.Forms.Android.Resource.Styleable.View_android_theme = global::CreditCardUISample.Droid.Resource.Styleable.View_android_theme;
+			global::PayPal.Forms.Android.Resource.Styleable.View_paddingEnd = global::CreditCardUISample.Droid.Resource.Styleable.View_paddingEnd;
+			global::PayPal.Forms.Android.Resource.Styleable.View_paddingStart = global::CreditCardUISample.Droid.Resource.Styleable.View_paddingStart;
+			global::PayPal.Forms.Android.Resource.Styleable.View_theme = global::CreditCardUISample.Droid.Resource.Styleable.View_theme;
 			global::Xamarin.Forms.Material.Android.Resource.Animation.abc_fade_in = global::CreditCardUISample.Droid.Resource.Animation.abc_fade_in;
 			global::Xamarin.Forms.Material.Android.Resource.Animation.abc_fade_out = global::CreditCardUISample.Droid.Resource.Animation.abc_fade_out;
 			global::Xamarin.Forms.Material.Android.Resource.Animation.abc_grow_fade_in_from_bottom = global::CreditCardUISample.Droid.Resource.Animation.abc_grow_fade_in_from_bottom;
@@ -8196,751 +10268,727 @@ namespace CreditCardUISample.Droid
 			public const int avd_show_password = 2131165276;
 			
 			// aapt resource value: 0x7F07005D
-			public const int cio_card_io_logo = 2131165277;
+			public const int design_bottom_navigation_item_background = 2131165277;
 			
 			// aapt resource value: 0x7F07005E
-			public const int cio_ic_amex = 2131165278;
+			public const int design_fab_background = 2131165278;
 			
 			// aapt resource value: 0x7F07005F
-			public const int cio_ic_discover = 2131165279;
+			public const int design_ic_visibility = 2131165279;
 			
 			// aapt resource value: 0x7F070060
-			public const int cio_ic_jcb = 2131165280;
+			public const int design_ic_visibility_off = 2131165280;
 			
 			// aapt resource value: 0x7F070061
-			public const int cio_ic_mastercard = 2131165281;
+			public const int design_password_eye = 2131165281;
 			
 			// aapt resource value: 0x7F070062
-			public const int cio_ic_paypal_monogram = 2131165282;
+			public const int design_snackbar_background = 2131165282;
 			
 			// aapt resource value: 0x7F070063
-			public const int cio_ic_visa = 2131165283;
+			public const int ic_amex = 2131165283;
 			
 			// aapt resource value: 0x7F070064
-			public const int cio_paypal_logo = 2131165284;
+			public const int ic_amex_blue = 2131165284;
 			
 			// aapt resource value: 0x7F070065
-			public const int design_bottom_navigation_item_background = 2131165285;
+			public const int ic_amex_light = 2131165285;
 			
 			// aapt resource value: 0x7F070066
-			public const int design_fab_background = 2131165286;
+			public const int ic_audiotrack_dark = 2131165286;
 			
 			// aapt resource value: 0x7F070067
-			public const int design_ic_visibility = 2131165287;
+			public const int ic_audiotrack_light = 2131165287;
 			
 			// aapt resource value: 0x7F070068
-			public const int design_ic_visibility_off = 2131165288;
+			public const int ic_chip = 2131165288;
 			
 			// aapt resource value: 0x7F070069
-			public const int design_password_eye = 2131165289;
+			public const int ic_cvv = 2131165289;
 			
 			// aapt resource value: 0x7F07006A
-			public const int design_snackbar_background = 2131165290;
+			public const int ic_date = 2131165290;
 			
 			// aapt resource value: 0x7F07006B
-			public const int ic_amex = 2131165291;
+			public const int ic_dialog_close_dark = 2131165291;
 			
 			// aapt resource value: 0x7F07006C
-			public const int ic_amex_blue = 2131165292;
+			public const int ic_dialog_close_light = 2131165292;
 			
 			// aapt resource value: 0x7F07006D
-			public const int ic_amex_light = 2131165293;
+			public const int ic_dinersclub = 2131165293;
 			
 			// aapt resource value: 0x7F07006E
-			public const int ic_audiotrack_dark = 2131165294;
+			public const int ic_dinersclub_white = 2131165294;
 			
 			// aapt resource value: 0x7F07006F
-			public const int ic_audiotrack_light = 2131165295;
+			public const int ic_discover = 2131165295;
 			
 			// aapt resource value: 0x7F070070
-			public const int ic_chip = 2131165296;
+			public const int ic_discover_light = 2131165296;
 			
 			// aapt resource value: 0x7F070071
-			public const int ic_cvv = 2131165297;
+			public const int ic_group_collapse_00 = 2131165297;
 			
 			// aapt resource value: 0x7F070072
-			public const int ic_date = 2131165298;
+			public const int ic_group_collapse_01 = 2131165298;
 			
 			// aapt resource value: 0x7F070073
-			public const int ic_dialog_close_dark = 2131165299;
+			public const int ic_group_collapse_02 = 2131165299;
 			
 			// aapt resource value: 0x7F070074
-			public const int ic_dialog_close_light = 2131165300;
+			public const int ic_group_collapse_03 = 2131165300;
 			
 			// aapt resource value: 0x7F070075
-			public const int ic_dinersclub = 2131165301;
+			public const int ic_group_collapse_04 = 2131165301;
 			
 			// aapt resource value: 0x7F070076
-			public const int ic_dinersclub_white = 2131165302;
+			public const int ic_group_collapse_05 = 2131165302;
 			
 			// aapt resource value: 0x7F070077
-			public const int ic_discover = 2131165303;
+			public const int ic_group_collapse_06 = 2131165303;
 			
 			// aapt resource value: 0x7F070078
-			public const int ic_discover_light = 2131165304;
+			public const int ic_group_collapse_07 = 2131165304;
 			
 			// aapt resource value: 0x7F070079
-			public const int ic_group_collapse_00 = 2131165305;
+			public const int ic_group_collapse_08 = 2131165305;
 			
 			// aapt resource value: 0x7F07007A
-			public const int ic_group_collapse_01 = 2131165306;
+			public const int ic_group_collapse_09 = 2131165306;
 			
 			// aapt resource value: 0x7F07007B
-			public const int ic_group_collapse_02 = 2131165307;
+			public const int ic_group_collapse_10 = 2131165307;
 			
 			// aapt resource value: 0x7F07007C
-			public const int ic_group_collapse_03 = 2131165308;
+			public const int ic_group_collapse_11 = 2131165308;
 			
 			// aapt resource value: 0x7F07007D
-			public const int ic_group_collapse_04 = 2131165309;
+			public const int ic_group_collapse_12 = 2131165309;
 			
 			// aapt resource value: 0x7F07007E
-			public const int ic_group_collapse_05 = 2131165310;
+			public const int ic_group_collapse_13 = 2131165310;
 			
 			// aapt resource value: 0x7F07007F
-			public const int ic_group_collapse_06 = 2131165311;
+			public const int ic_group_collapse_14 = 2131165311;
 			
 			// aapt resource value: 0x7F070080
-			public const int ic_group_collapse_07 = 2131165312;
+			public const int ic_group_collapse_15 = 2131165312;
 			
 			// aapt resource value: 0x7F070081
-			public const int ic_group_collapse_08 = 2131165313;
+			public const int ic_group_expand_00 = 2131165313;
 			
 			// aapt resource value: 0x7F070082
-			public const int ic_group_collapse_09 = 2131165314;
+			public const int ic_group_expand_01 = 2131165314;
 			
 			// aapt resource value: 0x7F070083
-			public const int ic_group_collapse_10 = 2131165315;
+			public const int ic_group_expand_02 = 2131165315;
 			
 			// aapt resource value: 0x7F070084
-			public const int ic_group_collapse_11 = 2131165316;
+			public const int ic_group_expand_03 = 2131165316;
 			
 			// aapt resource value: 0x7F070085
-			public const int ic_group_collapse_12 = 2131165317;
+			public const int ic_group_expand_04 = 2131165317;
 			
 			// aapt resource value: 0x7F070086
-			public const int ic_group_collapse_13 = 2131165318;
+			public const int ic_group_expand_05 = 2131165318;
 			
 			// aapt resource value: 0x7F070087
-			public const int ic_group_collapse_14 = 2131165319;
+			public const int ic_group_expand_06 = 2131165319;
 			
 			// aapt resource value: 0x7F070088
-			public const int ic_group_collapse_15 = 2131165320;
+			public const int ic_group_expand_07 = 2131165320;
 			
 			// aapt resource value: 0x7F070089
-			public const int ic_group_expand_00 = 2131165321;
+			public const int ic_group_expand_08 = 2131165321;
 			
 			// aapt resource value: 0x7F07008A
-			public const int ic_group_expand_01 = 2131165322;
+			public const int ic_group_expand_09 = 2131165322;
 			
 			// aapt resource value: 0x7F07008B
-			public const int ic_group_expand_02 = 2131165323;
+			public const int ic_group_expand_10 = 2131165323;
 			
 			// aapt resource value: 0x7F07008C
-			public const int ic_group_expand_03 = 2131165324;
+			public const int ic_group_expand_11 = 2131165324;
 			
 			// aapt resource value: 0x7F07008D
-			public const int ic_group_expand_04 = 2131165325;
+			public const int ic_group_expand_12 = 2131165325;
 			
 			// aapt resource value: 0x7F07008E
-			public const int ic_group_expand_05 = 2131165326;
+			public const int ic_group_expand_13 = 2131165326;
 			
 			// aapt resource value: 0x7F07008F
-			public const int ic_group_expand_06 = 2131165327;
+			public const int ic_group_expand_14 = 2131165327;
 			
 			// aapt resource value: 0x7F070090
-			public const int ic_group_expand_07 = 2131165328;
+			public const int ic_group_expand_15 = 2131165328;
 			
 			// aapt resource value: 0x7F070091
-			public const int ic_group_expand_08 = 2131165329;
+			public const int ic_jcb = 2131165329;
 			
 			// aapt resource value: 0x7F070092
-			public const int ic_group_expand_09 = 2131165330;
+			public const int ic_mastercard = 2131165330;
 			
 			// aapt resource value: 0x7F070093
-			public const int ic_group_expand_10 = 2131165331;
+			public const int ic_mastercard_white = 2131165331;
 			
 			// aapt resource value: 0x7F070094
-			public const int ic_group_expand_11 = 2131165332;
+			public const int ic_media_pause_dark = 2131165332;
 			
 			// aapt resource value: 0x7F070095
-			public const int ic_group_expand_12 = 2131165333;
+			public const int ic_media_pause_light = 2131165333;
 			
 			// aapt resource value: 0x7F070096
-			public const int ic_group_expand_13 = 2131165334;
+			public const int ic_media_play_dark = 2131165334;
 			
 			// aapt resource value: 0x7F070097
-			public const int ic_group_expand_14 = 2131165335;
+			public const int ic_media_play_light = 2131165335;
 			
 			// aapt resource value: 0x7F070098
-			public const int ic_group_expand_15 = 2131165336;
+			public const int ic_media_stop_dark = 2131165336;
 			
 			// aapt resource value: 0x7F070099
-			public const int ic_jcb = 2131165337;
+			public const int ic_media_stop_light = 2131165337;
 			
 			// aapt resource value: 0x7F07009A
-			public const int ic_mastercard = 2131165338;
+			public const int ic_mr_button_connected_00_dark = 2131165338;
 			
 			// aapt resource value: 0x7F07009B
-			public const int ic_mastercard_white = 2131165339;
+			public const int ic_mr_button_connected_00_light = 2131165339;
 			
 			// aapt resource value: 0x7F07009C
-			public const int ic_media_pause_dark = 2131165340;
+			public const int ic_mr_button_connected_01_dark = 2131165340;
 			
 			// aapt resource value: 0x7F07009D
-			public const int ic_media_pause_light = 2131165341;
+			public const int ic_mr_button_connected_01_light = 2131165341;
 			
 			// aapt resource value: 0x7F07009E
-			public const int ic_media_play_dark = 2131165342;
+			public const int ic_mr_button_connected_02_dark = 2131165342;
 			
 			// aapt resource value: 0x7F07009F
-			public const int ic_media_play_light = 2131165343;
+			public const int ic_mr_button_connected_02_light = 2131165343;
 			
 			// aapt resource value: 0x7F0700A0
-			public const int ic_media_stop_dark = 2131165344;
+			public const int ic_mr_button_connected_03_dark = 2131165344;
 			
 			// aapt resource value: 0x7F0700A1
-			public const int ic_media_stop_light = 2131165345;
+			public const int ic_mr_button_connected_03_light = 2131165345;
 			
 			// aapt resource value: 0x7F0700A2
-			public const int ic_mr_button_connected_00_dark = 2131165346;
+			public const int ic_mr_button_connected_04_dark = 2131165346;
 			
 			// aapt resource value: 0x7F0700A3
-			public const int ic_mr_button_connected_00_light = 2131165347;
+			public const int ic_mr_button_connected_04_light = 2131165347;
 			
 			// aapt resource value: 0x7F0700A4
-			public const int ic_mr_button_connected_01_dark = 2131165348;
+			public const int ic_mr_button_connected_05_dark = 2131165348;
 			
 			// aapt resource value: 0x7F0700A5
-			public const int ic_mr_button_connected_01_light = 2131165349;
+			public const int ic_mr_button_connected_05_light = 2131165349;
 			
 			// aapt resource value: 0x7F0700A6
-			public const int ic_mr_button_connected_02_dark = 2131165350;
+			public const int ic_mr_button_connected_06_dark = 2131165350;
 			
 			// aapt resource value: 0x7F0700A7
-			public const int ic_mr_button_connected_02_light = 2131165351;
+			public const int ic_mr_button_connected_06_light = 2131165351;
 			
 			// aapt resource value: 0x7F0700A8
-			public const int ic_mr_button_connected_03_dark = 2131165352;
+			public const int ic_mr_button_connected_07_dark = 2131165352;
 			
 			// aapt resource value: 0x7F0700A9
-			public const int ic_mr_button_connected_03_light = 2131165353;
+			public const int ic_mr_button_connected_07_light = 2131165353;
 			
 			// aapt resource value: 0x7F0700AA
-			public const int ic_mr_button_connected_04_dark = 2131165354;
+			public const int ic_mr_button_connected_08_dark = 2131165354;
 			
 			// aapt resource value: 0x7F0700AB
-			public const int ic_mr_button_connected_04_light = 2131165355;
+			public const int ic_mr_button_connected_08_light = 2131165355;
 			
 			// aapt resource value: 0x7F0700AC
-			public const int ic_mr_button_connected_05_dark = 2131165356;
+			public const int ic_mr_button_connected_09_dark = 2131165356;
 			
 			// aapt resource value: 0x7F0700AD
-			public const int ic_mr_button_connected_05_light = 2131165357;
+			public const int ic_mr_button_connected_09_light = 2131165357;
 			
 			// aapt resource value: 0x7F0700AE
-			public const int ic_mr_button_connected_06_dark = 2131165358;
+			public const int ic_mr_button_connected_10_dark = 2131165358;
 			
 			// aapt resource value: 0x7F0700AF
-			public const int ic_mr_button_connected_06_light = 2131165359;
+			public const int ic_mr_button_connected_10_light = 2131165359;
 			
 			// aapt resource value: 0x7F0700B0
-			public const int ic_mr_button_connected_07_dark = 2131165360;
+			public const int ic_mr_button_connected_11_dark = 2131165360;
 			
 			// aapt resource value: 0x7F0700B1
-			public const int ic_mr_button_connected_07_light = 2131165361;
+			public const int ic_mr_button_connected_11_light = 2131165361;
 			
 			// aapt resource value: 0x7F0700B2
-			public const int ic_mr_button_connected_08_dark = 2131165362;
+			public const int ic_mr_button_connected_12_dark = 2131165362;
 			
 			// aapt resource value: 0x7F0700B3
-			public const int ic_mr_button_connected_08_light = 2131165363;
+			public const int ic_mr_button_connected_12_light = 2131165363;
 			
 			// aapt resource value: 0x7F0700B4
-			public const int ic_mr_button_connected_09_dark = 2131165364;
+			public const int ic_mr_button_connected_13_dark = 2131165364;
 			
 			// aapt resource value: 0x7F0700B5
-			public const int ic_mr_button_connected_09_light = 2131165365;
+			public const int ic_mr_button_connected_13_light = 2131165365;
 			
 			// aapt resource value: 0x7F0700B6
-			public const int ic_mr_button_connected_10_dark = 2131165366;
+			public const int ic_mr_button_connected_14_dark = 2131165366;
 			
 			// aapt resource value: 0x7F0700B7
-			public const int ic_mr_button_connected_10_light = 2131165367;
+			public const int ic_mr_button_connected_14_light = 2131165367;
 			
 			// aapt resource value: 0x7F0700B8
-			public const int ic_mr_button_connected_11_dark = 2131165368;
+			public const int ic_mr_button_connected_15_dark = 2131165368;
 			
 			// aapt resource value: 0x7F0700B9
-			public const int ic_mr_button_connected_11_light = 2131165369;
+			public const int ic_mr_button_connected_15_light = 2131165369;
 			
 			// aapt resource value: 0x7F0700BA
-			public const int ic_mr_button_connected_12_dark = 2131165370;
+			public const int ic_mr_button_connected_16_dark = 2131165370;
 			
 			// aapt resource value: 0x7F0700BB
-			public const int ic_mr_button_connected_12_light = 2131165371;
+			public const int ic_mr_button_connected_16_light = 2131165371;
 			
 			// aapt resource value: 0x7F0700BC
-			public const int ic_mr_button_connected_13_dark = 2131165372;
+			public const int ic_mr_button_connected_17_dark = 2131165372;
 			
 			// aapt resource value: 0x7F0700BD
-			public const int ic_mr_button_connected_13_light = 2131165373;
+			public const int ic_mr_button_connected_17_light = 2131165373;
 			
 			// aapt resource value: 0x7F0700BE
-			public const int ic_mr_button_connected_14_dark = 2131165374;
+			public const int ic_mr_button_connected_18_dark = 2131165374;
 			
 			// aapt resource value: 0x7F0700BF
-			public const int ic_mr_button_connected_14_light = 2131165375;
+			public const int ic_mr_button_connected_18_light = 2131165375;
 			
 			// aapt resource value: 0x7F0700C0
-			public const int ic_mr_button_connected_15_dark = 2131165376;
+			public const int ic_mr_button_connected_19_dark = 2131165376;
 			
 			// aapt resource value: 0x7F0700C1
-			public const int ic_mr_button_connected_15_light = 2131165377;
+			public const int ic_mr_button_connected_19_light = 2131165377;
 			
 			// aapt resource value: 0x7F0700C2
-			public const int ic_mr_button_connected_16_dark = 2131165378;
+			public const int ic_mr_button_connected_20_dark = 2131165378;
 			
 			// aapt resource value: 0x7F0700C3
-			public const int ic_mr_button_connected_16_light = 2131165379;
+			public const int ic_mr_button_connected_20_light = 2131165379;
 			
 			// aapt resource value: 0x7F0700C4
-			public const int ic_mr_button_connected_17_dark = 2131165380;
+			public const int ic_mr_button_connected_21_dark = 2131165380;
 			
 			// aapt resource value: 0x7F0700C5
-			public const int ic_mr_button_connected_17_light = 2131165381;
+			public const int ic_mr_button_connected_21_light = 2131165381;
 			
 			// aapt resource value: 0x7F0700C6
-			public const int ic_mr_button_connected_18_dark = 2131165382;
+			public const int ic_mr_button_connected_22_dark = 2131165382;
 			
 			// aapt resource value: 0x7F0700C7
-			public const int ic_mr_button_connected_18_light = 2131165383;
+			public const int ic_mr_button_connected_22_light = 2131165383;
 			
 			// aapt resource value: 0x7F0700C8
-			public const int ic_mr_button_connected_19_dark = 2131165384;
+			public const int ic_mr_button_connected_23_dark = 2131165384;
 			
 			// aapt resource value: 0x7F0700C9
-			public const int ic_mr_button_connected_19_light = 2131165385;
+			public const int ic_mr_button_connected_23_light = 2131165385;
 			
 			// aapt resource value: 0x7F0700CA
-			public const int ic_mr_button_connected_20_dark = 2131165386;
+			public const int ic_mr_button_connected_24_dark = 2131165386;
 			
 			// aapt resource value: 0x7F0700CB
-			public const int ic_mr_button_connected_20_light = 2131165387;
+			public const int ic_mr_button_connected_24_light = 2131165387;
 			
 			// aapt resource value: 0x7F0700CC
-			public const int ic_mr_button_connected_21_dark = 2131165388;
+			public const int ic_mr_button_connected_25_dark = 2131165388;
 			
 			// aapt resource value: 0x7F0700CD
-			public const int ic_mr_button_connected_21_light = 2131165389;
+			public const int ic_mr_button_connected_25_light = 2131165389;
 			
 			// aapt resource value: 0x7F0700CE
-			public const int ic_mr_button_connected_22_dark = 2131165390;
+			public const int ic_mr_button_connected_26_dark = 2131165390;
 			
 			// aapt resource value: 0x7F0700CF
-			public const int ic_mr_button_connected_22_light = 2131165391;
+			public const int ic_mr_button_connected_26_light = 2131165391;
 			
 			// aapt resource value: 0x7F0700D0
-			public const int ic_mr_button_connected_23_dark = 2131165392;
+			public const int ic_mr_button_connected_27_dark = 2131165392;
 			
 			// aapt resource value: 0x7F0700D1
-			public const int ic_mr_button_connected_23_light = 2131165393;
+			public const int ic_mr_button_connected_27_light = 2131165393;
 			
 			// aapt resource value: 0x7F0700D2
-			public const int ic_mr_button_connected_24_dark = 2131165394;
+			public const int ic_mr_button_connected_28_dark = 2131165394;
 			
 			// aapt resource value: 0x7F0700D3
-			public const int ic_mr_button_connected_24_light = 2131165395;
+			public const int ic_mr_button_connected_28_light = 2131165395;
 			
 			// aapt resource value: 0x7F0700D4
-			public const int ic_mr_button_connected_25_dark = 2131165396;
+			public const int ic_mr_button_connected_29_dark = 2131165396;
 			
 			// aapt resource value: 0x7F0700D5
-			public const int ic_mr_button_connected_25_light = 2131165397;
+			public const int ic_mr_button_connected_29_light = 2131165397;
 			
 			// aapt resource value: 0x7F0700D6
-			public const int ic_mr_button_connected_26_dark = 2131165398;
+			public const int ic_mr_button_connected_30_dark = 2131165398;
 			
 			// aapt resource value: 0x7F0700D7
-			public const int ic_mr_button_connected_26_light = 2131165399;
+			public const int ic_mr_button_connected_30_light = 2131165399;
 			
 			// aapt resource value: 0x7F0700D8
-			public const int ic_mr_button_connected_27_dark = 2131165400;
+			public const int ic_mr_button_connecting_00_dark = 2131165400;
 			
 			// aapt resource value: 0x7F0700D9
-			public const int ic_mr_button_connected_27_light = 2131165401;
+			public const int ic_mr_button_connecting_00_light = 2131165401;
 			
 			// aapt resource value: 0x7F0700DA
-			public const int ic_mr_button_connected_28_dark = 2131165402;
+			public const int ic_mr_button_connecting_01_dark = 2131165402;
 			
 			// aapt resource value: 0x7F0700DB
-			public const int ic_mr_button_connected_28_light = 2131165403;
+			public const int ic_mr_button_connecting_01_light = 2131165403;
 			
 			// aapt resource value: 0x7F0700DC
-			public const int ic_mr_button_connected_29_dark = 2131165404;
+			public const int ic_mr_button_connecting_02_dark = 2131165404;
 			
 			// aapt resource value: 0x7F0700DD
-			public const int ic_mr_button_connected_29_light = 2131165405;
+			public const int ic_mr_button_connecting_02_light = 2131165405;
 			
 			// aapt resource value: 0x7F0700DE
-			public const int ic_mr_button_connected_30_dark = 2131165406;
+			public const int ic_mr_button_connecting_03_dark = 2131165406;
 			
 			// aapt resource value: 0x7F0700DF
-			public const int ic_mr_button_connected_30_light = 2131165407;
+			public const int ic_mr_button_connecting_03_light = 2131165407;
 			
 			// aapt resource value: 0x7F0700E0
-			public const int ic_mr_button_connecting_00_dark = 2131165408;
+			public const int ic_mr_button_connecting_04_dark = 2131165408;
 			
 			// aapt resource value: 0x7F0700E1
-			public const int ic_mr_button_connecting_00_light = 2131165409;
+			public const int ic_mr_button_connecting_04_light = 2131165409;
 			
 			// aapt resource value: 0x7F0700E2
-			public const int ic_mr_button_connecting_01_dark = 2131165410;
+			public const int ic_mr_button_connecting_05_dark = 2131165410;
 			
 			// aapt resource value: 0x7F0700E3
-			public const int ic_mr_button_connecting_01_light = 2131165411;
+			public const int ic_mr_button_connecting_05_light = 2131165411;
 			
 			// aapt resource value: 0x7F0700E4
-			public const int ic_mr_button_connecting_02_dark = 2131165412;
+			public const int ic_mr_button_connecting_06_dark = 2131165412;
 			
 			// aapt resource value: 0x7F0700E5
-			public const int ic_mr_button_connecting_02_light = 2131165413;
+			public const int ic_mr_button_connecting_06_light = 2131165413;
 			
 			// aapt resource value: 0x7F0700E6
-			public const int ic_mr_button_connecting_03_dark = 2131165414;
+			public const int ic_mr_button_connecting_07_dark = 2131165414;
 			
 			// aapt resource value: 0x7F0700E7
-			public const int ic_mr_button_connecting_03_light = 2131165415;
+			public const int ic_mr_button_connecting_07_light = 2131165415;
 			
 			// aapt resource value: 0x7F0700E8
-			public const int ic_mr_button_connecting_04_dark = 2131165416;
+			public const int ic_mr_button_connecting_08_dark = 2131165416;
 			
 			// aapt resource value: 0x7F0700E9
-			public const int ic_mr_button_connecting_04_light = 2131165417;
+			public const int ic_mr_button_connecting_08_light = 2131165417;
 			
 			// aapt resource value: 0x7F0700EA
-			public const int ic_mr_button_connecting_05_dark = 2131165418;
+			public const int ic_mr_button_connecting_09_dark = 2131165418;
 			
 			// aapt resource value: 0x7F0700EB
-			public const int ic_mr_button_connecting_05_light = 2131165419;
+			public const int ic_mr_button_connecting_09_light = 2131165419;
 			
 			// aapt resource value: 0x7F0700EC
-			public const int ic_mr_button_connecting_06_dark = 2131165420;
+			public const int ic_mr_button_connecting_10_dark = 2131165420;
 			
 			// aapt resource value: 0x7F0700ED
-			public const int ic_mr_button_connecting_06_light = 2131165421;
+			public const int ic_mr_button_connecting_10_light = 2131165421;
 			
 			// aapt resource value: 0x7F0700EE
-			public const int ic_mr_button_connecting_07_dark = 2131165422;
+			public const int ic_mr_button_connecting_11_dark = 2131165422;
 			
 			// aapt resource value: 0x7F0700EF
-			public const int ic_mr_button_connecting_07_light = 2131165423;
+			public const int ic_mr_button_connecting_11_light = 2131165423;
 			
 			// aapt resource value: 0x7F0700F0
-			public const int ic_mr_button_connecting_08_dark = 2131165424;
+			public const int ic_mr_button_connecting_12_dark = 2131165424;
 			
 			// aapt resource value: 0x7F0700F1
-			public const int ic_mr_button_connecting_08_light = 2131165425;
+			public const int ic_mr_button_connecting_12_light = 2131165425;
 			
 			// aapt resource value: 0x7F0700F2
-			public const int ic_mr_button_connecting_09_dark = 2131165426;
+			public const int ic_mr_button_connecting_13_dark = 2131165426;
 			
 			// aapt resource value: 0x7F0700F3
-			public const int ic_mr_button_connecting_09_light = 2131165427;
+			public const int ic_mr_button_connecting_13_light = 2131165427;
 			
 			// aapt resource value: 0x7F0700F4
-			public const int ic_mr_button_connecting_10_dark = 2131165428;
+			public const int ic_mr_button_connecting_14_dark = 2131165428;
 			
 			// aapt resource value: 0x7F0700F5
-			public const int ic_mr_button_connecting_10_light = 2131165429;
+			public const int ic_mr_button_connecting_14_light = 2131165429;
 			
 			// aapt resource value: 0x7F0700F6
-			public const int ic_mr_button_connecting_11_dark = 2131165430;
+			public const int ic_mr_button_connecting_15_dark = 2131165430;
 			
 			// aapt resource value: 0x7F0700F7
-			public const int ic_mr_button_connecting_11_light = 2131165431;
+			public const int ic_mr_button_connecting_15_light = 2131165431;
 			
 			// aapt resource value: 0x7F0700F8
-			public const int ic_mr_button_connecting_12_dark = 2131165432;
+			public const int ic_mr_button_connecting_16_dark = 2131165432;
 			
 			// aapt resource value: 0x7F0700F9
-			public const int ic_mr_button_connecting_12_light = 2131165433;
+			public const int ic_mr_button_connecting_16_light = 2131165433;
 			
 			// aapt resource value: 0x7F0700FA
-			public const int ic_mr_button_connecting_13_dark = 2131165434;
+			public const int ic_mr_button_connecting_17_dark = 2131165434;
 			
 			// aapt resource value: 0x7F0700FB
-			public const int ic_mr_button_connecting_13_light = 2131165435;
+			public const int ic_mr_button_connecting_17_light = 2131165435;
 			
 			// aapt resource value: 0x7F0700FC
-			public const int ic_mr_button_connecting_14_dark = 2131165436;
+			public const int ic_mr_button_connecting_18_dark = 2131165436;
 			
 			// aapt resource value: 0x7F0700FD
-			public const int ic_mr_button_connecting_14_light = 2131165437;
+			public const int ic_mr_button_connecting_18_light = 2131165437;
 			
 			// aapt resource value: 0x7F0700FE
-			public const int ic_mr_button_connecting_15_dark = 2131165438;
+			public const int ic_mr_button_connecting_19_dark = 2131165438;
 			
 			// aapt resource value: 0x7F0700FF
-			public const int ic_mr_button_connecting_15_light = 2131165439;
+			public const int ic_mr_button_connecting_19_light = 2131165439;
 			
 			// aapt resource value: 0x7F070100
-			public const int ic_mr_button_connecting_16_dark = 2131165440;
+			public const int ic_mr_button_connecting_20_dark = 2131165440;
 			
 			// aapt resource value: 0x7F070101
-			public const int ic_mr_button_connecting_16_light = 2131165441;
+			public const int ic_mr_button_connecting_20_light = 2131165441;
 			
 			// aapt resource value: 0x7F070102
-			public const int ic_mr_button_connecting_17_dark = 2131165442;
+			public const int ic_mr_button_connecting_21_dark = 2131165442;
 			
 			// aapt resource value: 0x7F070103
-			public const int ic_mr_button_connecting_17_light = 2131165443;
+			public const int ic_mr_button_connecting_21_light = 2131165443;
 			
 			// aapt resource value: 0x7F070104
-			public const int ic_mr_button_connecting_18_dark = 2131165444;
+			public const int ic_mr_button_connecting_22_dark = 2131165444;
 			
 			// aapt resource value: 0x7F070105
-			public const int ic_mr_button_connecting_18_light = 2131165445;
+			public const int ic_mr_button_connecting_22_light = 2131165445;
 			
 			// aapt resource value: 0x7F070106
-			public const int ic_mr_button_connecting_19_dark = 2131165446;
+			public const int ic_mr_button_connecting_23_dark = 2131165446;
 			
 			// aapt resource value: 0x7F070107
-			public const int ic_mr_button_connecting_19_light = 2131165447;
+			public const int ic_mr_button_connecting_23_light = 2131165447;
 			
 			// aapt resource value: 0x7F070108
-			public const int ic_mr_button_connecting_20_dark = 2131165448;
+			public const int ic_mr_button_connecting_24_dark = 2131165448;
 			
 			// aapt resource value: 0x7F070109
-			public const int ic_mr_button_connecting_20_light = 2131165449;
+			public const int ic_mr_button_connecting_24_light = 2131165449;
 			
 			// aapt resource value: 0x7F07010A
-			public const int ic_mr_button_connecting_21_dark = 2131165450;
+			public const int ic_mr_button_connecting_25_dark = 2131165450;
 			
 			// aapt resource value: 0x7F07010B
-			public const int ic_mr_button_connecting_21_light = 2131165451;
+			public const int ic_mr_button_connecting_25_light = 2131165451;
 			
 			// aapt resource value: 0x7F07010C
-			public const int ic_mr_button_connecting_22_dark = 2131165452;
+			public const int ic_mr_button_connecting_26_dark = 2131165452;
 			
 			// aapt resource value: 0x7F07010D
-			public const int ic_mr_button_connecting_22_light = 2131165453;
+			public const int ic_mr_button_connecting_26_light = 2131165453;
 			
 			// aapt resource value: 0x7F07010E
-			public const int ic_mr_button_connecting_23_dark = 2131165454;
+			public const int ic_mr_button_connecting_27_dark = 2131165454;
 			
 			// aapt resource value: 0x7F07010F
-			public const int ic_mr_button_connecting_23_light = 2131165455;
+			public const int ic_mr_button_connecting_27_light = 2131165455;
 			
 			// aapt resource value: 0x7F070110
-			public const int ic_mr_button_connecting_24_dark = 2131165456;
+			public const int ic_mr_button_connecting_28_dark = 2131165456;
 			
 			// aapt resource value: 0x7F070111
-			public const int ic_mr_button_connecting_24_light = 2131165457;
+			public const int ic_mr_button_connecting_28_light = 2131165457;
 			
 			// aapt resource value: 0x7F070112
-			public const int ic_mr_button_connecting_25_dark = 2131165458;
+			public const int ic_mr_button_connecting_29_dark = 2131165458;
 			
 			// aapt resource value: 0x7F070113
-			public const int ic_mr_button_connecting_25_light = 2131165459;
+			public const int ic_mr_button_connecting_29_light = 2131165459;
 			
 			// aapt resource value: 0x7F070114
-			public const int ic_mr_button_connecting_26_dark = 2131165460;
+			public const int ic_mr_button_connecting_30_dark = 2131165460;
 			
 			// aapt resource value: 0x7F070115
-			public const int ic_mr_button_connecting_26_light = 2131165461;
+			public const int ic_mr_button_connecting_30_light = 2131165461;
 			
 			// aapt resource value: 0x7F070116
-			public const int ic_mr_button_connecting_27_dark = 2131165462;
+			public const int ic_mr_button_disabled_dark = 2131165462;
 			
 			// aapt resource value: 0x7F070117
-			public const int ic_mr_button_connecting_27_light = 2131165463;
+			public const int ic_mr_button_disabled_light = 2131165463;
 			
 			// aapt resource value: 0x7F070118
-			public const int ic_mr_button_connecting_28_dark = 2131165464;
+			public const int ic_mr_button_disconnected_dark = 2131165464;
 			
 			// aapt resource value: 0x7F070119
-			public const int ic_mr_button_connecting_28_light = 2131165465;
+			public const int ic_mr_button_disconnected_light = 2131165465;
 			
 			// aapt resource value: 0x7F07011A
-			public const int ic_mr_button_connecting_29_dark = 2131165466;
+			public const int ic_mr_button_grey = 2131165466;
 			
 			// aapt resource value: 0x7F07011B
-			public const int ic_mr_button_connecting_29_light = 2131165467;
+			public const int ic_mtrl_chip_checked_black = 2131165467;
 			
 			// aapt resource value: 0x7F07011C
-			public const int ic_mr_button_connecting_30_dark = 2131165468;
+			public const int ic_mtrl_chip_checked_circle = 2131165468;
 			
 			// aapt resource value: 0x7F07011D
-			public const int ic_mr_button_connecting_30_light = 2131165469;
+			public const int ic_mtrl_chip_close_circle = 2131165469;
 			
 			// aapt resource value: 0x7F07011E
-			public const int ic_mr_button_disabled_dark = 2131165470;
+			public const int ic_visa = 2131165470;
 			
 			// aapt resource value: 0x7F07011F
-			public const int ic_mr_button_disabled_light = 2131165471;
+			public const int ic_visa_white = 2131165471;
 			
 			// aapt resource value: 0x7F070120
-			public const int ic_mr_button_disconnected_dark = 2131165472;
+			public const int ic_vol_type_speaker_dark = 2131165472;
 			
 			// aapt resource value: 0x7F070121
-			public const int ic_mr_button_disconnected_light = 2131165473;
+			public const int ic_vol_type_speaker_group_dark = 2131165473;
 			
 			// aapt resource value: 0x7F070122
-			public const int ic_mr_button_grey = 2131165474;
+			public const int ic_vol_type_speaker_group_light = 2131165474;
 			
 			// aapt resource value: 0x7F070123
-			public const int ic_mtrl_chip_checked_black = 2131165475;
+			public const int ic_vol_type_speaker_light = 2131165475;
 			
 			// aapt resource value: 0x7F070124
-			public const int ic_mtrl_chip_checked_circle = 2131165476;
+			public const int ic_vol_type_tv_dark = 2131165476;
 			
 			// aapt resource value: 0x7F070125
-			public const int ic_mtrl_chip_close_circle = 2131165477;
+			public const int ic_vol_type_tv_light = 2131165477;
 			
 			// aapt resource value: 0x7F070126
-			public const int ic_visa = 2131165478;
+			public const int MaterialActivityIndicatorBackground = 2131165478;
 			
 			// aapt resource value: 0x7F070127
-			public const int ic_visa_white = 2131165479;
+			public const int MaterialProgressBar = 2131165479;
 			
 			// aapt resource value: 0x7F070128
-			public const int ic_vol_type_speaker_dark = 2131165480;
+			public const int mr_button_connected_dark = 2131165480;
 			
 			// aapt resource value: 0x7F070129
-			public const int ic_vol_type_speaker_group_dark = 2131165481;
+			public const int mr_button_connected_light = 2131165481;
 			
 			// aapt resource value: 0x7F07012A
-			public const int ic_vol_type_speaker_group_light = 2131165482;
+			public const int mr_button_connecting_dark = 2131165482;
 			
 			// aapt resource value: 0x7F07012B
-			public const int ic_vol_type_speaker_light = 2131165483;
+			public const int mr_button_connecting_light = 2131165483;
 			
 			// aapt resource value: 0x7F07012C
-			public const int ic_vol_type_tv_dark = 2131165484;
+			public const int mr_button_dark = 2131165484;
 			
 			// aapt resource value: 0x7F07012D
-			public const int ic_vol_type_tv_light = 2131165485;
+			public const int mr_button_light = 2131165485;
 			
 			// aapt resource value: 0x7F07012E
-			public const int MaterialActivityIndicatorBackground = 2131165486;
+			public const int mr_dialog_close_dark = 2131165486;
 			
 			// aapt resource value: 0x7F07012F
-			public const int MaterialProgressBar = 2131165487;
+			public const int mr_dialog_close_light = 2131165487;
 			
 			// aapt resource value: 0x7F070130
-			public const int mr_button_connected_dark = 2131165488;
+			public const int mr_dialog_material_background_dark = 2131165488;
 			
 			// aapt resource value: 0x7F070131
-			public const int mr_button_connected_light = 2131165489;
+			public const int mr_dialog_material_background_light = 2131165489;
 			
 			// aapt resource value: 0x7F070132
-			public const int mr_button_connecting_dark = 2131165490;
+			public const int mr_group_collapse = 2131165490;
 			
 			// aapt resource value: 0x7F070133
-			public const int mr_button_connecting_light = 2131165491;
+			public const int mr_group_expand = 2131165491;
 			
 			// aapt resource value: 0x7F070134
-			public const int mr_button_dark = 2131165492;
+			public const int mr_media_pause_dark = 2131165492;
 			
 			// aapt resource value: 0x7F070135
-			public const int mr_button_light = 2131165493;
+			public const int mr_media_pause_light = 2131165493;
 			
 			// aapt resource value: 0x7F070136
-			public const int mr_dialog_close_dark = 2131165494;
+			public const int mr_media_play_dark = 2131165494;
 			
 			// aapt resource value: 0x7F070137
-			public const int mr_dialog_close_light = 2131165495;
+			public const int mr_media_play_light = 2131165495;
 			
 			// aapt resource value: 0x7F070138
-			public const int mr_dialog_material_background_dark = 2131165496;
+			public const int mr_media_stop_dark = 2131165496;
 			
 			// aapt resource value: 0x7F070139
-			public const int mr_dialog_material_background_light = 2131165497;
+			public const int mr_media_stop_light = 2131165497;
 			
 			// aapt resource value: 0x7F07013A
-			public const int mr_group_collapse = 2131165498;
+			public const int mr_vol_type_audiotrack_dark = 2131165498;
 			
 			// aapt resource value: 0x7F07013B
-			public const int mr_group_expand = 2131165499;
+			public const int mr_vol_type_audiotrack_light = 2131165499;
 			
 			// aapt resource value: 0x7F07013C
-			public const int mr_media_pause_dark = 2131165500;
+			public const int mtrl_snackbar_background = 2131165500;
 			
 			// aapt resource value: 0x7F07013D
-			public const int mr_media_pause_light = 2131165501;
+			public const int mtrl_tabs_default_indicator = 2131165501;
 			
 			// aapt resource value: 0x7F07013E
-			public const int mr_media_play_dark = 2131165502;
+			public const int navigation_empty_icon = 2131165502;
 			
 			// aapt resource value: 0x7F07013F
-			public const int mr_media_play_light = 2131165503;
+			public const int nocards = 2131165503;
 			
 			// aapt resource value: 0x7F070140
-			public const int mr_media_stop_dark = 2131165504;
+			public const int notification_action_background = 2131165504;
 			
 			// aapt resource value: 0x7F070141
-			public const int mr_media_stop_light = 2131165505;
+			public const int notification_bg = 2131165505;
 			
 			// aapt resource value: 0x7F070142
-			public const int mr_vol_type_audiotrack_dark = 2131165506;
+			public const int notification_bg_low = 2131165506;
 			
 			// aapt resource value: 0x7F070143
-			public const int mr_vol_type_audiotrack_light = 2131165507;
+			public const int notification_bg_low_normal = 2131165507;
 			
 			// aapt resource value: 0x7F070144
-			public const int mtrl_snackbar_background = 2131165508;
+			public const int notification_bg_low_pressed = 2131165508;
 			
 			// aapt resource value: 0x7F070145
-			public const int mtrl_tabs_default_indicator = 2131165509;
+			public const int notification_bg_normal = 2131165509;
 			
 			// aapt resource value: 0x7F070146
-			public const int navigation_empty_icon = 2131165510;
+			public const int notification_bg_normal_pressed = 2131165510;
 			
 			// aapt resource value: 0x7F070147
-			public const int nocards = 2131165511;
+			public const int notification_icon_background = 2131165511;
 			
 			// aapt resource value: 0x7F070148
-			public const int notification_action_background = 2131165512;
+			public const int notification_template_icon_bg = 2131165512;
 			
 			// aapt resource value: 0x7F070149
-			public const int notification_bg = 2131165513;
+			public const int notification_template_icon_low_bg = 2131165513;
 			
 			// aapt resource value: 0x7F07014A
-			public const int notification_bg_low = 2131165514;
+			public const int notification_tile_bg = 2131165514;
 			
 			// aapt resource value: 0x7F07014B
-			public const int notification_bg_low_normal = 2131165515;
+			public const int notify_panel_notification_icon_bg = 2131165515;
 			
 			// aapt resource value: 0x7F07014C
-			public const int notification_bg_low_pressed = 2131165516;
+			public const int tooltip_frame_dark = 2131165516;
 			
 			// aapt resource value: 0x7F07014D
-			public const int notification_bg_normal = 2131165517;
-			
-			// aapt resource value: 0x7F07014E
-			public const int notification_bg_normal_pressed = 2131165518;
-			
-			// aapt resource value: 0x7F07014F
-			public const int notification_icon_background = 2131165519;
-			
-			// aapt resource value: 0x7F070150
-			public const int notification_template_icon_bg = 2131165520;
-			
-			// aapt resource value: 0x7F070151
-			public const int notification_template_icon_low_bg = 2131165521;
-			
-			// aapt resource value: 0x7F070152
-			public const int notification_tile_bg = 2131165522;
-			
-			// aapt resource value: 0x7F070153
-			public const int notify_panel_notification_icon_bg = 2131165523;
-			
-			// aapt resource value: 0x7F070154
-			public const int tooltip_frame_dark = 2131165524;
-			
-			// aapt resource value: 0x7F070155
-			public const int tooltip_frame_light = 2131165525;
+			public const int tooltip_frame_light = 2131165517;
 			
 			static Drawable()
 			{
@@ -10272,100 +12320,103 @@ namespace CreditCardUISample.Droid
 			public const int hide_bottom_view_on_scroll_behavior = 2131558445;
 			
 			// aapt resource value: 0x7F0D002E
-			public const int mr_button_content_description = 2131558446;
+			public const int library_name = 2131558446;
 			
 			// aapt resource value: 0x7F0D002F
-			public const int mr_cast_button_connected = 2131558447;
+			public const int mr_button_content_description = 2131558447;
 			
 			// aapt resource value: 0x7F0D0030
-			public const int mr_cast_button_connecting = 2131558448;
+			public const int mr_cast_button_connected = 2131558448;
 			
 			// aapt resource value: 0x7F0D0031
-			public const int mr_cast_button_disconnected = 2131558449;
+			public const int mr_cast_button_connecting = 2131558449;
 			
 			// aapt resource value: 0x7F0D0032
-			public const int mr_cast_dialog_title_view_placeholder = 2131558450;
+			public const int mr_cast_button_disconnected = 2131558450;
 			
 			// aapt resource value: 0x7F0D0033
-			public const int mr_chooser_searching = 2131558451;
+			public const int mr_cast_dialog_title_view_placeholder = 2131558451;
 			
 			// aapt resource value: 0x7F0D0034
-			public const int mr_chooser_title = 2131558452;
+			public const int mr_chooser_searching = 2131558452;
 			
 			// aapt resource value: 0x7F0D0035
-			public const int mr_controller_album_art = 2131558453;
+			public const int mr_chooser_title = 2131558453;
 			
 			// aapt resource value: 0x7F0D0036
-			public const int mr_controller_casting_screen = 2131558454;
+			public const int mr_controller_album_art = 2131558454;
 			
 			// aapt resource value: 0x7F0D0037
-			public const int mr_controller_close_description = 2131558455;
+			public const int mr_controller_casting_screen = 2131558455;
 			
 			// aapt resource value: 0x7F0D0038
-			public const int mr_controller_collapse_group = 2131558456;
+			public const int mr_controller_close_description = 2131558456;
 			
 			// aapt resource value: 0x7F0D0039
-			public const int mr_controller_disconnect = 2131558457;
+			public const int mr_controller_collapse_group = 2131558457;
 			
 			// aapt resource value: 0x7F0D003A
-			public const int mr_controller_expand_group = 2131558458;
+			public const int mr_controller_disconnect = 2131558458;
 			
 			// aapt resource value: 0x7F0D003B
-			public const int mr_controller_no_info_available = 2131558459;
+			public const int mr_controller_expand_group = 2131558459;
 			
 			// aapt resource value: 0x7F0D003C
-			public const int mr_controller_no_media_selected = 2131558460;
+			public const int mr_controller_no_info_available = 2131558460;
 			
 			// aapt resource value: 0x7F0D003D
-			public const int mr_controller_pause = 2131558461;
+			public const int mr_controller_no_media_selected = 2131558461;
 			
 			// aapt resource value: 0x7F0D003E
-			public const int mr_controller_play = 2131558462;
+			public const int mr_controller_pause = 2131558462;
 			
 			// aapt resource value: 0x7F0D003F
-			public const int mr_controller_stop = 2131558463;
+			public const int mr_controller_play = 2131558463;
 			
 			// aapt resource value: 0x7F0D0040
-			public const int mr_controller_stop_casting = 2131558464;
+			public const int mr_controller_stop = 2131558464;
 			
 			// aapt resource value: 0x7F0D0041
-			public const int mr_controller_volume_slider = 2131558465;
+			public const int mr_controller_stop_casting = 2131558465;
 			
 			// aapt resource value: 0x7F0D0042
-			public const int mr_dialog_device_header = 2131558466;
+			public const int mr_controller_volume_slider = 2131558466;
 			
 			// aapt resource value: 0x7F0D0043
-			public const int mr_dialog_route_header = 2131558467;
+			public const int mr_dialog_device_header = 2131558467;
 			
 			// aapt resource value: 0x7F0D0044
-			public const int mr_system_route_name = 2131558468;
+			public const int mr_dialog_route_header = 2131558468;
 			
 			// aapt resource value: 0x7F0D0045
-			public const int mr_user_route_category_name = 2131558469;
+			public const int mr_system_route_name = 2131558469;
 			
 			// aapt resource value: 0x7F0D0046
-			public const int mtrl_chip_close_icon_content_description = 2131558470;
+			public const int mr_user_route_category_name = 2131558470;
 			
 			// aapt resource value: 0x7F0D0047
-			public const int password_toggle_content_description = 2131558471;
+			public const int mtrl_chip_close_icon_content_description = 2131558471;
 			
 			// aapt resource value: 0x7F0D0048
-			public const int path_password_eye = 2131558472;
+			public const int password_toggle_content_description = 2131558472;
 			
 			// aapt resource value: 0x7F0D0049
-			public const int path_password_eye_mask_strike_through = 2131558473;
+			public const int path_password_eye = 2131558473;
 			
 			// aapt resource value: 0x7F0D004A
-			public const int path_password_eye_mask_visible = 2131558474;
+			public const int path_password_eye_mask_strike_through = 2131558474;
 			
 			// aapt resource value: 0x7F0D004B
-			public const int path_password_strike_through = 2131558475;
+			public const int path_password_eye_mask_visible = 2131558475;
 			
 			// aapt resource value: 0x7F0D004C
-			public const int search_menu_title = 2131558476;
+			public const int path_password_strike_through = 2131558476;
 			
 			// aapt resource value: 0x7F0D004D
-			public const int status_bar_notification_info_overflow = 2131558477;
+			public const int search_menu_title = 2131558477;
+			
+			// aapt resource value: 0x7F0D004E
+			public const int status_bar_notification_info_overflow = 2131558478;
 			
 			static String()
 			{
