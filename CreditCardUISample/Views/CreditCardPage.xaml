@@ -23,6 +23,7 @@
                     <RowDefinition Height="Auto"/>
                     <RowDefinition Height="Auto"/>
                     <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
                 </Grid.RowDefinitions> 
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="Auto"/>
@@ -101,41 +102,62 @@
                   </StackLayout>
                </Frame>
         
+               <Frame HasShadow="false"
+                      Padding="10"
+                      BorderColor="{StaticResource LightColor}"
+                      Margin="30,30,30,10"
+                      Grid.Row="3"
+                      Grid.Column="0"
+                      Grid.ColumnSpan="3">
+                      <StackLayout Orientation="Horizontal"
+                                   Spacing="20">
+                             <Image Source="{Binding CardNumber,Converter={StaticResource CardConverter}}"
+                                    HeightRequest="30"/>
+
+                             <Entry HorizontalOptions="FillAndExpand"
+                                    Keyboard="Text"
+                                    Text="{Binding CardHolderName, Mode=TwoWay}"
+                                    Visual="Custom">
+                             </Entry>
+                      </StackLayout>
+               </Frame>
+               
                <CheckBox Color="LightGray"
                          WidthRequest="30"
                          HorizontalOptions="Start"
                          Margin="30,0,0,0"
                          Visual="Material"
-                         Grid.Row="3"
+                         Grid.Row="4"
                          Grid.Column="0"/>
         
                 <Label Text="Remember me"
                        TextColor="{StaticResource PrimaryDark}"
                        FontSize="16"
                        VerticalOptions="Center"
-                       Grid.Row="3"
+                       Grid.Row="4"
                        Grid.Column="1"
                        Grid.ColumnSpan="2"/>
         
-                 <Button Text="or Pay with Paypal"
-                         Grid.Row="4"
+                 <Button Text="Scan Credit Card Info"
+                         Grid.Row="5"
                          Grid.Column="0"
                          Grid.ColumnSpan="3"
-                         BackgroundColor="White"
-                         BorderColor="{StaticResource LightColor}"
-                         TextColor="{StaticResource PrimaryDark}"
+                         BackgroundColor="Black"
+                         BorderColor="Black"
+                         TextColor="White"
                          BorderWidth="1"
                          FontSize="18"
                          CornerRadius="25"
                          Padding="18"
-                         Margin="30,0"/>
+                         Margin="30,0"
+                         Clicked="ScanCard"/>
                 
                 <BoxView HorizontalOptions="FillAndExpand"
                          Color="{StaticResource Secondary}"
                          Visual="Default"
                          HeightRequest="1"
                          Margin="0,30"
-                         Grid.Row="5"
+                         Grid.Row="6"
                          Grid.Column="0"
                          Grid.ColumnSpan="3"/>
                 
@@ -143,7 +165,7 @@
                          BackgroundColor="{Binding CardNumber, Converter={StaticResource CardColorConverter}}"
                          CornerRadius="26"
                          FontSize="18"
-                         Grid.Row="6"
+                         Grid.Row="7"
                          Grid.Column="0"
                          Grid.ColumnSpan="3"
                          Padding="18"

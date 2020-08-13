@@ -14,9 +14,11 @@
                    <Grid.RowDefinitions>
                         <RowDefinition Height="Auto"/>
                         <RowDefinition Height="Auto"/>
-                        <RowDefinition Height="40"/>
+                        <RowDefinition Height="20"/>
                         <RowDefinition Height="Auto"/>
-                        <RowDefinition Height="40"/>
+                        <RowDefinition Height="20"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="20"/>
                     </Grid.RowDefinitions> 
                     <Grid.ColumnDefinitions>
                         <ColumnDefinition Width="Auto"/>
@@ -37,37 +39,52 @@
                            Grid.ColumnSpan="2"/>
                     
                      <Label Text="{Binding CardNumber}"
-                            FontSize="20"
+                            FontSize="12"
                             TextColor="{StaticResource Secondary}"
                             Grid.Row="2"
                             Grid.Column="0"
                             Grid.ColumnSpan="2"/>
                     
                     <Label Text="Expiration"
-                           Margin="0,20,0,0"
+                           Margin="0,10,0,0"
                            FontSize="12"
                            TextColor="{StaticResource Accent}"
                            Grid.Row="3"
                            Grid.Column="0"/>
                     
                     <Label Text="{Binding CardExpirationDate}"
-                            FontSize="20"
+                            FontSize="12"
                             TextColor="{StaticResource Secondary}"
                             Grid.Row="4"
                             Grid.Column="0"/>
                     
                      <Label Text="Cvv"
-                            Margin="0,20,0,0"
+                            Margin="0,10,0,0"
                            FontSize="12"
                            TextColor="{StaticResource Accent}"
                            Grid.Row="3"
                            Grid.Column="1"/>
                     
                     <Label Text="{Binding CardCvv}"
-                            FontSize="20"
+                            FontSize="12"
                             TextColor="{StaticResource Secondary}"
                             Grid.Row="4"
                             Grid.Column="1"/>
+                    
+                    <Label Text="Card Holder Name"
+                           LineBreakMode="TailTruncation"
+                           FontSize="12"
+                           TextColor="{StaticResource Accent}"
+                           Grid.Row="5"
+                           Grid.Column="0"
+                           Grid.ColumnSpan="2"/>
+                    
+                    <Label Text="{Binding CardHolderName}"
+                           FontSize="12"
+                           TextColor="{StaticResource Secondary}"
+                           Grid.Row="6"
+                           Grid.Column="0"
+                           Grid.ColumnSpan="2"/>
                 </Grid>
             </Frame>
 </StackLayout>
