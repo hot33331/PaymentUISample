@@ -1,11 +1,14 @@
 ﻿using System;
 
 using Android.App;
+using Android.Content;
 using Android.Content.PM;
 using Android.Runtime;
 using Android.Views;
 using Android.Widget;
 using Android.OS;
+using Card.IO;
+using CreditCardUISample.Droid.Services;
 using Xamarin.Forms;
 
 namespace CreditCardUISample.Droid
@@ -24,6 +27,21 @@ namespace CreditCardUISample.Droid
             global::Xamarin.Forms.Forms.Init(this, savedInstanceState);
             FormsMaterial.Init(this, savedInstanceState);
             LoadApplication(new App());
+        }
+        
+        protected override void OnActivityResult(int requestCode, Result resultCode, Intent data)
+        {
+            base.OnActivityResult(requestCode, resultCode, data);
+
+            if (data != null)
+            {
+                // Be sure to JavaCast to a CreditCard (normal cast won‘t work)      
+                InfoShareHelper.Instance.CardInfo = data.GetParcelableExtra(CardIOActivity.ExtraScanResult).JavaCast<CreditCard>();
+            }
+            else
+            {
+                Console.WriteLine("Scanning Cancelled!");
+            }
         }
         public override void OnRequestPermissionsResult(int requestCode, string[] permissions, [GeneratedEnum] Android.Content.PM.Permission[] grantResults)
         {
